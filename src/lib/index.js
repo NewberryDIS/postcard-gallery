@@ -1,7 +1,7 @@
 // place files you want to import through the `$lib` alias in this folder.
 //
 /**
- * @typedef {import('$lib/APIData').APIData} APIData
+ * @typedef {import('$lib/APIData').APIData} CortexAPIData
  */
 
 /**
@@ -32,16 +32,26 @@ export function slugify(title) {
 }
 
 /**
+ * @function
+ * @param {number} w - width and height of image
+ * @param {number} h
+ * */
+export function getWidth(w, h) {
+	// w:h::x:300
+	return (w * 300) / h;
+}
+/**
  * @type {stringArray}
  */
 export const holidays = ["Valentine's Day", 'Easter', 'Halloween', 'Thanksgiving', 'Christmas'];
 
 /**
  * @function
- * @param {APIData.CortexAPIData} rawJson - the base response from Cortex from the call to the top level gallery folder
+ * @param {CortexAPIData} rawJson - the base response from Cortex from the call to the top level gallery folder
  * @param {boolean} logpls - shorthand to enable logging
  */
 export async function dataProcessor(rawJson, logpls = false) {
+	// console.log('logpls', logpls);
 	if (!rawJson) {
 		return ['no dat'];
 	}
@@ -55,8 +65,8 @@ export async function dataProcessor(rawJson, logpls = false) {
 		})
 	);
 
-	if (logpls) console.log('rawJson');
-	if (logpls) console.log('rawConstituentData');
+	if (logpls) console.log('rawJson', rawJson);
+	if (logpls) console.log('rawConstituentData', rawConstituentData);
 
 	const processedData = {
 		title: rawJson.APIResponse.Title,
@@ -66,7 +76,13 @@ export async function dataProcessor(rawJson, logpls = false) {
 		width: rawJson.APIResponse.Representative.MaxWidth,
 		height: rawJson.APIResponse.Representative.MaxHeight,
 		items: rawConstituentData
-			.filter((f) => f instanceof APIData.CortexAPIData)
+			.filter(
+				(f) =>
+					'APIResponse' in f &&
+					'Title' in f.APIResponse &&
+					'Representative' in f.APIResponse &&
+					'MediaEncryptedIdentifier' in f.APIResponse.Representative
+			)
 			.map((item) => ({
 				title: item.APIResponse.Title,
 				image: item.APIResponse.Representative.MediaEncryptedIdentifier,
