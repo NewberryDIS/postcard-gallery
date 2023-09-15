@@ -1,19 +1,19 @@
+export interface Gallery {
+  pageMEI: string;
+  pageTitle: string;
+  pageSlug: string;
+  postcards: Postcard[];
+}
+export interface Postcard {
+  title: string;
+  context: string;
+  image: string;
+  imageTitle: string;
+  width: string;
+  height: string;
+  link: string;
+}
 declare namespace APIData {
-  interface Gallery {
-    pageMEI: string;
-    pageTitle: string;
-    pageSlug: string;
-    postcards: Postcard[];
-  }
-  interface Postcard {
-    title: string;
-    context: string;
-    image: string;
-    imageTitle: string;
-    width: string;
-    height: string;
-    link: string;
-  }
   interface APIRequestInfo {
     ProviderVersion: string;
     ProviderIdentity: string;
@@ -64,4 +64,4 @@ declare namespace APIData {
     APIResponse: APIResponse;
   }
 }
-export default APIData;
+export { APIData };
