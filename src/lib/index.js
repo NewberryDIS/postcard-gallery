@@ -2,12 +2,14 @@
  * @typedef {string[]} stringArray
  */
 
+// import { CTX_API_TOKEN } from "$env/static/private";
+
 /**
  * @type {stringArray}
  */
 export const packageExtractor = [
   "https://collections.newberry.org/API/PackageExtractor/v1.0/Extract?Package=",
-  "&PackageFields=SystemIdentifier,Title,new.Context&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType&format=json",
+  "&PackageFields=SystemIdentifier,Title,new.Context&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title&format=json&token=",
 ];
 
 /**
@@ -55,7 +57,7 @@ export function slugify(title) {
  * */
 export function getWidth(w, h) {
   // w:h::x:300
-  return (w * 300) / h;
+  return Math.round((w * 300) / h);
 }
 /**
  * @type {stringArray}
@@ -67,71 +69,68 @@ export const holidays = [
   "Thanksgiving",
   "Christmas",
 ];
-
 /**
  * @function
- * @param {import('$lib/types').APIData.CortexAPIData} rawJson - the base response from Cortex from the call to the top level gallery folder
- * @param {boolean} logpls - shorthand to enable logging
+ * @param { string } ctxMEI
+ * @param { string } [ size ]
  */
-export async function dataProcessor(rawJson, logpls = false) {
-  // console.log('logpls', logpls);
-  if (!rawJson) {
-    return ["no data"];
-  }
-  let rawConstituentData = await Promise.all(
-    rawJson.APIResponse.Content.map(
-      /** @param {import('$lib/types').APIData.ContentItem} galleryTopLevelData */
-      async (galleryTopLevelData) => {
-        let rawGalleryData = await fetch(
+export function imgUrl(ctxMEI, size) {
+  const iiifSize = size === "thumb" ? ",300" : "max";
+  return (
+    "https://collections.newberry.org/IIIF3/Image/" +
+    ctxMEI +
+    "/full/" +
+    iiifSize +
+    "/0/default.jpg"
+  );
+}
+
+/*
+ * @function
+ * @param {string} mei - MediaEncryptedIdentifier for gallery
+ * @param {string} token - cortex api token
+ */
+export async function getGalleryData(mei, token) {
+  const topLevelUrl = packageExtractor[0] + mei + packageExtractor[1] + token;
+  // console.log("top level url", topLevelUrl);
+
+  const topLevelRawData = await fetch(topLevelUrl);
+  const topLevelJson = await topLevelRawData.json();
+  console.log(topLevelJson.APIResponse.Content[0].MediaEncryptedIdentifier);
+  const itemRawData = await Promise.all(
+    topLevelJson.APIResponse.Content.filter(
+      (f) => !!f.MediaEncryptedIdentifier
+    ).map(
+      /** @param {import('$lib/types').APIData.ContentItem} topLevelItem - item level data as received from the top level response */
+      async (topLevelItem) => {
+        console.log(topLevelItem.MediaEncryptedIdentifier);
+        const itemLevelUrl =
           packageExtractor[0] +
-            galleryTopLevelData.MediaEncryptedIdentifier +
-            packageExtractor[1]
-        );
-        let rawGalleryJson = await rawGalleryData.json();
-        return rawGalleryJson;
+          topLevelItem.MediaEncryptedIdentifier +
+          packageExtractor[1] +
+          token;
+        // console.log("item url", itemLevelUrl);
+        let itemLevelRawData = await fetch(itemLevelUrl);
+        let itemLevelJson = await itemLevelRawData.json();
+        return itemLevelJson;
       }
     )
   );
-
-  if (logpls) console.log("rawJson", rawJson);
-  if (logpls) console.log("rawConstituentData", rawConstituentData);
-
-  const processedData = {
-    title: rawJson.APIResponse.Title,
-    image: rawJson.APIResponse.Representative.MediaEncryptedIdentifier,
-    imageTitle: rawJson.APIResponse.Representative.Title,
-    width: rawJson.APIResponse.Representative.MaxWidth,
-    height: rawJson.APIResponse.Representative.MaxHeight,
-    items: rawConstituentData
-      .filter(
-        (f) =>
-          "APIResponse" in f &&
-          "Title" in f.APIResponse &&
-          "Representative" in f.APIResponse &&
-          "MediaEncryptedIdentifier" in f.APIResponse.Representative
-      )
-      // .map((item) => ({
-      //   title: item.APIResponse.Title,
-      //   slug: slugify(item.APIResponse.Title),
-      //   image: item.APIResponse.Representative.MediaEncryptedIdentifier,
-      //   imageTitle: item.APIResponse.Representative.Title,
-      //   width: item.APIResponse.Representative.MaxWidth,
-      //   height: item.APIResponse.Representative.MaxHeight,
-      //   postcards: [],
-      // })),
-      .map((item) => {
-        console.log(item);
-        return {
-          title: item.APIResponse.Title,
-          slug: slugify(item.APIResponse.Title),
-          image: item.APIResponse.Representative.MediaEncryptedIdentifier,
-          imageTitle: item.APIResponse.Representative.Title,
-          width: item.APIResponse.Representative.MaxWidth,
-          height: item.APIResponse.Representative.MaxHeight,
-          postcards: [],
-        };
-      }),
+  const galleryData = {
+    title: topLevelJson.APIResponse.Title,
+    context: topLevelJson.APIResponse["new.Context"],
+    image: topLevelJson.APIResponse.Representative.MediaEncryptedIdentifier,
+    imageTitle: topLevelJson.APIResponse.Representative.Title,
+    width: topLevelJson.APIResponse.Representative.MaxWidth,
+    height: topLevelJson.APIResponse.Representative.MaxHeight,
+    items: itemRawData.map((item) => ({
+      title: item.APIResponse.Title,
+      slug: slugify(item.APIResponse.Title),
+      image: item.APIResponse.Representative.MediaEncryptedIdentifier,
+      imageTitle: item.APIResponse.Representative.Title,
+      width: item.APIResponse.Representative.MaxWidth,
+      height: item.APIResponse.Representative.MaxHeight,
+    })),
   };
-  if (logpls) console.log(processedData);
-  return processedData;
+  return galleryData;
 }
