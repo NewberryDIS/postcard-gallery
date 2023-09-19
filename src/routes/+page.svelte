@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths'
     import { getWidth, holidays, slugify } from "$lib";
     // let base = '/postcard'
     export let data
@@ -90,7 +91,7 @@
         <div class="right">
             <div class="horiz">
                 {#each nhGalleries as gallery}
-                    <a href="/{slugify(gallery.title)}"
+                    <a href="{ base }/{slugify(gallery.title)}"
                         class="tile nhtile">
                         <img src="https://collections.newberry.org/IIIF3/Image/{gallery.image}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
@@ -105,7 +106,7 @@
                 </a>
             </div>
             <div class="horiz">
-                <a href="#" class="htile tile notile" tabIndex={-1}>
+                <a href="{base}" class="htile tile notile" tabIndex={-1}>
                     <img
                         src="./madonna-holiday.gif"
                         width={getWidth(498, 373)}
@@ -114,7 +115,7 @@
                     />
                 </a>
                 {#each hGalleries as gallery}
-                    <a href="/{slugify(gallery.title)}"
+                    <a href="{ base }/{slugify(gallery.title)}"
                         class="tile htile">
                         <img src="https://collections.newberry.org/IIIF3/Image/{gallery.image}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>

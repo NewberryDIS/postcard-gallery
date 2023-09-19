@@ -2,7 +2,7 @@
     import BiggerPicture from 'bigger-picture/svelte';
     import "bigger-picture/css";
     import { onMount } from 'svelte'
-    import { page } from '$app/stores'
+    // import { page } from '$app/stores'
     import { imgUrl, getWidth } from '$lib'
     export let data
     // const { galleryData } = data
@@ -33,7 +33,7 @@
     <div class="left">
         <div class="logo">
             <a href="/">
-                <img height="60" width="300" src="NewberryLogo.png" />
+                <img height="60" width="300" src="NewberryLogo.png" alt="Logo for the Newberry Library" />
             </a>
         </div>
         <header class="title">
