@@ -14,18 +14,19 @@ export async function load({ params }) {
 	// await galleryDataClient.set(mei, forceUpdateData);
 	// const galleryData = forceUpdateData;
 	// console.log(galleryData);
-	let galleryData;
-	const redisGalleryData = await galleryDataClient.get(mei);
-	if (!redisGalleryData) {
-		console.log('data not obtained from redis for ' + params.cat + ' mei : ' + mei);
-		galleryData = await getGalleryData(mei, CTX_API_TOKEN);
-		await galleryDataClient.set(mei, galleryData);
-	} else {
-		console.log('data obtained from redis for ' + params.cat + ' mei : ' + mei);
-		galleryData = redisGalleryData;
-		const refreshedData = await getGalleryData(mei, CTX_API_TOKEN);
-		await galleryDataClient.set(mei, refreshedData);
-	}
+	let galleryData = await galleryDataClient.get(mei);
+
+	// const redisGalleryData = await galleryDataClient.get(mei);
+	// if (!redisGalleryData) {
+	// 	console.log('data not obtained from redis for ' + params.cat + ' mei : ' + mei);
+	// 	galleryData = await getGalleryData(mei, CTX_API_TOKEN);
+	// 	await galleryDataClient.set(mei, galleryData);
+	// } else {
+	// 	console.log('data obtained from redis for ' + params.cat + ' mei : ' + mei);
+	// 	galleryData = redisGalleryData;
+	// 	const refreshedData = await getGalleryData(mei, CTX_API_TOKEN);
+	// 	await galleryDataClient.set(mei, refreshedData);
+	// }
 
 	return { galleryData };
 }

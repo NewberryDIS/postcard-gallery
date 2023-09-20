@@ -29,6 +29,7 @@ export let slugs = {
  * @param {string} title - the title of a gallery which will become its slug
  */
 export function slugify(title) {
+	// console.log(title);
 	return title
 		.normalize('NFKD')
 		.replace("'", '')
@@ -74,7 +75,7 @@ export function imgUrl(ctxMEI, size) {
  */
 export const packageExtractor = [
 	'https://collections.newberry.org/API/PackageExtractor/v1.0/Extract?Package=',
-	'&PackageFields=SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType&format=json&token='
+	'&PackageFields=SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier,MaxHeight,MaxWidth&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType,MaxWidth,MaxHeight&format=json&token='
 ];
 export const imageAPIUrl = [
 	'https://collections.newberry.org/API/search/v3.0/search?query=Text:',

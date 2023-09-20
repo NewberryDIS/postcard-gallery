@@ -6,9 +6,9 @@
     import { imgUrl, getWidth } from '$lib'
     export let data
     // const { galleryData } = data
-    const postcards = data.galleryData.items
+    const { postcards } = data.galleryData
     
-    // console.log(data.)
+    console.log(data)
     let bp, imageLinks
 
     onMount(() => {

@@ -4,7 +4,7 @@
     // let base = '/postcard'
     export let data
     // console.log('home page data', data.galleryData.items)
-    const galleries = data.galleryData.items
+    const galleries = data.galleryData
     // console.log(galleries)
 
     const hGalleries = galleries.filter((f) => holidays.includes(f.title));
