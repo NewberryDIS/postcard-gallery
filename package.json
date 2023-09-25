@@ -26,6 +26,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"@vercel/kv": "^0.2.2",
 		"bigger-picture": "^1.1.11",
 		"sass": "^1.66.1"

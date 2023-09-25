@@ -1,8 +1,8 @@
 <script>
     import { base } from '$app/paths'
     export let data
-    $: ready = !!data 
-    let updateList = []
+    // $: console.log(data)
+    let updateList = ['2KXJ8ZSAKD6V9']
     $: allNone = updateList.length === data.allGalleries.length
     $: galleriesToBeUpdated = data.allGalleries.filter(f => updateList.includes(f.mei)).map(g => g.title).join(', ')
     function toggleAll(){
@@ -14,7 +14,7 @@
     }
     async function updateRedis(){
         const apiUrl = `${base}/api/update?mei=${updateList.join(',')}`
-        console.log(apiUrl)
+        console.log("apiUrl", apiUrl)
         fetch(apiUrl).then(response => response.json().then(j => console.log(j)))
     }
 </script>

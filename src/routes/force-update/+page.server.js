@@ -12,14 +12,15 @@ export async function load() {
 
 	const homeDataAPIUrl =
 		searchAPIurl[0] + searchAPIurl[2] + searchAPIurl[1] + '&token=' + CTX_API_TOKEN;
-	console.log(homeDataAPIUrl);
+	// console.log(homeDataAPIUrl);
 	const homeDataAPIResponse = await fetch(homeDataAPIUrl);
 	const homeDataJson = await homeDataAPIResponse.json();
 
 	// console.log(homeDataJson);
+	// pdestroybedroom-9-OL
 	const slugs = {};
 	const homePageGalleryData = homeDataJson.APIResponse.Items.map(
-		/** @type { import('$lib/types').APIData.APIManifestResponse } */
+		/** @type { import('$lib/types').CortexAPIResponse.SearchAPIResponse } */
 		(item) => {
 			slugs[slugify(item.Title)] = item.MediaEncryptedIdentifier;
 			/** @type { import('$lib/types').allGalleries } **/

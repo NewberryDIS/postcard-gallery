@@ -1,11 +1,9 @@
 <script>
     import { base } from '$app/paths'
     import { getWidth, holidays, slugify } from "$lib";
-    // let base = '/postcard'
     export let data
-    // console.log('home page data', data.galleryData.items)
+
     const galleries = data.galleryData
-    console.log(galleries)
 
     const hGalleries = galleries.filter((f) => holidays.includes(f.title));
     const nhGalleries = galleries.filter((f) => !holidays.includes(f.title));
@@ -16,8 +14,8 @@
     <div class="left">
 
         <div class="logo">
-            <a href="/">
-                <img height="60" width="300" src="NewberryLogo.png" />
+            <a href="{ base }/">
+                <img height="60" width="300" src="{ base }/NewberryLogo.png" alt="logo of the Newberry Library" />
             </a>
         </div>
         <header>
@@ -93,7 +91,7 @@
                 {#each nhGalleries as gallery}
                     <a href="{ base }/{slugify(gallery.title)}"
                         class="tile nhtile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.image}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.imageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}
@@ -106,7 +104,7 @@
                 </a>
             </div>
             <div class="horiz">
-                <a href="{base}" class="htile tile notile" tabIndex={-1}>
+                <a href="{ base }" class="htile tile notile" tabIndex={-1}>
                     <img
                         src="./madonna-holiday.gif"
                         width={getWidth(498, 373)}
@@ -117,7 +115,7 @@
                 {#each hGalleries as gallery}
                     <a href="{ base }/{slugify(gallery.title)}"
                         class="tile htile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.image}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.imageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}
