@@ -1,0 +1,201 @@
+     {
+        "APIRequestInfo": {
+            "ProviderVersion": "CONCORD.R3.1878K.209614",
+            "ProviderIdentity": "NBL-USE2-P-APP",
+            "ProviderID": "85dca31b7899f944ad0236f5f856af0c",
+            "Module": "PackageExtractor",
+            "APIVersion": "v1.0",
+            "Resource": "Extract",
+            "IsLoggedIn": true,
+            "Parameters": {
+                "Package": "2KXJ8ZSA9MFDO",
+                "PackageFields": "SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier,MaxHeight,MaxWidth",
+                "RepresentativeFields": "SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType",
+                "ContentFields": "SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType,MaxWidth,MaxHeight,MediaType,CoreField.Representative_Image_RecordID"
+            },
+            "Status": "LoggedIn",
+            "UserLogin": "whiten@newberry.org",
+            "Session": "No session (production configuration)",
+            "TimeoutPeriodMinutes": 120
+        },
+        "APIResponse": {
+            "SystemIdentifier": "NL11L0NX",
+            "Title": "Galleries",
+            "new.Context": "",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MediaEncryptedIdentifier": "2KXJ8ZSA9MFDO",
+            "MaxHeight": "",
+            "MaxWidth": "",
+            "Representative": {
+                "SystemIdentifier": "NL13J83",
+                "MediaEncryptedIdentifier": "2KXJ8Z8ZFFEE",
+                "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000797_01]",
+                "MaxWidth": "4065",
+                "MaxHeight": "2720",
+                "CoreField.IIIFResourceType": ""
+            },
+            "Content": [
+                {
+                    "SystemIdentifier": "NL11L2EB",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDQ5P",
+                    "Title": "Christmas",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001738568"
+                },
+                {
+                    "SystemIdentifier": "NL11LHIM",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAQLMR7",
+                    "Title": "Animated gifs",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000002111831"
+                },
+                {
+                    "SystemIdentifier": "NL11L2E9",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKD58D",
+                    "Title": "Bicycling",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000000420679"
+                },
+                {
+                    "SystemIdentifier": "NL11L2E5",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKD6V9",
+                    "Title": "Chicago",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001586452"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DZ",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDE3I",
+                    "Title": "Thanksgiving",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001599897"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DX",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDX4O",
+                    "Title": "Halloween",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001818902"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DQ",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDC09",
+                    "Title": "Dogs",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000000146975"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DO",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDB98",
+                    "Title": "Alcohol",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001734929"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DM",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKD0AX",
+                    "Title": "Reading and Writing",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001732515"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DK",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDPK2",
+                    "Title": "Newberry",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001992522"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DI",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDKDK",
+                    "Title": "Easter",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001817816"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DD",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDJCR",
+                    "Title": "Valentine's Day",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001821193"
+                },
+                {
+                    "SystemIdentifier": "NL11L2DB",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDMYB",
+                    "Title": "School Days",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000000728141"
+                },
+                {
+                    "SystemIdentifier": "NL11L2D9",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDD11",
+                    "Title": "Cats",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000000796092"
+                },
+                {
+                    "SystemIdentifier": "NL11L2D7",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSAKDRBQ",
+                    "Title": "Coffee & Tea",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000001741848"
+                },
+                {
+                    "SystemIdentifier": "NL11L0O4",
+                    "MediaEncryptedIdentifier": "2KXJ8ZSA9MW04",
+                    "Title": "Women's Rights",
+                    "CoreField.IIIFResourceType": "Manifest",
+                    "MaxWidth": "",
+                    "MaxHeight": "",
+                    "MediaType": "Album",
+                    "CoreField.Representative_Image_RecordID": "NL1DO000000132132"
+                }
+            ],
+            "useremail": "whiten@newberry.org"
+        }
+    }

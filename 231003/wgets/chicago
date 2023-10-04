@@ -1,0 +1,221 @@
+{
+    "APIRequestInfo": {
+        "ProviderVersion": "CONCORD.R3.1878K.209614",
+        "ProviderIdentity": "NBL-USE2-P-APP",
+        "ProviderID": "85dca31b7899f944ad0236f5f856af0c",
+        "Module": "PackageExtractor",
+        "APIVersion": "v1.0",
+        "Resource": "Extract",
+        "IsLoggedIn": false,
+        "Parameters": {
+            "Package": "2KXJ8ZSAKD6V9",
+            "PackageFields": "SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier,MaxHeight,MaxWidth",
+            "RepresentativeFields": "SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType",
+            "ContentFields": "SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType,MaxWidth,MaxHeight,MediaType,CoreField.Representative_Image_RecordID"
+        },
+        "Status": "Anonymous",
+        "UserLogin": "anonymous",
+        "Session": "No session (production configuration)",
+        "TimeoutPeriodMinutes": 20
+    },
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2E5",
+        "Title": "Chicago",
+        "new.Context": "Vintage Chicago postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKD6V9",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL1165YD",
+            "MediaEncryptedIdentifier": "2KXJ8ZFA30EC",
+            "Title": "Most beautiful diner in Chicago",
+            "MaxWidth": "3600",
+            "MaxHeight": "2290",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [
+            {
+                "SystemIdentifier": "NL11G54R",
+                "MediaEncryptedIdentifier": "2KXJ8ZSVHKOML",
+                "Title": "Greetings from Chicago Illinois",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000001992264"
+            },
+            {
+                "SystemIdentifier": "NL11KWLO",
+                "MediaEncryptedIdentifier": "2KXJ8ZSAT4A8V",
+                "Title": "Michigan Avenue, Chicago, from Jackson Boulevard to Congress Street",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002159846"
+            },
+            {
+                "SystemIdentifier": "NL11KWLE",
+                "MediaEncryptedIdentifier": "2KXJ8ZSAT4IYG",
+                "Title": "downtown Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160597"
+            },
+            {
+                "SystemIdentifier": "NL11KWIE",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATQ1JF",
+                "Title": "The Chicago Temple Clark at Washington Chicago, Ill.",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160836"
+            },
+            {
+                "SystemIdentifier": "NL11KWHU",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATUC83",
+                "Title": "Supreme Liberty Life Insurance Co.",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160797"
+            },
+            {
+                "SystemIdentifier": "NL11KWFS",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATCW2M",
+                "Title": "Michigan Ave., South from Jackson Boulevard, Chicago, Ill.",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002159714"
+            },
+            {
+                "SystemIdentifier": "NL11KWDT",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATI0OS",
+                "Title": "Logan Bowl",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160386"
+            },
+            {
+                "SystemIdentifier": "NL11KWDB",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATITIT",
+                "Title": "Conservatory and fountain, Lincoln Park, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160330"
+            },
+            {
+                "SystemIdentifier": "NL11KWCK",
+                "MediaEncryptedIdentifier": "2KXJ8ZSAT3UBA",
+                "Title": "Entrance to Union Stock Yards, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002159814"
+            },
+            {
+                "SystemIdentifier": "NL11KWCI",
+                "MediaEncryptedIdentifier": "2KXJ8ZSAT3AYV",
+                "Title": "Train platform, Chicago's initial subways",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160248"
+            },
+            {
+                "SystemIdentifier": "NL11KWBL",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATZN3V",
+                "Title": "Old Water Tower and Palmolive Building, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160130"
+            },
+            {
+                "SystemIdentifier": "NL11KWBJ",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATZXWY",
+                "Title": "Buckingham Fountain by night, Grant Park, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160123"
+            },
+            {
+                "SystemIdentifier": "NL11KWBH",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATZD5M",
+                "Title": "Looking down La Salle Street, Chicago, Chicago Board of Trade in background",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160117"
+            },
+            {
+                "SystemIdentifier": "NL11KWBF",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATZ18F",
+                "Title": "Bird's Eye View of Downtown Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160114"
+            },
+            {
+                "SystemIdentifier": "NL11KWAY",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATZSTH",
+                "Title": "Wacker Drive and Chicago River by night, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160066"
+            },
+            {
+                "SystemIdentifier": "NL11KWAP",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATXONJ",
+                "Title": "Michigan Avenue looking north, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160050"
+            },
+            {
+                "SystemIdentifier": "NL11KWAJ",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATX0QS",
+                "Title": "Boat house, Humboldt Park, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002160014"
+            },
+            {
+                "SystemIdentifier": "NL11KWAE",
+                "MediaEncryptedIdentifier": "2KXJ8ZSATX9G0",
+                "Title": "Union Stock Yards, Chicago",
+                "CoreField.IIIFResourceType": "Manifest",
+                "MaxWidth": "",
+                "MaxHeight": "",
+                "MediaType": "Album",
+                "CoreField.Representative_Image_RecordID": "NL1DO000002159996"
+            }
+        ],
+        "useremail": ""
+    }
+}

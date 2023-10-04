@@ -1,0 +1,4380 @@
+[ {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DB",
+        "Title": "School Days",
+        "new.Context": "Vintage school postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDMYB",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL1MDUX",
+            "MediaEncryptedIdentifier": "2KXJ8ZIDTGKU",
+            "Title": "On the way to school",
+            "MaxWidth": "2584",
+            "MaxHeight": "3917",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11BVX0",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR571I",
+            "Title": "Off to School",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745901"
+        }, {
+            "SystemIdentifier": "NL11BUDV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQWQWQ",
+            "Title": "Stealing Apples",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740048"
+        }, {
+            "SystemIdentifier": "NL11BUDT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQWNJ9",
+            "Title": "The Caricature",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740043"
+        }, {
+            "SystemIdentifier": "NL11BUDF",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQC8AP",
+            "Title": "Caught Smoking",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739994"
+        }, {
+            "SystemIdentifier": "NL11BUDE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQC508",
+            "Title": "The Pillow Fight",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739991"
+        }, {
+            "SystemIdentifier": "NL11BUDD",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQC38B",
+            "Title": "Tossed in the Blanket",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739990"
+        }, {
+            "SystemIdentifier": "NL11BUD6",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQCE5W",
+            "Title": "The Cobbleps Wax",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739968"
+        }, {
+            "SystemIdentifier": "NL11BUCM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQC0WR",
+            "Title": "Behind the Masters Back",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739905"
+        }, {
+            "SystemIdentifier": "NL11BUCL",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQCYIW",
+            "Title": "The Love Letter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739903"
+        }, {
+            "SystemIdentifier": "NL11BUCK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQNSW4",
+            "Title": "Secrets",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739901"
+        }, {
+            "SystemIdentifier": "NL1117LI",
+            "MediaEncryptedIdentifier": "2KXJ8ZBN9VB6",
+            "Title": "Entrance Gate, St Johns College Cambridge",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000796421"
+        }, {
+            "SystemIdentifier": "NL1117J4",
+            "MediaEncryptedIdentifier": "2KXJ8ZBNEGFH",
+            "Title": "The first girl\u0027s Sunday school, Gloucester",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000796288"
+        }, {
+            "SystemIdentifier": "NL1116CW",
+            "MediaEncryptedIdentifier": "2KXJ8ZB5YC97",
+            "Title": "Eton College",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000792960"
+        }, {
+            "SystemIdentifier": "NL1115UO",
+            "MediaEncryptedIdentifier": "2KXJ8ZBT62QL",
+            "Title": "Cambidge. --The Great Court, Trinity College",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000791288"
+        }, {
+            "SystemIdentifier": "NL11143V",
+            "MediaEncryptedIdentifier": "2KXJ8ZBWPJ3D",
+            "Title": "Stratford-on-Avon. Grammar school and alms houses",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000785178"
+        }, {
+            "SystemIdentifier": "NL1113B3",
+            "MediaEncryptedIdentifier": "2KXJ8ZBRUQ1X",
+            "Title": "Grammar School, Clifton",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000783295"
+        }, {
+            "SystemIdentifier": "NL1111UG",
+            "MediaEncryptedIdentifier": "2KXJ8ZBFA3_0",
+            "Title": "The library, grammar school, Stratford-on-Avon",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000743273"
+        }, {
+            "SystemIdentifier": "NL110Y0Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZBQFRHK",
+            "Title": "Toronto, Normal School",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000733949"
+        }, {
+            "SystemIdentifier": "NL110XTH",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8O634",
+            "Title": "Porto Rico, The Convent, San Juan",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000776836"
+        }, {
+            "SystemIdentifier": "NL110X1V",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8LED7",
+            "Title": "Going to school",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000732265"
+        }, {
+            "SystemIdentifier": "NL110WT9",
+            "MediaEncryptedIdentifier": "2KXJ8ZB81M_W",
+            "Title": "Radcliffe Camera, from All Souls",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000747034"
+        }, {
+            "SystemIdentifier": "NL110WMS",
+            "MediaEncryptedIdentifier": "2KXJ8ZBDNC5B",
+            "Title": "The schools, Shewsbury",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000746396"
+        }, {
+            "SystemIdentifier": "NL110WAX",
+            "MediaEncryptedIdentifier": "2KXJ8ZBDPK2P",
+            "Title": "High school, Nyack, N. Y.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000730352"
+        }, {
+            "SystemIdentifier": "NL110W8S",
+            "MediaEncryptedIdentifier": "2KXJ8ZBDJ8M1",
+            "Title": "Campus scene, Emory University, Atlanta, Ga.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000730088"
+        }, {
+            "SystemIdentifier": "NL110U1K",
+            "MediaEncryptedIdentifier": "2KXJ8ZBE1JIN",
+            "Title": "On the way to school",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000728141"
+        }, {
+            "SystemIdentifier": "NL11BS9M",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHX7FJ",
+            "Title": "Gli studi a carnevale",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001732634"
+        }, {
+            "SystemIdentifier": "NL11A2LS",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YG1KH",
+            "Title": "Study time",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147825"
+        }, {
+            "SystemIdentifier": "NL110Y6W",
+            "MediaEncryptedIdentifier": "2KXJ8ZBQLLII",
+            "Title": "Brasenose College, with dome of Radcliffe Library, Oxford",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000734779"
+        }, {
+            "SystemIdentifier": "NL11A2JK",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YO86T",
+            "Title": "Boston",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147633"
+        }, {
+            "SystemIdentifier": "NL1113X1",
+            "MediaEncryptedIdentifier": "2KXJ8ZBWL015",
+            "Title": "A l\u0027ecole",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000784896"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2EB",
+        "Title": "Christmas",
+        "new.Context": "Vintage Christmas postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDQ5P",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL119LV8",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6LY7XE",
+            "Title": "Two girls kneeling by tree",
+            "MaxWidth": "6336",
+            "MaxHeight": "9504",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11A2O4",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YZ6AM",
+            "Title": "A happy Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147993"
+        }, {
+            "SystemIdentifier": "NL11I6EG",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI3XZ4",
+            "Title": "A happy Christmas [LL13126]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000730203"
+        }, {
+            "SystemIdentifier": "NL110ZD0",
+            "MediaEncryptedIdentifier": "2KXJ8ZBB52UR",
+            "Title": "A Happy Christmas Accept m wishes warm and true That Yule may bring its best to you",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000736369"
+        }, {
+            "SystemIdentifier": "NL112VFA",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEFI80",
+            "Title": "A jolly Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132694"
+        }, {
+            "SystemIdentifier": "NL110TJC",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIGHX2",
+            "Title": "A merry Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000726802"
+        }, {
+            "SystemIdentifier": "NL110TQP",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIYBGW",
+            "Title": "A merry Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727465"
+        }, {
+            "SystemIdentifier": "NL110S1V",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOMLBX",
+            "Title": "Breakfast in bed charged extra",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000724760"
+        }, {
+            "SystemIdentifier": "NL112UXB",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGKAP0",
+            "Title": "Children sleeping under Christmas tree",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000129785"
+        }, {
+            "SystemIdentifier": "NL11I6BE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI5ZLQ",
+            "Title": "Christmas greetings [LL11686]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727190"
+        }, {
+            "SystemIdentifier": "NL11I6BP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI42KU",
+            "Title": "Christmas greetings [LL12058]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727734"
+        }, {
+            "SystemIdentifier": "NL110V9W",
+            "MediaEncryptedIdentifier": "2KXJ8ZBHTV6Z",
+            "Title": "Christmas greetings. A full share of all the joys of the season",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000730150"
+        }, {
+            "SystemIdentifier": "NL110TDW",
+            "MediaEncryptedIdentifier": "2KXJ8ZBI2QXB",
+            "Title": "Christmas greetings. I think you\u0027ll like it",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727181"
+        }, {
+            "SystemIdentifier": "NL112UV7",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG6MVY",
+            "Title": "Christmas joy be with you",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000129200"
+        }, {
+            "SystemIdentifier": "NL119U8I",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6CVNGM",
+            "Title": "Clear the track for merry Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748258"
+        }, {
+            "SystemIdentifier": "NL112UVT",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG6TCG",
+            "Title": "Dear Santa",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000129275"
+        }, {
+            "SystemIdentifier": "NL110SD1",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOIJV7",
+            "Title": "Going to the start",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000723771"
+        }, {
+            "SystemIdentifier": "NL11I6JZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQITWSX",
+            "Title": "Happy Christmas to you [LL9011]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000794456"
+        }, {
+            "SystemIdentifier": "NL119U8J",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6CVKWE",
+            "Title": "Hello - hello! Just to wish you merry Christmas!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748259"
+        }, {
+            "SystemIdentifier": "NL119U8R",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6CVMEJ",
+            "Title": "May Christmas shower blessings on you!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748377"
+        }, {
+            "SystemIdentifier": "NL119U8D",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6CT6GC",
+            "Title": "Oh Mr. Santa Claus, this is so sudden",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748251"
+        }, {
+            "SystemIdentifier": "NL110U00",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEZFJZ",
+            "Title": "Our last teddy",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000802201"
+        }, {
+            "SystemIdentifier": "NL1144V2",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PLS1B",
+            "Title": "P.F. Volland Company postcards and greeting cards, 1908-approximately 1950 [000100]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147224"
+        }, {
+            "SystemIdentifier": "NL1144VG",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PL094",
+            "Title": "P.F. Volland Company postcards and greeting cards, 1908-approximately 1950 [000114]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147231"
+        }, {
+            "SystemIdentifier": "NL110SMQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOUNJI",
+            "Title": "Shepheard\u0027s Hotel, Cairo",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000721387"
+        }, {
+            "SystemIdentifier": "NL110TNX",
+            "MediaEncryptedIdentifier": "2KXJ8ZBILLQQ",
+            "Title": "The best of everything and plenty of it",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000800643"
+        }, {
+            "SystemIdentifier": "NL110TUW",
+            "MediaEncryptedIdentifier": "2KXJ8ZBE31OM",
+            "Title": "The Burglar. A Happy Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727836"
+        }, {
+            "SystemIdentifier": "NL119U8L",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6CVY30",
+            "Title": "To you -- the joys of merry Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748219"
+        }, {
+            "SystemIdentifier": "NL11BTYP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQLVPR",
+            "Title": "Two girls kneeling by tree",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738568"
+        }, {
+            "SystemIdentifier": "NL110TNZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZBILUA9",
+            "Title": "Wishing you a happy Christmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000728122"
+        }, {
+            "SystemIdentifier": "NL1144U1",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PWQXK",
+            "Title": "P.F. Volland Company postcards and greeting cards, 1908-approximately 1950 [000063]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147141"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DQ",
+        "Title": "Dogs",
+        "new.Context": "Vintage dog postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDC09",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL13YDT",
+            "MediaEncryptedIdentifier": "2KXJ8Z7PFKLD",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha",
+            "MaxWidth": "3956",
+            "MaxHeight": "2929",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11A2JD",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YOGD0",
+            "Title": "Dogs not allowed",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147689"
+        }, {
+            "SystemIdentifier": "NL1117DK",
+            "MediaEncryptedIdentifier": "2KXJ8ZBN8EKS",
+            "Title": "Harmony and discord",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000795943"
+        }, {
+            "SystemIdentifier": "NL1117DF",
+            "MediaEncryptedIdentifier": "2KXJ8ZBN87S0",
+            "Title": "Harmony and discord",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000796100"
+        }, {
+            "SystemIdentifier": "NL111210",
+            "MediaEncryptedIdentifier": "2KXJ8ZBFJ7W3",
+            "Title": "Daddy\u0027s coming",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000706490"
+        }, {
+            "SystemIdentifier": "NL11101D",
+            "MediaEncryptedIdentifier": "2KXJ8ZB3OKAJ",
+            "Title": "A Devonshire lad",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000706487"
+        }, {
+            "SystemIdentifier": "NL110Z2Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZBB80HO",
+            "Title": "We two",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000735739"
+        }, {
+            "SystemIdentifier": "NL110Z1I",
+            "MediaEncryptedIdentifier": "2KXJ8ZBBEWT7",
+            "Title": "Two Dobermans",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000735110"
+        }, {
+            "SystemIdentifier": "NL110YVQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZBB99II",
+            "Title": "Family inside a home",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000739190"
+        }, {
+            "SystemIdentifier": "NL110YKT",
+            "MediaEncryptedIdentifier": "2KXJ8ZBQC96Q",
+            "Title": "Tally ho!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000777437"
+        }, {
+            "SystemIdentifier": "NL110YHA",
+            "MediaEncryptedIdentifier": "2KXJ8ZBQTQTQ",
+            "Title": "Dog sharing with bunnies",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000734489"
+        }, {
+            "SystemIdentifier": "NL110YH5",
+            "MediaEncryptedIdentifier": "2KXJ8ZBQTCOU",
+            "Title": "Two dogs, one black, one white",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000734481"
+        }, {
+            "SystemIdentifier": "NL110TX7",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEXF2Z",
+            "Title": "Family cares",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000731287"
+        }, {
+            "SystemIdentifier": "NL110TN9",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIFEWK",
+            "Title": "Child and dog",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000728132"
+        }, {
+            "SystemIdentifier": "NL110T5J",
+            "MediaEncryptedIdentifier": "2KXJ8ZBI8VAD",
+            "Title": "A sun bath",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000721410"
+        }, {
+            "SystemIdentifier": "NL110SSA",
+            "MediaEncryptedIdentifier": "2KXJ8ZBORYHR",
+            "Title": "Yorkshire terrier",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000806379"
+        }, {
+            "SystemIdentifier": "NL110SQP",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOT5E2",
+            "Title": "Three\u0027s none",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000806102"
+        }, {
+            "SystemIdentifier": "NL110SHL",
+            "MediaEncryptedIdentifier": "2KXJ8ZBONIM2",
+            "Title": "Great expectations",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000725453"
+        }, {
+            "SystemIdentifier": "NL110S5T",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOOII2",
+            "Title": "Kitten, puppy and duckling",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000804632"
+        }, {
+            "SystemIdentifier": "NL110S2Z",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOWHAU",
+            "Title": "On the moors, pointer at work",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000804397"
+        }, {
+            "SystemIdentifier": "NL110RMW",
+            "MediaEncryptedIdentifier": "2KXJ8ZB2S8Z5",
+            "Title": "Rags and bones a four-in-hand turn-out",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000723587"
+        }, {
+            "SystemIdentifier": "NL110RJ7",
+            "MediaEncryptedIdentifier": "2KXJ8ZB2EVB7",
+            "Title": "A Silver shower",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000802715"
+        }, {
+            "SystemIdentifier": "NL1145B5",
+            "MediaEncryptedIdentifier": "2KXJ8Z44B7_9",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha [000213]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000146086"
+        }, {
+            "SystemIdentifier": "NL1145IK",
+            "MediaEncryptedIdentifier": "2KXJ8Z4461MX",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha [000367]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000146975"
+        }, {
+            "SystemIdentifier": "NL11C263",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUU26LQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821087"
+        }, {
+            "SystemIdentifier": "NL11I6MK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQIB7XR",
+            "Title": "Breakfast in bed charged extra [LL12599]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000803698"
+        }, {
+            "SystemIdentifier": "NL11BW8J",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR2SMK",
+            "Title": "Dog dressed up",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001747156"
+        }, {
+            "SystemIdentifier": "NL11BVP2",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR3355",
+            "Title": "Woman and dog",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745042"
+        }, {
+            "SystemIdentifier": "NL11BTZO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQANQ9",
+            "Title": "Woman with dog",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738664"
+        }, {
+            "SystemIdentifier": "NL11BS5I",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHBZXV",
+            "Title": "Dog with pink bow",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001732186"
+        }, {
+            "SystemIdentifier": "NL11BW88",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR2LT2",
+            "Title": "Dog dressed up",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001747108"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DI",
+        "Title": "Easter",
+        "new.Context": "Vintage Easter postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDKDK",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL11BMRS",
+            "MediaEncryptedIdentifier": "2KXJ8ZS2X0DEI",
+            "Title": "Best Easter wishes",
+            "MaxWidth": "2545",
+            "MaxHeight": "3913",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL110VCP",
+            "MediaEncryptedIdentifier": "2KXJ8ZBHFTYN",
+            "Title": "Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000729929"
+        }, {
+            "SystemIdentifier": "NL110TE5",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIHM42",
+            "Title": "A happy Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727226"
+        }, {
+            "SystemIdentifier": "NL11I6BC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI5R17",
+            "Title": "A happy Easter [LL11701]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727128"
+        }, {
+            "SystemIdentifier": "NL11I6DW",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI3311",
+            "Title": "A happy Easter [LL13173]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000729866"
+        }, {
+            "SystemIdentifier": "NL11I6NY",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQIE2LU",
+            "Title": "A happy Easter [LL13996]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000805144"
+        }, {
+            "SystemIdentifier": "NL11I6FP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQIP71R",
+            "Title": "A happy Easter [LL2178]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000733441"
+        }, {
+            "SystemIdentifier": "NL11C0PQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOHN4I",
+            "Title": "A joyful Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817751"
+        }, {
+            "SystemIdentifier": "NL11C0PZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOHXLK",
+            "Title": "A joyful Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817770"
+        }, {
+            "SystemIdentifier": "NL11C1I8",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDXBP5",
+            "Title": "A joyous Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819399"
+        }, {
+            "SystemIdentifier": "NL11C1F9",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDB7D8",
+            "Title": "An Easter greeting",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819234"
+        }, {
+            "SystemIdentifier": "NL11C1HC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDXGSU",
+            "Title": "An Easter lay",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819346"
+        }, {
+            "SystemIdentifier": "NL11C0QX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOE6XW",
+            "Title": "Best Easter wishes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817816"
+        }, {
+            "SystemIdentifier": "NL11BSU7",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFHD7V",
+            "Title": "Buona Pasqua",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734835"
+        }, {
+            "SystemIdentifier": "NL110W2A",
+            "MediaEncryptedIdentifier": "2KXJ8ZBD745Q",
+            "Title": "Easter greeting",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000730558"
+        }, {
+            "SystemIdentifier": "NL110WH1",
+            "MediaEncryptedIdentifier": "2KXJ8ZBD6LD7",
+            "Title": "Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000721504"
+        }, {
+            "SystemIdentifier": "NL110XN3",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8BSYI",
+            "Title": "Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000733373"
+        }, {
+            "SystemIdentifier": "NL11C0PX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOHS97",
+            "Title": "Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817767"
+        }, {
+            "SystemIdentifier": "NL11C1UE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDUK7P",
+            "Title": "Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820093"
+        }, {
+            "SystemIdentifier": "NL116N6L",
+            "MediaEncryptedIdentifier": "2KXJ8ZF9A37O",
+            "Title": "Easter in the future!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000169684"
+        }, {
+            "SystemIdentifier": "NL11C1H0",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDCUSP",
+            "Title": "Easter wishes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819322"
+        }, {
+            "SystemIdentifier": "NL11C2B2",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUZBVX",
+            "Title": "Frohes Osterfest",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820721"
+        }, {
+            "SystemIdentifier": "NL113C7K",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW75OU",
+            "Title": "Frohliche ostern!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420652"
+        }, {
+            "SystemIdentifier": "NL1144ST",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PJ4Z8",
+            "Title": "I wish you a joyous Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000146981"
+        }, {
+            "SystemIdentifier": "NL110TD7",
+            "MediaEncryptedIdentifier": "2KXJ8ZBI2L6Q",
+            "Title": "Let springtime whisper in your ear its joyous Easter secret",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727601"
+        }, {
+            "SystemIdentifier": "NL11C0B9",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUO3ZIX",
+            "Title": "May you have a joyous Easter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001816965"
+        }, {
+            "SystemIdentifier": "NL110VAZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZBHN25F",
+            "Title": "Rabbit with Easter eggs",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000729867"
+        }, {
+            "SystemIdentifier": "NL11C1HI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDXQU2",
+            "Title": "Shall we exchange Easter greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819358"
+        }, {
+            "SystemIdentifier": "NL11BX1Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUNUIJM",
+            "Title": "Vesele Velikonoce",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001750482"
+        }, {
+            "SystemIdentifier": "NL11C219",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUK5IW",
+            "Title": "Vroolijk Paaschfeest",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820535"
+        }, {
+            "SystemIdentifier": "NL11BVJ7",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKETBW",
+            "Title": "Woman and egg",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001744405"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DD",
+        "Title": "Valentine\u0027s Day",
+        "new.Context": "Vintage valentine postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDJCR",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL11BPR1",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUWNEDQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "MaxWidth": "3922",
+            "MaxHeight": "2572",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11A2NG",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YUJBA",
+            "Title": "To my darling valentine",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147967"
+        }, {
+            "SystemIdentifier": "NL11A2HK",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6Y4BV3",
+            "Title": "To my valentine: won\u0027t you be...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147634"
+        }, {
+            "SystemIdentifier": "NL110TBI",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIE2LU",
+            "Title": "A joyous Valentine Day",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727170"
+        }, {
+            "SystemIdentifier": "NL110TBG",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIEEKK",
+            "Title": "Beware! St. Valentine\u0027s Day",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727156"
+        }, {
+            "SystemIdentifier": "NL11C075",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOXAEI",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001816737"
+        }, {
+            "SystemIdentifier": "NL11C0NJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOJN1I",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817629"
+        }, {
+            "SystemIdentifier": "NL11C0NP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOJL4X",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817638"
+        }, {
+            "SystemIdentifier": "NL11C0OR",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOU6FW",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817699"
+        }, {
+            "SystemIdentifier": "NL11C0OX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOU9D5",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817707"
+        }, {
+            "SystemIdentifier": "NL11C0P2",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOU0ZB",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817717"
+        }, {
+            "SystemIdentifier": "NL11C0XE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD1RBO",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818187"
+        }, {
+            "SystemIdentifier": "NL11C19P",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDMGWU",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818924"
+        }, {
+            "SystemIdentifier": "NL11C1F5",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0D0D",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819231"
+        }, {
+            "SystemIdentifier": "NL11C1GH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDCIHK",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819298"
+        }, {
+            "SystemIdentifier": "NL11C1GJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDCT8U",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819300"
+        }, {
+            "SystemIdentifier": "NL11C1GK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDCVQI",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819304"
+        }, {
+            "SystemIdentifier": "NL11C1GM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDC43Q",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819306"
+        }, {
+            "SystemIdentifier": "NL11C1GO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDC2FQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819308"
+        }, {
+            "SystemIdentifier": "NL11C1H2",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDC5MK",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819326"
+        }, {
+            "SystemIdentifier": "NL11C1H4",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDCW6D",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819330"
+        }, {
+            "SystemIdentifier": "NL11C1JH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD65HK",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819462"
+        }, {
+            "SystemIdentifier": "NL11C1K0",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD6KSP",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819490"
+        }, {
+            "SystemIdentifier": "NL11C1KX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD5KQP",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819533"
+        }, {
+            "SystemIdentifier": "NL11C1KY",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD5TZU",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819536"
+        }, {
+            "SystemIdentifier": "NL11C25N",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUU2YT5",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821050"
+        }, {
+            "SystemIdentifier": "NL11C25T",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUU2FH2",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821063"
+        }, {
+            "SystemIdentifier": "NL11C26E",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUO57W",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821100"
+        }, {
+            "SystemIdentifier": "NL11C26I",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUOWQR",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821108"
+        }, {
+            "SystemIdentifier": "NL11C27C",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUDZJK",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821193"
+        }, {
+            "SystemIdentifier": "NL11C27E",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUDW1R",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001821196"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DZ",
+        "Title": "Thanksgiving",
+        "new.Context": "Vintage Thanksgiving postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDE3I",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL116GZW",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6ZG03",
+            "Title": "May your Thanksgiving never end in dreams like these!",
+            "MaxWidth": "3600",
+            "MaxHeight": "2325",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL116HHT",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6Y14C",
+            "Title": "Bringing you a glad Thanksgiving greeting",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599883"
+        }, {
+            "SystemIdentifier": "NL116HHS",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YDXL",
+            "Title": "Rah rah rah Thanksgiving!!!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599879"
+        }, {
+            "SystemIdentifier": "NL116HHR",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YNLH",
+            "Title": "May your Thanksgiving blessings be ripened by a sunshiny heart!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599881"
+        }, {
+            "SystemIdentifier": "NL116HHQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YIDF",
+            "Title": "May your Thanksgiving never end in dreams like these!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599897"
+        }, {
+            "SystemIdentifier": "NL116HHP",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6Y2B0",
+            "Title": "Here\u0027s to Thanksgiving the day and the game!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599951"
+        }, {
+            "SystemIdentifier": "NL116HHO",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YJHZ",
+            "Title": "May love always serve your Thanksgiving feast",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599895"
+        }, {
+            "SystemIdentifier": "NL116HHN",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YCE6",
+            "Title": "Thanks to him who spared our living...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599898"
+        }, {
+            "SystemIdentifier": "NL116HHM",
+            "MediaEncryptedIdentifier": "2KXJ8ZF6YP9G",
+            "Title": "Hearty Thanksgiving greetings",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001599892"
+        }, {
+            "SystemIdentifier": "NL11C0FD",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOIKR8",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817198"
+        }, {
+            "SystemIdentifier": "NL11C0FJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOIPWQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817207"
+        }, {
+            "SystemIdentifier": "NL11C0MY",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOVHXU",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817593"
+        }, {
+            "SystemIdentifier": "NL11C0N4",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOV16D",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817603"
+        }, {
+            "SystemIdentifier": "NL11C17Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDRI8K",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818822"
+        }, {
+            "SystemIdentifier": "NL11C18C",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDDZZ7",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818845"
+        }, {
+            "SystemIdentifier": "NL11C18E",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDDWWD",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818848"
+        }, {
+            "SystemIdentifier": "NL11C1DT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDPLY7",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819150"
+        }, {
+            "SystemIdentifier": "NL11C1EK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0N84",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819193"
+        }, {
+            "SystemIdentifier": "NL11C1EM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD07S8",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819196"
+        }, {
+            "SystemIdentifier": "NL11C1EO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0PJ8",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819201"
+        }, {
+            "SystemIdentifier": "NL11C1EQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0JBW",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819202"
+        }, {
+            "SystemIdentifier": "NL11C1ES",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0IEK",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819207"
+        }, {
+            "SystemIdentifier": "NL11C1F3",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD02LQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819229"
+        }, {
+            "SystemIdentifier": "NL11C1G5",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDBJVW",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819279"
+        }, {
+            "SystemIdentifier": "NL11C1LE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQ942",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819567"
+        }, {
+            "SystemIdentifier": "NL11C1LI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQRIO",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819571"
+        }, {
+            "SystemIdentifier": "NL11C1LV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQSNW",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819591"
+        }, {
+            "SystemIdentifier": "NL11C1M2",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQES9",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819599"
+        }, {
+            "SystemIdentifier": "NL11C1MM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDS8H1",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819632"
+        }, {
+            "SystemIdentifier": "NL11C1UI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDU2XQ",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820097"
+        }, {
+            "SystemIdentifier": "NL11C1VC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD2HVR",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820146"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2E5",
+        "Title": "Chicago",
+        "new.Context": "Vintage Chicago postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKD6V9",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL1165YD",
+            "MediaEncryptedIdentifier": "2KXJ8ZFA30EC",
+            "Title": "Most beautiful diner in Chicago",
+            "MaxWidth": "3600",
+            "MaxHeight": "2290",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11G54R",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHKOML",
+            "Title": "Greetings from Chicago Illinois",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992264"
+        }, {
+            "SystemIdentifier": "NL11KWLO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSAT4A8V",
+            "Title": "Michigan Avenue, Chicago, from Jackson Boulevard to Congress Street",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002159846"
+        }, {
+            "SystemIdentifier": "NL11KWLE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSAT4IYG",
+            "Title": "downtown Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160597"
+        }, {
+            "SystemIdentifier": "NL11KWIE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATQ1JF",
+            "Title": "The Chicago Temple Clark at Washington Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160836"
+        }, {
+            "SystemIdentifier": "NL11KWHU",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATUC83",
+            "Title": "Supreme Liberty Life Insurance Co.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160797"
+        }, {
+            "SystemIdentifier": "NL11KWFS",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATCW2M",
+            "Title": "Michigan Ave., South from Jackson Boulevard, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002159714"
+        }, {
+            "SystemIdentifier": "NL11KWDT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATI0OS",
+            "Title": "Logan Bowl",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160386"
+        }, {
+            "SystemIdentifier": "NL11KWDB",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATITIT",
+            "Title": "Conservatory and fountain, Lincoln Park, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160330"
+        }, {
+            "SystemIdentifier": "NL11KWCK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSAT3UBA",
+            "Title": "Entrance to Union Stock Yards, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002159814"
+        }, {
+            "SystemIdentifier": "NL11KWCI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSAT3AYV",
+            "Title": "Train platform, Chicago\u0027s initial subways",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160248"
+        }, {
+            "SystemIdentifier": "NL11KWBL",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATZN3V",
+            "Title": "Old Water Tower and Palmolive Building, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160130"
+        }, {
+            "SystemIdentifier": "NL11KWBJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATZXWY",
+            "Title": "Buckingham Fountain by night, Grant Park, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160123"
+        }, {
+            "SystemIdentifier": "NL11KWBH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATZD5M",
+            "Title": "Looking down La Salle Street, Chicago, Chicago Board of Trade in background",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160117"
+        }, {
+            "SystemIdentifier": "NL11KWBF",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATZ18F",
+            "Title": "Bird\u0027s Eye View of Downtown Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160114"
+        }, {
+            "SystemIdentifier": "NL11KWAY",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATZSTH",
+            "Title": "Wacker Drive and Chicago River by night, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160066"
+        }, {
+            "SystemIdentifier": "NL11KWAP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATXONJ",
+            "Title": "Michigan Avenue looking north, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160050"
+        }, {
+            "SystemIdentifier": "NL11KWAJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATX0QS",
+            "Title": "Boat house, Humboldt Park, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160014"
+        }, {
+            "SystemIdentifier": "NL11KWAE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATX9G0",
+            "Title": "Union Stock Yards, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002159996"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DM",
+        "Title": "Reading and Writing",
+        "new.Context": "Vintage reading & writing postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKD0AX",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL119H3W",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6MKT7A",
+            "Title": "S\u0027avvicinano gli esami",
+            "MaxWidth": "9504",
+            "MaxHeight": "6336",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL110T8R",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIJSX8",
+            "Title": "Rather Breezy! Ripping Bathing at Margate",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000726656"
+        }, {
+            "SystemIdentifier": "NL11BS8H",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHZSNT",
+            "Title": "S\u0027avvicinano gli esami",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001732515"
+        }, {
+            "SystemIdentifier": "NL11BSCT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHUT7N",
+            "Title": "Le Koh-i-noor",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001733000"
+        }, {
+            "SystemIdentifier": "NL11BSEJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUH5NO6",
+            "Title": "Le Koh-i-noor",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001733276"
+        }, {
+            "SystemIdentifier": "NL11BWTQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUNPQFA",
+            "Title": "Woman and cat",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001749573"
+        }, {
+            "SystemIdentifier": "NL11BT5R",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFUQGZ",
+            "Title": "Woman reading",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001735861"
+        }, {
+            "SystemIdentifier": "NL11BU1U",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQOP2O",
+            "Title": "Woman sitting at desk",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738866"
+        }, {
+            "SystemIdentifier": "NL11BUQD",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK3UFK",
+            "Title": "Iris - Message",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741281"
+        }, {
+            "SystemIdentifier": "NL11BV0C",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKG1YQ",
+            "Title": "Woman on globe",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742362"
+        }, {
+            "SystemIdentifier": "NL11BWD4",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURCRCR",
+            "Title": "Ma chere leuliz",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001747640"
+        }, {
+            "SystemIdentifier": "NL11BWYV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUNNAAN",
+            "Title": "Mode von 1860",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001750130"
+        }, {
+            "SystemIdentifier": "NL11BTPV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQ71XK",
+            "Title": "Tu veux passer pour un joyeux drille. Tu n\u0027es qu\u0027un crocodile",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001737761"
+        }, {
+            "SystemIdentifier": "NL11BVC3",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKOFC4",
+            "Title": "L\u0027illuminazione nel 1928",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001743631"
+        }, {
+            "SystemIdentifier": "NL110TC1",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIE4ZU",
+            "Title": "Boy reading book on desk",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000726911"
+        }, {
+            "SystemIdentifier": "NL11458V",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PSW0O",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha [000131]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000145679"
+        }, {
+            "SystemIdentifier": "NL110TI6",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIUN3O",
+            "Title": "I hope you will find this very interesting",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000800286"
+        }, {
+            "SystemIdentifier": "NL110RTA",
+            "MediaEncryptedIdentifier": "2KXJ8ZB2QCFX",
+            "Title": "An interesting tale",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000803239"
+        }, {
+            "SystemIdentifier": "NL110UDW",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEL3JZ",
+            "Title": "Books and their readers!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000803280"
+        }, {
+            "SystemIdentifier": "NL110TF0",
+            "MediaEncryptedIdentifier": "2KXJ8ZBICHB2",
+            "Title": "A Bedtime Story",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000800190"
+        }, {
+            "SystemIdentifier": "NL11BVWO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURK78I",
+            "Title": "Fairy Tales",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745863"
+        }, {
+            "SystemIdentifier": "NL11JONO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSF6CZLE",
+            "Title": "Ils Lisent Les Annales",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001922168"
+        }, {
+            "SystemIdentifier": "NL11BSGK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUH7OTL",
+            "Title": "I\u0027m the Gink wot reads your writin\u0027",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001733516"
+        }, {
+            "SystemIdentifier": "NL11BTLX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFG49H",
+            "Title": "The Letter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001737370"
+        }, {
+            "SystemIdentifier": "NL1117LT",
+            "MediaEncryptedIdentifier": "2KXJ8ZBN1SPE",
+            "Title": "The Letter Writer, Cairo",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000796533"
+        }, {
+            "SystemIdentifier": "NL110RFT",
+            "MediaEncryptedIdentifier": "2KXJ8ZB2N67X",
+            "Title": "Woman and child writing at a table",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000723613"
+        }, {
+            "SystemIdentifier": "NL11A2JY",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YMBR3",
+            "Title": "First love-letter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147635"
+        }, {
+            "SystemIdentifier": "NL11A2LS",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6YG1KH",
+            "Title": "Study time",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000147825"
+        }, {
+            "SystemIdentifier": "NL110T5O",
+            "MediaEncryptedIdentifier": "2KXJ8ZBI8HY2",
+            "Title": "A travelling student and singer",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000721421"
+        }, {
+            "SystemIdentifier": "NL11BW6Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURV8YW",
+            "Title": "Good Night",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001746965"
+        }, {
+            "SystemIdentifier": "NL110RD2",
+            "MediaEncryptedIdentifier": "2KXJ8ZMAZ6YL",
+            "Title": "The author",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000802514"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2D9",
+        "Title": "Cats",
+        "new.Context": "Vintage cat postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDD11",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL1O7CV",
+            "MediaEncryptedIdentifier": "2KXJ8ZEQRXQP",
+            "Title": "Stripes to the front",
+            "MaxWidth": "2542",
+            "MaxHeight": "3893",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL1116X5",
+            "MediaEncryptedIdentifier": "2KXJ8ZBNDI6M",
+            "Title": "Are we down-hearted? No!!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000794910"
+        }, {
+            "SystemIdentifier": "NL11BSDN",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHWTUN",
+            "Title": "Beaucoup",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001733096"
+        }, {
+            "SystemIdentifier": "NL11BT6E",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFUJR0",
+            "Title": "Black cat",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001735912"
+        }, {
+            "SystemIdentifier": "NL11G5WI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHKFRS",
+            "Title": "Black out",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992270"
+        }, {
+            "SystemIdentifier": "NL110UM9",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEA4QY",
+            "Title": "Breakfast in bed",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000731865"
+        }, {
+            "SystemIdentifier": "NL110RZY",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOYQF5",
+            "Title": "cat studies",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000803636"
+        }, {
+            "SystemIdentifier": "NL1145J1",
+            "MediaEncryptedIdentifier": "2KXJ8Z446DG9",
+            "Title": "What is this cat trying to do? (Neko ha nani o shitsutsu aru ka)",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000146832"
+        }, {
+            "SystemIdentifier": "NL11BUZT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKGQLP",
+            "Title": "La combinaison",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742300"
+        }, {
+            "SystemIdentifier": "NL110TUY",
+            "MediaEncryptedIdentifier": "2KXJ8ZBE3MYT",
+            "Title": "Family cares",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727844"
+        }, {
+            "SystemIdentifier": "NL11C0DI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOD7XQ",
+            "Title": "Here\u0027s Luck!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001817095"
+        }, {
+            "SystemIdentifier": "NL110TI6",
+            "MediaEncryptedIdentifier": "2KXJ8ZBIUN3O",
+            "Title": "I hope you will find this very interesting",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000800286"
+        }, {
+            "SystemIdentifier": "NL11C16S",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD98U1",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818742"
+        }, {
+            "SystemIdentifier": "NL11C247",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUUN048",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001820956"
+        }, {
+            "SystemIdentifier": "NL11JOMB",
+            "MediaEncryptedIdentifier": "2KXJ8ZSF6WF2T",
+            "Title": "La Luxure",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001922006"
+        }, {
+            "SystemIdentifier": "NL11I6BQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSQI4UR9",
+            "Title": "Mixed bathing [LL12091]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727774"
+        }, {
+            "SystemIdentifier": "NL110UCA",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEK6QH",
+            "Title": "Mrs Caudle\u0027s curtain lectures",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000803011"
+        }, {
+            "SystemIdentifier": "NL11106A",
+            "MediaEncryptedIdentifier": "2KXJ8ZB33QQL",
+            "Title": "Popular songs, illustrated Theres\u0027 a Land",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000781421"
+        }, {
+            "SystemIdentifier": "NL11BV0M",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKGOF8",
+            "Title": "Le pyjama",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742395"
+        }, {
+            "SystemIdentifier": "NL11G53R",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHKI3A",
+            "Title": "Singing Cats, Kommt a Vogel geflogen...(If a bird flew ...), artist signed Thiele",
+            "CoreField.IIIFResourceType": "Canvas",
+            "MaxWidth": "821",
+            "MaxHeight": "521",
+            "MediaType": "Image",
+            "CoreField.Representative_Image_RecordID": ""
+        }, {
+            "SystemIdentifier": "NL1117F5",
+            "MediaEncryptedIdentifier": "2KXJ8ZBNLNLN",
+            "Title": "Some sport",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000795952"
+        }, {
+            "SystemIdentifier": "NL1117DT",
+            "MediaEncryptedIdentifier": "2KXJ8ZBN8Z1T",
+            "Title": "Stripes to the front",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000796092"
+        }, {
+            "SystemIdentifier": "NL110SHC",
+            "MediaEncryptedIdentifier": "2KXJ8ZBON6BW",
+            "Title": "They all love Jack",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000805322"
+        }, {
+            "SystemIdentifier": "NL11BT81",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUF5UMS",
+            "Title": "Le Vue",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001736064"
+        }, {
+            "SystemIdentifier": "NL11BUKH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQB8IP",
+            "Title": "Woman in sleepwear",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740704"
+        }, {
+            "SystemIdentifier": "NL11G5ZA",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHACZE",
+            "Title": "Black Cat Cafe Flagstaff- Arizona",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992272"
+        }, {
+            "SystemIdentifier": "NL11BWTQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUNPQFA",
+            "Title": "Woman and cat",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001749573"
+        }, {
+            "SystemIdentifier": "NL11BVHC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKNWG1",
+            "Title": "Unerlaubler Anbandelungsversuch",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001744204"
+        }, {
+            "SystemIdentifier": "NL11BWFD",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURPZM2",
+            "Title": "First Prize",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001747886"
+        }, {
+            "SystemIdentifier": "NL11BTUV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQY76O",
+            "Title": "Black Cats",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738202"
+        }, {
+            "SystemIdentifier": "NL110TF3",
+            "MediaEncryptedIdentifier": "2KXJ8ZBICADO",
+            "Title": "And they say Black Cats are lucky!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000726844"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2D7",
+        "Title": "Coffee & Tea",
+        "new.Context": "Vintage coffee postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDRBQ",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL119OTA",
+            "MediaEncryptedIdentifier": "2KXJ8ZS66E6_H",
+            "Title": "Sanka Caf\ufffd Decafeine",
+            "MaxWidth": "6336",
+            "MaxHeight": "9504",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11BWMG",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR7FG5",
+            "Title": "Five-O\u0027clock Tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748679"
+        }, {
+            "SystemIdentifier": "NL11BUVQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK4BD8",
+            "Title": "Sanka Caf\ufffd Decafeine",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741848"
+        }, {
+            "SystemIdentifier": "NL1117Z4",
+            "MediaEncryptedIdentifier": "2KXJ8ZBPBFV7",
+            "Title": "coffee house, Cairo",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000801683"
+        }, {
+            "SystemIdentifier": "NL1116LF",
+            "MediaEncryptedIdentifier": "2KXJ8ZB50BSD",
+            "Title": "Mol\u0027s Coffee House, Exeter",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000793811"
+        }, {
+            "SystemIdentifier": "NL110XJG",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8KL0B",
+            "Title": "Coffee Stall (Early Morning)",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000733731"
+        }, {
+            "SystemIdentifier": "NL110X7G",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8CYB7",
+            "Title": "At the coffee stall",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000736089"
+        }, {
+            "SystemIdentifier": "NL110X03",
+            "MediaEncryptedIdentifier": "2KXJ8ZB8J04U",
+            "Title": "Coffee time",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000732107"
+        }, {
+            "SystemIdentifier": "NL11BURM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK9CH9",
+            "Title": "John I. Monroe collection of artist signed postcards, 1900-1960 [box 00007 no 000308]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741421"
+        }, {
+            "SystemIdentifier": "NL11BURB",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK9K9K",
+            "Title": "John I. Monroe collection of artist signed postcards, 1900-1960 [box 00007 no 000226]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741385"
+        }, {
+            "SystemIdentifier": "NL11BSI8",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHG6JE",
+            "Title": "La bonne fille",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001733698"
+        }, {
+            "SystemIdentifier": "NL11168H",
+            "MediaEncryptedIdentifier": "2KXJ8ZB5GVOW",
+            "Title": "The Flower of the Tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000792609"
+        }, {
+            "SystemIdentifier": "NL1110A1",
+            "MediaEncryptedIdentifier": "2KXJ8ZB3EQOL",
+            "Title": "Sifting tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000737296"
+        }, {
+            "SystemIdentifier": "NL11109C",
+            "MediaEncryptedIdentifier": "2KXJ8ZB39GD6",
+            "Title": "A five o\u0027clock tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000737593"
+        }, {
+            "SystemIdentifier": "NL11105H",
+            "MediaEncryptedIdentifier": "2KXJ8ZB3L27M",
+            "Title": "Afternoon tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000781321"
+        }, {
+            "SystemIdentifier": "NL110YVP",
+            "MediaEncryptedIdentifier": "2KXJ8ZBB9584",
+            "Title": "Family at home",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000734984"
+        }, {
+            "SystemIdentifier": "NL110UR9",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEMGNV",
+            "Title": "Scandal & tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000729127"
+        }, {
+            "SystemIdentifier": "NL110TXG",
+            "MediaEncryptedIdentifier": "2KXJ8ZBECDIA",
+            "Title": "Tea with Grannie",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000727613"
+        }, {
+            "SystemIdentifier": "NL110S3Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZBOWGV4",
+            "Title": "Grannie\u0027s cup of tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000804495"
+        }, {
+            "SystemIdentifier": "NL110RF0",
+            "MediaEncryptedIdentifier": "2KXJ8ZB2NZXR",
+            "Title": "Tea-time",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000723113"
+        }, {
+            "SystemIdentifier": "NL11BURV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKUKUK",
+            "Title": "Visite",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741447"
+        }, {
+            "SystemIdentifier": "NL11BUUF",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKAYRI",
+            "Title": "Woman with a drink",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741726"
+        }, {
+            "SystemIdentifier": "NL114588",
+            "MediaEncryptedIdentifier": "2KXJ8Z4PSUCD",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha [000108]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000145748"
+        }, {
+            "SystemIdentifier": "NL11459G",
+            "MediaEncryptedIdentifier": "2KXJ8Z4P4P4P",
+            "Title": "Collection of Japanese art postcards published by Kokkei shinbun sha [000152]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000145636"
+        }, {
+            "SystemIdentifier": "NL11C04U",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUOM65W",
+            "Title": "John I. Monroe collection of general postcards",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001816618"
+        }, {
+            "SystemIdentifier": "NL1149N4",
+            "MediaEncryptedIdentifier": "2KXJ8Z4X8C62",
+            "Title": "James R. Powell Route 66 postcard collection, 1926-1960s [001152 01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000123265"
+        }, {
+            "SystemIdentifier": "NL1115EN",
+            "MediaEncryptedIdentifier": "2KXJ8ZBT8H2E",
+            "Title": "Harrogate, Tea House, Valley Gardens",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000788857"
+        }, {
+            "SystemIdentifier": "NL11BSLM",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFI4NH",
+            "Title": "Tea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734056"
+        }, {
+            "SystemIdentifier": "NL11BUZ4",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKKLLU",
+            "Title": "5 a 7. La tasse de the avec les amis",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742221"
+        }, {
+            "SystemIdentifier": "NL11KWIO",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATQCW3",
+            "Title": "Corner of coffee shop, Harriet Hammond McCormick Memorial, a Y.W.C.A. residence",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002160863"
+        }, {
+            "SystemIdentifier": "NL11KWFV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSATCSYH",
+            "Title": "Reproduction of the original fortyfoot oil painting in the exhibit of the Stewart and Ashby Coffee Company at A Century of Progress",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000002159723"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DO",
+        "Title": "Alcohol",
+        "new.Context": "Vintage drinking postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDB98",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL119IY8",
+            "MediaEncryptedIdentifier": "2KXJ8ZS6N3HS3",
+            "Title": "Woman with a bird",
+            "MaxWidth": "6336",
+            "MaxHeight": "9504",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11BWKN",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURA83W",
+            "Title": "Men drinking",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001748482"
+        }, {
+            "SystemIdentifier": "NL11BW81",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR27QI",
+            "Title": "Glas Bier gefallig?",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001747083"
+        }, {
+            "SystemIdentifier": "NL11BW6H",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURQCN1",
+            "Title": "I really had no idea",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001746918"
+        }, {
+            "SystemIdentifier": "NL11BVXA",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR5MZD",
+            "Title": "Manhattan",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745930"
+        }, {
+            "SystemIdentifier": "NL11BVX9",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR54DB",
+            "Title": "Champagne",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745927"
+        }, {
+            "SystemIdentifier": "NL11BVWA",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURKIO7",
+            "Title": "Cr\ufffdme-de-Menthe",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745833"
+        }, {
+            "SystemIdentifier": "NL11BVVU",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURK91X",
+            "Title": "Sherry",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745773"
+        }, {
+            "SystemIdentifier": "NL11BVVS",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURKMND",
+            "Title": "Claret",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745766"
+        }, {
+            "SystemIdentifier": "NL11BV3S",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK2AC7",
+            "Title": "Woman drinking",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742741"
+        }, {
+            "SystemIdentifier": "NL11BV3Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK2OD8",
+            "Title": "Woman and man drinking",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742737"
+        }, {
+            "SystemIdentifier": "NL11BV1Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKTPN2",
+            "Title": "La Renaissance",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742549"
+        }, {
+            "SystemIdentifier": "NL11BUM7",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQDSE4",
+            "Title": "Grape Shot",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740865"
+        }, {
+            "SystemIdentifier": "NL11BULF",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQDIR8",
+            "Title": "Woman with drink",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740805"
+        }, {
+            "SystemIdentifier": "NL11BUF3",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQEKV5",
+            "Title": "How to Catch Men: At the Shrine of Venus-Up to Date",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740176"
+        }, {
+            "SystemIdentifier": "NL11BTWR",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQ4SA4",
+            "Title": "Black Cats",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738407"
+        }, {
+            "SystemIdentifier": "NL11BSN6",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUF2EXM",
+            "Title": "Champagne",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734238"
+        }, {
+            "SystemIdentifier": "NL11BV4M",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK2TVW",
+            "Title": "Woman kicking tray",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742830"
+        }, {
+            "SystemIdentifier": "NL11BTAE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUF0GLC",
+            "Title": "Ca me grise...!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001736312"
+        }, {
+            "SystemIdentifier": "NL11BSVA",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUF6WQV",
+            "Title": "Woman with a bird",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734929"
+        }, {
+            "SystemIdentifier": "NL11BSOX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUF3HMA",
+            "Title": "Woman drinking",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734427"
+        }, {
+            "SystemIdentifier": "NL11BSLV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUFIJ40",
+            "Title": "Woman riding a bottle",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001734073"
+        }, {
+            "SystemIdentifier": "NL11BUMH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQD2QD",
+            "Title": "Woman with drink",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001740894"
+        }, {
+            "SystemIdentifier": "NL11BTYQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQLS84",
+            "Title": "Woman in green with champagne",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001738571"
+        }, {
+            "SystemIdentifier": "NL11BS0S",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHNN66",
+            "Title": "La Gourmandise",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001731678"
+        }, {
+            "SystemIdentifier": "NL11BVOI",
+            "MediaEncryptedIdentifier": "2KXJ8ZSURBKD4",
+            "Title": "Woman and glass",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001744982"
+        }, {
+            "SystemIdentifier": "NL11BVNN",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR4L_1",
+            "Title": "Woman and glass",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001744896"
+        }, {
+            "SystemIdentifier": "NL11BV4N",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUK2ZEU",
+            "Title": "Woman and man at table",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742828"
+        }, {
+            "SystemIdentifier": "NL11BV21",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKTM1B",
+            "Title": "C\u0027est l\u0027histoire presqu\u0027en entier Du Bulteaux a travers les ages",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742557"
+        }, {
+            "SystemIdentifier": "NL11BV1X",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKTKTK",
+            "Title": "Les Grecs",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742545"
+        }, {
+            "SystemIdentifier": "NL11BV1I",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKLH8B",
+            "Title": "Au Moyen-Age",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001742489"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DK",
+        "Title": "Newberry",
+        "new.Context": "Vintage Newberry postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDPK2",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL11G5GP",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHRM1H",
+            "Title": "Washington Square and Newberry Library, Chicago",
+            "MaxWidth": "3392",
+            "MaxHeight": "2185",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11G60Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFM3H",
+            "Title": "Chicago public libraries",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992534"
+        }, {
+            "SystemIdentifier": "NL11G5ZR",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPRNY",
+            "Title": "Chicago, Ill. Newberry Library",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992416"
+        }, {
+            "SystemIdentifier": "NL11G604",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPZ1V",
+            "Title": "Chicago, Newberry Library",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992444"
+        }, {
+            "SystemIdentifier": "NL11G609",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPIEA",
+            "Title": "Chicago, The Newberry Library",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992459"
+        }, {
+            "SystemIdentifier": "NL11G60J",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFI2A",
+            "Title": "Greetings from Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992488"
+        }, {
+            "SystemIdentifier": "NL11G5ZT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPPJJ",
+            "Title": "Greetings from Chicago / Gruss aus Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992402"
+        }, {
+            "SystemIdentifier": "NL11G60I",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFL6V",
+            "Title": "Newberry Library postcard collection [box 00001], 1898-1945 [00017 05]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992486"
+        }, {
+            "SystemIdentifier": "NL11G60N",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFJVT",
+            "Title": "Newberry Library postcard collection [box 00001], 1898-1945 [00020 03]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992502"
+        }, {
+            "SystemIdentifier": "NL11G60R",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHF6AE",
+            "Title": "Newberry Library postcard collection [box 00001], 1898-1945 [00021 01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992513"
+        }, {
+            "SystemIdentifier": "NL11G60T",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFFSS",
+            "Title": "Newberry Library postcard collection [box 00001], 1898-1945 [00021 03]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992518"
+        }, {
+            "SystemIdentifier": "NL11G60V",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHF7DJ",
+            "Title": "Newberry Library postcard collection [box 00001], 1898-1945 [00022 01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992526"
+        }, {
+            "SystemIdentifier": "NL11G5ZQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPX3M",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992408"
+        }, {
+            "SystemIdentifier": "NL11G5ZZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPJBT",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992429"
+        }, {
+            "SystemIdentifier": "NL11G602",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHP9HC",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992438"
+        }, {
+            "SystemIdentifier": "NL11G603",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPT2N",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992441"
+        }, {
+            "SystemIdentifier": "NL11G607",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHP3DS",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992453"
+        }, {
+            "SystemIdentifier": "NL11G60A",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHP6QE",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992463"
+        }, {
+            "SystemIdentifier": "NL11G60E",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPSOT",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992474"
+        }, {
+            "SystemIdentifier": "NL11G60W",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHFQXC",
+            "Title": "Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992528"
+        }, {
+            "SystemIdentifier": "NL11G5ZS",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPU60",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992411"
+        }, {
+            "SystemIdentifier": "NL11G605",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPOGL",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992447"
+        }, {
+            "SystemIdentifier": "NL11G606",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHP1AY",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992450"
+        }, {
+            "SystemIdentifier": "NL11G608",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPM7H",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992456"
+        }, {
+            "SystemIdentifier": "NL11G60C",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPYU3",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992468"
+        }, {
+            "SystemIdentifier": "NL11G60D",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPHPH",
+            "Title": "Newberry Library, Chicago, Ill.",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992470"
+        }, {
+            "SystemIdentifier": "NL11G5ZU",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPAX6",
+            "Title": "Newberry Library, North Clark St., Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992420"
+        }, {
+            "SystemIdentifier": "NL11G5ZV",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPFWS",
+            "Title": "Newberry Library, North Clark Street, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992412"
+        }, {
+            "SystemIdentifier": "NL11G5ZW",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPN86",
+            "Title": "Newberry Library, North Clark Street, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992418"
+        }, {
+            "SystemIdentifier": "NL11G601",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHPLRV",
+            "Title": "Newberry Library, North Clark Street, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992435"
+        }, {
+            "SystemIdentifier": "NL11G60U",
+            "MediaEncryptedIdentifier": "2KXJ8ZSVHF98C",
+            "Title": "Washington Square and Newberry Library, Chicago",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001992522"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2DX",
+        "Title": "Halloween",
+        "new.Context": "Vintage Halloween postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKDX4O",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL11BNPW",
+            "MediaEncryptedIdentifier": "2KXJ8ZS2Q1FMB",
+            "Title": "John I. Monroe collection of general postcards",
+            "MaxWidth": "3933",
+            "MaxHeight": "2577",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL1145ON",
+            "MediaEncryptedIdentifier": "2KXJ8Z44VNKD",
+            "Title": "Goodness Dr. Owl, has the moon got jaundice!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476800"
+        }, {
+            "SystemIdentifier": "NL1145OL",
+            "MediaEncryptedIdentifier": "2KXJ8Z44499W",
+            "Title": "May your Hallow-E\u0027en always bring a good surprise",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476796"
+        }, {
+            "SystemIdentifier": "NL1145OK",
+            "MediaEncryptedIdentifier": "2KXJ8Z44488I",
+            "Title": "If I might always hold the light...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476793"
+        }, {
+            "SystemIdentifier": "NL1145OJ",
+            "MediaEncryptedIdentifier": "2KXJ8Z444LL1",
+            "Title": "May I be your Hallow-E\u0027en beau?",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476791"
+        }, {
+            "SystemIdentifier": "NL1145OH",
+            "MediaEncryptedIdentifier": "2KXJ8Z444HH5",
+            "Title": "Could I borrow a witches flying-machine...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476788"
+        }, {
+            "SystemIdentifier": "NL1145OG",
+            "MediaEncryptedIdentifier": "2KXJ8Z444CC8",
+            "Title": "Don\u0027t be scared on Hallow-E\u0027en...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476785"
+        }, {
+            "SystemIdentifier": "NL1145OF",
+            "MediaEncryptedIdentifier": "2KXJ8Z444JJQ",
+            "Title": "Excuse me if I seem in haste...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001476784"
+        }, {
+            "SystemIdentifier": "NL11392C",
+            "MediaEncryptedIdentifier": "2KXJ8ZP2233U",
+            "Title": "You auto have a happy Halloween",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000411744"
+        }, {
+            "SystemIdentifier": "NL11C02F",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUO52K1",
+            "Title": "Best Hallowe\u0027en wishes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001816478"
+        }, {
+            "SystemIdentifier": "NL11C186",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDRAT4",
+            "Title": "Here\u0027s joy for every Hallow-E\u0027en -- and all the days that fall between!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818838"
+        }, {
+            "SystemIdentifier": "NL11C18K",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDDRRO",
+            "Title": "Hallowe\u0027en",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818858"
+        }, {
+            "SystemIdentifier": "NL11C199",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDMC4B",
+            "Title": "Hallowe\u0027en",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818902"
+        }, {
+            "SystemIdentifier": "NL11C19Z",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDM8C1",
+            "Title": "Hallowe\u0027en",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001818935"
+        }, {
+            "SystemIdentifier": "NL11C1BC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDHIJK",
+            "Title": "May you always get the apple you want!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819024"
+        }, {
+            "SystemIdentifier": "NL11C1CU",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDKI9K",
+            "Title": "Be not alarmed, but show your pluck...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819102"
+        }, {
+            "SystemIdentifier": "NL11C1CX",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDKQO2",
+            "Title": "May Halloween always greet you with a smile",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819106"
+        }, {
+            "SystemIdentifier": "NL11C1DH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDPCLB",
+            "Title": "May you have a jolly Hallow Een",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819128"
+        }, {
+            "SystemIdentifier": "NL11C1DJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDPRUO",
+            "Title": "May the Hallow Een goblins bring you luck",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819130"
+        }, {
+            "SystemIdentifier": "NL11C1EC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD01AO",
+            "Title": "Halloween",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819179"
+        }, {
+            "SystemIdentifier": "NL11C1EE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD0V5I",
+            "Title": "May fortune\u0027s lantern burn serene...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819181"
+        }, {
+            "SystemIdentifier": "NL11C1FH",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDBHFR",
+            "Title": "May you have the time of your life this Hallow-E\u0027en!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819244"
+        }, {
+            "SystemIdentifier": "NL11C1IE",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDEYQ9",
+            "Title": "May your Hallow-E\u0027en be merry",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819409"
+        }, {
+            "SystemIdentifier": "NL11C1IK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDEF5X",
+            "Title": "I\u0027m not afraid of spooks, are you?",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819416"
+        }, {
+            "SystemIdentifier": "NL11C1IY",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDES4W",
+            "Title": "Take care of me on Hallow-E\u0027en...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819439"
+        }, {
+            "SystemIdentifier": "NL11C1KK",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUD5XW1",
+            "Title": "By all the powers o\u0027 darkness...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819521"
+        }, {
+            "SystemIdentifier": "NL11C1LT",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQUBP",
+            "Title": "If Hallow-E\u0027en just weren\u0027t at night...",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819588"
+        }, {
+            "SystemIdentifier": "NL11C1M8",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDQDQD",
+            "Title": "May your apple-paring make the right letter!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819611"
+        }, {
+            "SystemIdentifier": "NL11C1MJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDSC1B",
+            "Title": "May love light your Hallow-E\u0027en lantern!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819629"
+        }, {
+            "SystemIdentifier": "NL11C1N1",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDSY29",
+            "Title": "Come, join our Hallow-e\u0027en high jinks!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819654"
+        }, {
+            "SystemIdentifier": "NL11C1N3",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUDSIGK",
+            "Title": "May you have a lovely, scary Hallow-e\u0027en",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001819655"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11LHIM",
+        "Title": "Animated gifs",
+        "new.Context": "NO CONTEXT",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAQLMR7",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL11JNYC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSFHNS3T",
+            "Title": "",
+            "MaxWidth": "624",
+            "MaxHeight": "416",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL11JNYC",
+            "MediaEncryptedIdentifier": "2KXJ8ZSFHNS3T",
+            "Title": "",
+            "CoreField.IIIFResourceType": "Canvas",
+            "MaxWidth": "624",
+            "MaxHeight": "416",
+            "MediaType": "Image",
+            "CoreField.Representative_Image_RecordID": ""
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L0O4",
+        "Title": "Women\u0027s Rights",
+        "new.Context": "Vintage suffragette postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSA9MW04",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL13J83",
+            "MediaEncryptedIdentifier": "2KXJ8Z8ZFFEE",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000797_01]",
+            "MaxWidth": "4065",
+            "MaxHeight": "2720",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL112ULD",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG4KCN",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000034_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000126217"
+        }, {
+            "SystemIdentifier": "NL112UNJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGXW6H",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000094_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000127411"
+        }, {
+            "SystemIdentifier": "NL112UNH",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGX09J",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000101_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000127405"
+        }, {
+            "SystemIdentifier": "NL112UOS",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGS7Q6",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000117_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000127818"
+        }, {
+            "SystemIdentifier": "NL112UQH",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG8FKC",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000191_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000128133"
+        }, {
+            "SystemIdentifier": "NL112US6",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGFI7T",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000233_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000128525"
+        }, {
+            "SystemIdentifier": "NL112UTJ",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG5SWM",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000302_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000128852"
+        }, {
+            "SystemIdentifier": "NL112UVF",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG60ZJ",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000344_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000129229"
+        }, {
+            "SystemIdentifier": "NL112V1C",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGN2XZ",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000613_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000130770"
+        }, {
+            "SystemIdentifier": "NL112V1D",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGNCSF",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000614_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000130772"
+        }, {
+            "SystemIdentifier": "NL112V2T",
+            "MediaEncryptedIdentifier": "2KXJ8ZPGCGCG",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000619_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131088"
+        }, {
+            "SystemIdentifier": "NL112V5A",
+            "MediaEncryptedIdentifier": "2KXJ8ZPE32PY",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000667_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131565"
+        }, {
+            "SystemIdentifier": "NL112V6B",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEQZ86",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000741_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131772"
+        }, {
+            "SystemIdentifier": "NL112V5U",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEQJ4N",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000742_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131709"
+        }, {
+            "SystemIdentifier": "NL112V60",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEQY9E",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000744_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131727"
+        }, {
+            "SystemIdentifier": "NL112V68",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEQQJJ",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000752_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000131756"
+        }, {
+            "SystemIdentifier": "NL112V8B",
+            "MediaEncryptedIdentifier": "2KXJ8ZPECTLV",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000796_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132137"
+        }, {
+            "SystemIdentifier": "NL112V89",
+            "MediaEncryptedIdentifier": "2KXJ8ZPECZA6",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000797_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132132"
+        }, {
+            "SystemIdentifier": "NL112VBQ",
+            "MediaEncryptedIdentifier": "2KXJ8ZPE13OZ",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000846_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132455"
+        }, {
+            "SystemIdentifier": "NL112VCL",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEDMUT",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000854_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132504"
+        }, {
+            "SystemIdentifier": "NL112V9I",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEY42Y",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000893_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132291"
+        }, {
+            "SystemIdentifier": "NL112VA9",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEZAMS",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000894_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132335"
+        }, {
+            "SystemIdentifier": "NL112VAA",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEZ6NH",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000936_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132340"
+        }, {
+            "SystemIdentifier": "NL110UGC",
+            "MediaEncryptedIdentifier": "2KXJ8ZBE9OZF",
+            "Title": "Bridge amenities",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000732037"
+        }, {
+            "SystemIdentifier": "NL112VES",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEJR5M",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [001098_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132661"
+        }, {
+            "SystemIdentifier": "NL112VHZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEOJXN",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [001127_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000132956"
+        }, {
+            "SystemIdentifier": "NL112VMB",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEK9HJ",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [001128_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000133323"
+        }, {
+            "SystemIdentifier": "NL112VJZ",
+            "MediaEncryptedIdentifier": "2KXJ8ZPEBSXN",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [001208_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000133134"
+        }, {
+            "SystemIdentifier": "NL112VNC",
+            "MediaEncryptedIdentifier": "2KXJ8ZPELNMS",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [001233_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000133419"
+        }, {
+            "SystemIdentifier": "NL110U69",
+            "MediaEncryptedIdentifier": "2KXJ8ZBEO7NL",
+            "Title": "The smoking room of a ladies club",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000731437"
+        }],
+        "useremail": ""
+    }
+}, {
+    "APIResponse": {
+        "SystemIdentifier": "NL11L2E9",
+        "Title": "Bicycling",
+        "new.Context": "Vintage bicycle postcards",
+        "CoreField.IIIFResourceType": "Manifest",
+        "MediaEncryptedIdentifier": "2KXJ8ZSAKD58D",
+        "MaxHeight": "",
+        "MaxWidth": "",
+        "Representative": {
+            "SystemIdentifier": "NL1BV62",
+            "MediaEncryptedIdentifier": "2KXJ8ZY03JHF",
+            "Title": "Hut ab! Express!",
+            "MaxWidth": "2738",
+            "MaxHeight": "4089",
+            "CoreField.IIIFResourceType": ""
+        },
+        "Content": [{
+            "SystemIdentifier": "NL113C6T",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW7U47",
+            "Title": "Maxim fahrrader",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420585"
+        }, {
+            "SystemIdentifier": "NL113C51",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWMNU2",
+            "Title": "Campionnats du mone",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420456"
+        }, {
+            "SystemIdentifier": "NL113C55",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWMRYB",
+            "Title": "Cycles Bercley sur pneus englebert",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420460"
+        }, {
+            "SystemIdentifier": "NL113C5O",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWMQZ4",
+            "Title": "La francaise diamant",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420499"
+        }, {
+            "SystemIdentifier": "NL113C69",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWU4X9",
+            "Title": "Poulain champion du monde",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420542"
+        }, {
+            "SystemIdentifier": "NL113C6Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWUP2X",
+            "Title": "Oh, boy!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420576"
+        }, {
+            "SystemIdentifier": "NL113C71",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW78QR",
+            "Title": "I\u0027ll be in to see you on the",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420607"
+        }, {
+            "SystemIdentifier": "NL113C70",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW76ZO",
+            "Title": "Cycles et automobiles legia",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420602"
+        }, {
+            "SystemIdentifier": "NL113C76",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW73H8",
+            "Title": "Adler",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420612"
+        }, {
+            "SystemIdentifier": "NL113C7P",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW7259",
+            "Title": "Die entwickelungsgeschichte des Radlers",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420666"
+        }, {
+            "SystemIdentifier": "NL113C7V",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVRNB",
+            "Title": "Hut ab! Express!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420679"
+        }, {
+            "SystemIdentifier": "NL113C80",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWV8FR",
+            "Title": "Freno carloni",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420685"
+        }, {
+            "SystemIdentifier": "NL113C8J",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVD0W",
+            "Title": "Francesco Gattini",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420727"
+        }, {
+            "SystemIdentifier": "NL113C8R",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVZ1P",
+            "Title": "L\u0027ideal du touriste",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420743"
+        }, {
+            "SystemIdentifier": "NL113CEW",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW9P1X",
+            "Title": "Look before you leap",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421178"
+        }, {
+            "SystemIdentifier": "NL113CDB",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWCBAI",
+            "Title": "Presentation",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421067"
+        }, {
+            "SystemIdentifier": "NL11BU45",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUQ1N69",
+            "Title": "Woman riding bicycle",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001739069"
+        }, {
+            "SystemIdentifier": "NL11BUWR",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUKB92P",
+            "Title": "Tous les as sur Bicyclette Gurtner",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001741949"
+        }, {
+            "SystemIdentifier": "NL11BVOS",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUR35C7",
+            "Title": "Woman in hat riding bicycle",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001745009"
+        }, {
+            "SystemIdentifier": "NL112V0Y",
+            "MediaEncryptedIdentifier": "2KXJ8ZPG269F",
+            "Title": "Bryan L. Bossier postcard collection, 1880s-1920s [000510_01]",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000130587"
+        }, {
+            "SystemIdentifier": "NL113C7U",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVN82",
+            "Title": "Hans Langoor gaat uit fietsen",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420674"
+        }, {
+            "SystemIdentifier": "NL113C83",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVAX2",
+            "Title": "All heil!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420694"
+        }, {
+            "SystemIdentifier": "NL113C86",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVOGI",
+            "Title": "Merry Chirstmas",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420700"
+        }, {
+            "SystemIdentifier": "NL113C8M",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWV4Z9",
+            "Title": "Cycles de dion-bouton",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420731"
+        }, {
+            "SystemIdentifier": "NL113C8Q",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWVC9O",
+            "Title": "Giraffe riding a bike",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420738"
+        }, {
+            "SystemIdentifier": "NL113C9C",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWOAH2",
+            "Title": "Pig riding a bike",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420786"
+        }, {
+            "SystemIdentifier": "NL113C9O",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWOS0D",
+            "Title": "Cats riding bikes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420806"
+        }, {
+            "SystemIdentifier": "NL113C9Z",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW68YR",
+            "Title": "Nous acconrous troupe joyeuse vous apportant l\u0027annee henieuse",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420825"
+        }, {
+            "SystemIdentifier": "NL113CAL",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW6IHU",
+            "Title": "Cats riding bikes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420869"
+        }, {
+            "SystemIdentifier": "NL113CB6",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW8CEO",
+            "Title": "Ateliers joe bridge",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420918"
+        }, {
+            "SystemIdentifier": "NL113CBH",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW8KI7",
+            "Title": "Williams\u0027s famous toffees",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420939"
+        }, {
+            "SystemIdentifier": "NL113CCN",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWYX0R",
+            "Title": "All Heil!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421008"
+        }, {
+            "SystemIdentifier": "NL113CFO",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW9CGO",
+            "Title": "All Heil",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421241"
+        }, {
+            "SystemIdentifier": "NL113CFP",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW9O8I",
+            "Title": "Woman riding a bike",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421244"
+        }, {
+            "SystemIdentifier": "NL113CGO",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWJP3X",
+            "Title": "Notice: Agiter la carte d\u0027un rapide mouvement circulaire et vous verrez tourueu les roues de tandem",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421311"
+        }, {
+            "SystemIdentifier": "NL113CHS",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW2OUI",
+            "Title": "GruB Vom Krampus!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421403"
+        }, {
+            "SystemIdentifier": "NL113CI3",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW275X",
+            "Title": "Man and woman riding bikes",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421415"
+        }, {
+            "SystemIdentifier": "NL113CMA",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWFY5Q",
+            "Title": "Les adieux d\u0027un pneun en 1916",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421723"
+        }, {
+            "SystemIdentifier": "NL113CMY",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW0EUQ",
+            "Title": "Man riding a bike with a bull",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421767"
+        }, {
+            "SystemIdentifier": "NL113CNW",
+            "MediaEncryptedIdentifier": "2KXJ8ZPWKMT1",
+            "Title": "I\u0027m coming love to thee",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000421833"
+        }, {
+            "SystemIdentifier": "NL113C7K",
+            "MediaEncryptedIdentifier": "2KXJ8ZPW75OU",
+            "Title": "Frohliche ostern!",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000000420652"
+        }, {
+            "SystemIdentifier": "NL11BS8F",
+            "MediaEncryptedIdentifier": "2KXJ8ZSUHSE63",
+            "Title": "Man on bicycle and woman on horse",
+            "CoreField.IIIFResourceType": "Manifest",
+            "MaxWidth": "",
+            "MaxHeight": "",
+            "MediaType": "Album",
+            "CoreField.Representative_Image_RecordID": "NL1DO000001732510"
+        }],
+        "useremail": ""
+    }
+}]

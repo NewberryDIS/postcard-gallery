@@ -1,0 +1,22 @@
+{
+	"/": [
+		"src/routes/+page.server.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/api/update": [
+		"src/routes/api/update/+server.js"
+	],
+	"/dataonly": [
+		"src/routes/dataonly/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/force-update": [
+		"src/routes/force-update/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/[cat]": [
+		"src/routes/[cat]/+page.server.js",
+		"src/routes/+layout.js"
+	]
+}
