@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { kv } from "@vercel/kv";
 import { css } from "~/styled-system/css";
-import { GalleryData } from "~/routes";
+import type { GalleryData } from "~/routes";
 import { Left } from "~/components/Left/left";
 import { Right } from "~/components/Right/right";
 import { Gallery } from "~/components/Gallery/gallery";

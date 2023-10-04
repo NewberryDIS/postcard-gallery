@@ -2,7 +2,7 @@
     import { base } from '$app/paths'
     import { getWidth, holidays, slugify } from "$lib";
     export let data
-
+// console.log(data)
     const galleries = data.galleryData
 
     const hGalleries = galleries.filter((f) => holidays.includes(f.title));
@@ -89,9 +89,9 @@
         <div class="right">
             <div class="horiz">
                 {#each nhGalleries as gallery}
-                    <a href="{ base }/{slugify(gallery.title)}"
+                    <a href="{ base }/{gallery.slug}"
                         class="tile nhtile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.imageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.galRepreImageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}
@@ -113,9 +113,9 @@
                     />
                 </a>
                 {#each hGalleries as gallery}
-                    <a href="{ base }/{slugify(gallery.title)}"
+                    <a href="{ base }/{gallery.slug}"
                         class="tile htile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.imageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.galRepreImageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}

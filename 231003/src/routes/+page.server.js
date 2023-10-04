@@ -1,6 +1,10 @@
 import { createClient } from '@vercel/kv';
-import { getGalleryData } from '$lib';
-import { KV_REST_API_URL, KV_REST_API_TOKEN, CTX_API_TOKEN } from '$env/static/private';
+// import { getGalleryData } from '$lib';
+import {
+	KV_REST_API_URL,
+	KV_REST_API_TOKEN
+	// CTX_API_TOKEN,
+} from '$env/static/private';
 
 export async function load() {
 	const galleryDataClient = createClient({

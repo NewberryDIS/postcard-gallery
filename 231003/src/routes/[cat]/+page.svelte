@@ -3,13 +3,11 @@
     import "bigger-picture/css";
     import { onMount } from 'svelte'
     import { base } from '$app/paths'
-    // import { page } from '$app/stores'
     import { imgUrl, getWidth } from '$lib'
     export let data
-    // const { galleryData } = data
     const { postcards } = data.galleryData
     
-    console.log(data)
+    // console.log(data)
     let bp, imageLinks
 
     onMount(() => {
@@ -40,7 +38,7 @@
         <header class="title">
             <h3>Free to Use and Reuse:</h3>
             <h1>
-                {data.galleryData.pageContext}
+                {data.galleryData.context}
             </h1>
             <section class="text-content">
                 <p class="text-lg">
@@ -73,16 +71,16 @@
         {#each postcards as postcard}
             <a class="tile" 
                 on:click={openGallery}
-                href={imgUrl(postcard.image)}
-                data-img={imgUrl(postcard.image)}
-                data-thumb={imgUrl(postcard.image, 'thumb')}
-                data-height={postcard.height}
-                data-width={postcard.width}
+                href={imgUrl(postcard.repImage)}
+                data-img={imgUrl(postcard.repImage)}
+                data-thumb={imgUrl(postcard.repImage, 'thumb')}
+                data-height={postcard.repImageHeight}
+                data-width={postcard.repImageWidth}
                 data-alt={postcard.title}
-                data-caption="{postcard.title}.  View at <a href='{postcard.image}'>Newberry Digital Collections</a>"
+                data-caption="{postcard.title}.  View at <a href='{postcard.repImage}' class='llines'>Newberry Digital Collections</a>"
             >
-                <img src={imgUrl(postcard.image, 'thumb')} 
-                    width={getWidth(postcard.width, postcard.height)}
+                <img src={imgUrl(postcard.repImage, 'thumb')} 
+                    width={getWidth(postcard.repImageWidth, postcard.repImageHeight)}
                     height={300}
                     alt={postcard.title}
                 />
@@ -97,5 +95,9 @@
         padding: 0;
         height: 300px;
         display: inline-block;
+        background-image: url('/spinner.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+
     }
 </style>
