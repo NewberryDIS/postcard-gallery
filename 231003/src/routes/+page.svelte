@@ -1,12 +1,12 @@
 <script>
     import { base } from '$app/paths'
-    import { getWidth, holidays, slugify } from "$lib";
+    import { getWidth, holidays } from "$lib";
     export let data
-// console.log(data)
+console.log(data)
     const galleries = data.galleryData
 
-    const hGalleries = galleries.filter((f) => holidays.includes(f.title));
-    const nhGalleries = galleries.filter((f) => !holidays.includes(f.title));
+    const hGalleries = galleries.filter((f) => holidays.includes(f.title)).sort((a, b) => holidays.indexOf(a.title) - holidays.indexOf(b.title));
+    const nhGalleries = galleries.filter((f) => !holidays.includes(f.title))
 
 </script>
 
@@ -91,7 +91,7 @@
                 {#each nhGalleries as gallery}
                     <a href="{ base }/{gallery.slug}"
                         class="tile nhtile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.galRepreImageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="{ gallery.title === 'Animated gifs' ? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif' : `https://collections.newberry.org/IIIF3/Image/${gallery.galRepreImageMEI}/full/300,/0/default.jpg`}" alt="a {gallery.title} postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}
@@ -115,21 +115,25 @@
                 {#each hGalleries as gallery}
                     <a href="{ base }/{gallery.slug}"
                         class="tile htile">
-                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.galRepreImageMEI}/full/,300/0/default.jpg" alt="a {gallery.title} postcard">
+                        <img src="https://collections.newberry.org/IIIF3/Image/{gallery.galRepreImageMEI}/full/,300/0/default.jpg" alt="a {gallery.title}-themed postcard">
                         <h3>{gallery.title}</h3>
                     </a>
                 {/each}
-            </div>
+        </div>
         </div>
 </main>
 
 
 <style>
+
 .horiz {
     display: flex;
     flex-flow: row wrap;
     gap: 8px;
     margin: 32px;
+}
+.tile, .tile img {
+    /* height: 300px; */
 }
 .vert {
     columns: 250px;
@@ -137,7 +141,7 @@
 }
 .tile {
     position: relative;
-    height: 300px;
+    /* height: 300px; */
     display: inline-block;
     border: 1px solid rgb(var(--fg-color-1));
 }
@@ -162,7 +166,7 @@
     margin: 32px;
 }
 .empty-tile {
-    min-width: 200px;
+    /* min-width: 200px; */
 }
 .empty-tile h3 {
     justify-content: center;
@@ -183,8 +187,8 @@
     user-select: none;
 }
 .linkout-tile {
-    min-width: 225px;
-    height: 300px;
+    /* min-width: 225px; */
+    /* height: 300px; */
 }
 .linkout-tile h3 {
     top: 0;

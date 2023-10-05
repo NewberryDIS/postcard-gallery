@@ -110,6 +110,7 @@ declare module '$env/static/private' {
 	export const npm_package_type: string;
 	export const LC_TERMINAL_VERSION: string;
 	export const npm_config_strict_ssl: string;
+	export const npm_package_dependencies__appnest_masonry_layout: string;
 	export const ITERM_SESSION_ID: string;
 	export const LOGNAME: string;
 	export const LESS: string;
@@ -237,6 +238,7 @@ declare module '$env/dynamic/private' {
 		npm_package_type: string;
 		LC_TERMINAL_VERSION: string;
 		npm_config_strict_ssl: string;
+		npm_package_dependencies__appnest_masonry_layout: string;
 		ITERM_SESSION_ID: string;
 		LOGNAME: string;
 		LESS: string;

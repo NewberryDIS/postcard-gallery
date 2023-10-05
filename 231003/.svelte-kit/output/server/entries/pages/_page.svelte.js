@@ -3,13 +3,13 @@ import { b as base } from "../../chunks/paths.js";
 import { h as holidays, g as getWidth } from "../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".horiz.svelte-9w821o.svelte-9w821o{display:flex;flex-flow:row wrap;gap:8px;margin:32px}.tile.svelte-9w821o.svelte-9w821o{position:relative;height:300px;display:inline-block;border:1px solid rgb(var(--fg-color-1))}.tile.svelte-9w821o h3.svelte-9w821o{position:absolute;left:0;bottom:0;right:0;margin:0;padding:8px;display:flex;color:rgb(var(--bg-color-1))}.tile.svelte-9w821o:not(.empty-tile) h3.svelte-9w821o{justify-content:flex-end;align-items:flex-end}.empty-tile.svelte-9w821o.svelte-9w821o{min-width:200px}.empty-tile.svelte-9w821o h3.svelte-9w821o{justify-content:center;align-items:center;top:0;text-align:center;background:rgb(var(--fg-color-2))}.nhtile.tile.svelte-9w821o:not(.empty-tile) h3.svelte-9w821o{background:rgb(var(--fg-color-1))}.htile.svelte-9w821o h3.svelte-9w821o{background:rgb(var(--park-green))}.notile.svelte-9w821o.svelte-9w821o{pointer-events:none;user-focus:none;user-select:none}",
+  code: ".horiz.svelte-1o6v2w4.svelte-1o6v2w4{display:flex;flex-flow:row wrap;gap:8px;margin:32px}.tile.svelte-1o6v2w4.svelte-1o6v2w4,.tile.svelte-1o6v2w4 img.svelte-1o6v2w4{height:300px}.tile.svelte-1o6v2w4.svelte-1o6v2w4{position:relative;height:300px;display:inline-block;border:1px solid rgb(var(--fg-color-1))}.tile.svelte-1o6v2w4 h3.svelte-1o6v2w4{position:absolute;left:0;bottom:0;right:0;margin:0;padding:8px;display:flex;color:rgb(var(--bg-color-1))}.tile.svelte-1o6v2w4:not(.empty-tile) h3.svelte-1o6v2w4{justify-content:flex-end;align-items:flex-end}.empty-tile.svelte-1o6v2w4.svelte-1o6v2w4{min-width:200px}.empty-tile.svelte-1o6v2w4 h3.svelte-1o6v2w4{justify-content:center;align-items:center;top:0;text-align:center;background:rgb(var(--fg-color-2))}.nhtile.tile.svelte-1o6v2w4:not(.empty-tile) h3.svelte-1o6v2w4{background:rgb(var(--fg-color-1))}.htile.svelte-1o6v2w4 h3.svelte-1o6v2w4{background:rgb(var(--park-green))}.notile.svelte-1o6v2w4.svelte-1o6v2w4{pointer-events:none;user-focus:none;user-select:none}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { data } = $$props;
   const galleries = data.galleryData;
-  const hGalleries = galleries.filter((f) => holidays.includes(f.title));
+  const hGalleries = galleries.filter((f) => holidays.includes(f.title)).sort((a, b) => holidays.indexOf(a.title) - holidays.indexOf(b.title));
   const nhGalleries = galleries.filter((f) => !holidays.includes(f.title));
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
@@ -26,10 +26,14 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                     at Newberry Digital Collections, or explore the themed sets
                     featured here.</p> <p class="text-base">The Newberry needs your help! Please assist with making our
                     postcard collections more accessible:${escape(" ")} <a href="https://www.zooniverse.org/projects/newberry/postcard-tag" target="_blank" class="llines" data-svelte-h="svelte-115l0vl">Postcard Tag</a></p> <p class="text-sm">With gratitude to the Library of Congress for its${escape(" ")} <a href="https://www.loc.gov/free-to-use/" target="_blank" class="llines" data-svelte-h="svelte-177cdf1">Free to Use and Reuse Sets</a>
-                    , from which this site is inspired.</p></aside></header></div> <div class="right"><div class="horiz svelte-9w821o">${each(nhGalleries, (gallery) => {
-    return `<a href="${escape(base, true) + "/" + escape(gallery.slug, true)}" class="tile nhtile svelte-9w821o"><img src="${"https://collections.newberry.org/IIIF3/Image/" + escape(gallery.galRepreImageMEI, true) + "/full/,300/0/default.jpg"}" alt="${"a " + escape(gallery.title, true) + " postcard"}"> <h3 class="svelte-9w821o">${escape(gallery.title)}</h3> </a>`;
-  })} <a class="tile nhtile empty-tile svelte-9w821o" target="_blank" href="https://collections.newberry.org/CS.aspx?VP3=DamView&VBID=2KXJA4UE6RXM&PN=1" data-svelte-h="svelte-5nxuxs"><h3 class="svelte-9w821o">View even more postcards at Newberry Digital Collections</h3></a></div> <div class="horiz svelte-9w821o"><a${add_attribute("href", base, 0)} class="htile tile notile svelte-9w821o"${add_attribute("tabindex", -1, 0)} data-svelte-h="svelte-afqnxh"><img src="./madonna-holiday.gif"${add_attribute("width", getWidth(498, 373), 0)} height="300" alt="Madonna Ciccone dancing in a music video from the 1980s"></a> ${each(hGalleries, (gallery) => {
-    return `<a href="${escape(base, true) + "/" + escape(gallery.slug, true)}" class="tile htile svelte-9w821o"><img src="${"https://collections.newberry.org/IIIF3/Image/" + escape(gallery.galRepreImageMEI, true) + "/full/,300/0/default.jpg"}" alt="${"a " + escape(gallery.title, true) + " postcard"}"> <h3 class="svelte-9w821o">${escape(gallery.title)}</h3> </a>`;
+                    , from which this site is inspired.</p></aside></header></div> <div class="right"><div class="horiz svelte-1o6v2w4">${each(nhGalleries, (gallery) => {
+    return `<a href="${escape(base, true) + "/" + escape(gallery.slug, true)}" class="tile nhtile svelte-1o6v2w4"><img${add_attribute(
+      "src",
+      gallery.title === "Animated gifs" ? "https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif" : `https://collections.newberry.org/IIIF3/Image/${gallery.galRepreImageMEI}/full/,300/0/default.jpg`,
+      0
+    )} alt="${"a " + escape(gallery.title, true) + " postcard"}" class="svelte-1o6v2w4"> <h3 class="svelte-1o6v2w4">${escape(gallery.title)}</h3> </a>`;
+  })} <a class="tile nhtile empty-tile svelte-1o6v2w4" target="_blank" href="https://collections.newberry.org/CS.aspx?VP3=DamView&VBID=2KXJA4UE6RXM&PN=1" data-svelte-h="svelte-5nxuxs"><h3 class="svelte-1o6v2w4">View even more postcards at Newberry Digital Collections</h3></a></div> <div class="horiz svelte-1o6v2w4"><a${add_attribute("href", base, 0)} class="htile tile notile svelte-1o6v2w4"${add_attribute("tabindex", -1, 0)} data-svelte-h="svelte-afqnxh"><img src="./madonna-holiday.gif"${add_attribute("width", getWidth(498, 373), 0)} height="300" alt="Madonna Ciccone dancing in a music video from the 1980s" class="svelte-1o6v2w4"></a> ${each(hGalleries, (gallery) => {
+    return `<a href="${escape(base, true) + "/" + escape(gallery.slug, true)}" class="tile htile svelte-1o6v2w4"><img src="${"https://collections.newberry.org/IIIF3/Image/" + escape(gallery.galRepreImageMEI, true) + "/full/,300/0/default.jpg"}" alt="${"a " + escape(gallery.title, true) + "-themed postcard"}" class="svelte-1o6v2w4"> <h3 class="svelte-1o6v2w4">${escape(gallery.title)}</h3> </a>`;
   })}</div></div> </main>`;
 });
 export {
