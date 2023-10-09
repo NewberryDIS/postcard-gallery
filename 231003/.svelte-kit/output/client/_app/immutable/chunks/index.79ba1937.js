@@ -1,1 +1,0 @@
-function e(n){return(n==null?void 0:n.length)!==void 0?n:Array.from(n)}function g(n,s){return Math.round(n*300/s)}const h=["Valentine's Day","Easter","Halloween","Thanksgiving","Christmas"];function t(n,s){const u=s==="thumb"?",300":"max";return"https://collections.newberry.org/IIIF3/Image/"+n+"/full/"+u+"/0/default.jpg"}export{e,g,h,t as i};
