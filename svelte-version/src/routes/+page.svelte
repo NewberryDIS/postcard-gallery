@@ -6,8 +6,7 @@
     import { getHeight, holidays } from "$lib";
     export let data
     const galleries = data.galleryData
-
-    import {goto } from '$app/navigation'
+    // console.log(data)
 
     const noimg = {
         title: "View even more postcards at Newberry Digital Collections",
@@ -16,21 +15,32 @@
         galRepreImageWidth: 300, 
         galRepreImageHeight: 400
     }
-    const hGalleries = galleries.filter((f) => holidays.includes(f.title)).sort((a, b) => holidays.indexOf(a.title) - holidays.indexOf(b.title));
-    // const nhGalleries = [ ...galleries.filter((f) => !holidays.includes(f.title)).sort(() => Math.round(Math.random())), noimg]
-    const nhGalleries = [ ...galleries.filter((f) => !holidays.includes(f.title)).sort(() => Math.random() > 0.5 ? 1 : -1 ), noimg]
 
-    console.log( nhGalleries )
-    // const items = [...nhGalleries, ...hGalleries]
-    let vaporwave = false
-    function vaporclick (){
-        if (!vaporwave){
-            vaporwave = true
+    const hGalleries = galleries.filter((f) => holidays.includes(f.title)).sort((a, b) => holidays.indexOf(a.title) - holidays.indexOf(b.title));
+
+    // ### Non Holiday Gallery Sorting: 
+    // start by filtering out the holidays
+    // then a "global" sort by random
+    // then loop over the array, putting the first 4 landscape postcards into arrayA (width > height), and the rest into arrayB, 
+    // then, merge arrays
+
+    let nhGalleries = galleries.filter((f) => !holidays.includes(f.title)).sort(() => Math.random() - 0.5)
+
+    const firstFourNHGalleries = []
+    const restOfNHGalleries = []
+
+    for (let a in nhGalleries){
+        if ( firstFourNHGalleries.length < 4 && nhGalleries[a].galRepreImageWidth > nhGalleries[a].galRepreImageHeight){
+            firstFourNHGalleries.push(nhGalleries[a])
         } else {
-            vaporwave = false
-            goto("https://www.zooniverse.org/projects/newberry/postcard-tag")
+            restOfNHGalleries.push(nhGalleries[a])
         }
     }
+
+    nhGalleries = [ ...firstFourNHGalleries, ...restOfNHGalleries, noimg]
+
+    // console.log(nhGalleries.map(nhg => [ nhg.title, nhg.galRepreImageWidth > nhg.galRepreImageHeight ? 'landscape' : 'portrait' ]))
+
 </script>
 
 <main>
@@ -38,6 +48,7 @@
     <div class="left">
 
         <div class="logo">
+            <!-- <a href="https://www.newberry.org"> -->
             <a href="{ base }/">
                 <img class="biggo" src="{ base }/NewberryLogo.png" alt="Logo for the Newberry Library" height="60" width="300" />
                 <img class="smallo" src="{ base }/NLogo.png" alt="Logo for the Newberry Library" height="60" width="60" />
@@ -45,9 +56,7 @@
         </div>
         <header>
             <section class="title">
-                <h1 class="">Newberry
-                    Postcard
-                    Gallery </h1>
+                <h1 class="">Newberry Postcard Gallery </h1>
             </section>
             <aside class="text-content">
                 <p class="text-lg">
@@ -97,22 +106,20 @@
                     </a>
                     , from which this site is inspired.
                 </p>
-                <a
-                    href="https://www.zooniverse.org/projects/newberry/postcard-tag"
-                    target="_blank"
-                class="text-button">
-                The Newberry needs your help! Please assist with making our
-                postcard collections more accessible!
-                <p>Postcard Tag</p>
-                </a>
-                <!-- <button on:click={vaporclick} -->
-                <!--     class={ `text-button ${vaporwave?"vaporcolors":""}` }> -->
-                <!--     The Newberry needs your help! Please assist with making our -->
-                <!--     postcard collections more accessible! -->
-                <!--     <p>Postcard Tag</p> -->
-                <!-- </button> -->
             </aside>
-        </header>
+                <section class="tag-button">
+                <p>
+                    The Newberry needs your help! Please assist with making our
+                    postcard collections more accessible!
+                </p>
+            <a
+                href="https://www.zooniverse.org/projects/newberry/postcard-tag"
+                target="_blank"
+                class="text-button"
+            >Postcard Tag</a>
+</section>
+        </header>   
+
         <Footer />
     </div>
     <div class="right">
@@ -144,56 +151,21 @@
     flex-direction: column;
 }
 .text-button {
+    flex-basis: 55px;
     cursor: pointer;
     text-align: center;
     font-family: styrene;
-    font-size: 1.15rem;
+    font-size: 1.33rem;
     text-decoration: none;
     display: block;
-    margin: 16px auto;
-    padding: 24px;
-    width: 80%;
+    margin: 5px auto;
+    width: 100%;
+    padding: 12px;
     background: rgba(var(--fg-color-2), 0.77);
     color: rgb(var(--bg-color-1));
     transition: 300ms;
 }
 .text-button:hover {
-
     background: rgba(var(--fg-color-2), 1);
 }
-.text-button p {
-    margin: 4px;
-    font-size: 1.33rem;
-}
-/* just messing with Jen here */
-
-.vaporcolors.text-button:hover {
-    background: #150220;
-    border: 3px solid rgba(22, 182, 212, 1);
-    color:rgba(255,194,253,1); 
-    text-shadow: 0 0 10px #f205ae,
-    0 0 20px #f205ae,
-    0 0 40px #f205ae,
-    0 0 80px #f205ae,
-    0 0 160px #f205ae,
-    0 0 320px #f205ae,
-    0 0 640px #f205ae;
-    box-shadow: inset 0 0 10px rgba(113,213,255, 0.5),
-    inset 0 0 20px rgba(113,213,255, 0.5),
-    0 0 10px rgba(113,213,255, 0.3),
-    0 0 20px rgba(113,213,255, 0.3),
-    0 0 40px rgba(113,213,255, 0.3),
-    0 0 80px rgba(113,213,255, 0.3),
-    0 0 160px rgba(113,213,255, 0.3),
-    0 0 320px rgba(113,213,255, 0.3);
-
-    }
-    .vaporcolors.text-button {
-        background: #150220;
-
-        color:rgba(255,194,253,0.6); 
-        text-shadow: none;
-        box-shadow: none;
-        border: 3px solid rgba(22, 182, 212, 0.3);
-    }
 </style>

@@ -1,8 +1,8 @@
-import { c as create_ssr_component, e as escape, h as createEventDispatcher, o as onDestroy, i as spread, j as escape_object, f as add_attribute, v as validate_component } from "./ssr.js";
+import { c as create_ssr_component, e as escape, i as createEventDispatcher, o as onDestroy, j as spread, k as escape_object, f as add_attribute, v as validate_component } from "./ssr.js";
 import { b as base } from "./paths.js";
 const secretHeader_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: ".secret-header.svelte-1rjjgnz.svelte-1rjjgnz{position:fixed;top:0;left:0;right:0;height:40px;z-index:15;flex-direction:row;background-color:rgb(var(--bg-color-1));justify-content:space-between;align-items:center;padding-inline:8px}.secret-header.svelte-1rjjgnz img.svelte-1rjjgnz{height:32px}.secret-header.svelte-1rjjgnz h1.svelte-1rjjgnz{margin:0;padding:0;width:100%;white-space:nowrap;overflow:hidden}",
+  code: ".secret-header.svelte-1mfu9r6.svelte-1mfu9r6{position:fixed;margin-top:0;top:0;left:0;right:0;height:40px;z-index:15;flex-direction:row;background-color:rgb(var(--bg-color-1));justify-content:space-between;align-items:center;padding-inline:8px}.secret-header.svelte-1mfu9r6 img.svelte-1mfu9r6{height:32px}.secret-header.svelte-1mfu9r6 h1.svelte-1mfu9r6{margin:0;padding:0;width:100%;white-space:nowrap;overflow:hidden}",
   map: null
 };
 const Secret_header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -10,7 +10,7 @@ const Secret_header = create_ssr_component(($$result, $$props, $$bindings, slots
   if ($$props.title === void 0 && $$bindings.title && title !== void 0)
     $$bindings.title(title);
   $$result.css.add(css$1);
-  return `<header class="secret-header svelte-1rjjgnz"><h1 class="svelte-1rjjgnz">${escape(title)}</h1> <a href="${escape(base, true) + "/"}" data-svelte-h="svelte-1ay4mhh"><img src="${escape(base, true) + "/NLogo.png"}" alt="Logo for the Newberry Library" class="svelte-1rjjgnz"></a> </header>`;
+  return `<header class="secret-header svelte-1mfu9r6"><h1 class="svelte-1mfu9r6">${escape(title)}</h1> <a href="${escape(base, true) + "/"}" data-svelte-h="svelte-1ay4mhh"><img src="${escape(base, true) + "/NLogo.png"}" alt="Logo for the Newberry Library" class="svelte-1mfu9r6"></a> </header>`;
 });
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -2618,12 +2618,12 @@ const Masonry = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const footer_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "footer.svelte-1woxl5m{position:absolute;left:0;right:0;bottom:0;height:24px;background-color:rgba(var(--bg-color-2), 1)}ul.svelte-1woxl5m{display:flex;align-items:center;justify-content:center;padding:0}ul.svelte-1woxl5m,li.svelte-1woxl5m{list-style-type:none;margin:0}li.svelte-1woxl5m{padding:0 8px}a.svelte-1woxl5m{text-decoration:none;font-family:styrene;font-size:14px;line-height:14px}li.svelte-1woxl5m:first-of-type{border-right:2px solid rgba(var(--fg-color-1), 0.5)}",
+  code: "footer.svelte-7895xn{position:absolute;left:0;right:0;bottom:0;height:24px;background-color:rgba(var(--bg-color-2), 1);border-bottom:1px solid rgb(var(--bg-color-1))\n    }ul.svelte-7895xn{display:flex;align-items:center;justify-content:center;padding:0}ul.svelte-7895xn,li.svelte-7895xn{list-style-type:none;margin:0}li.svelte-7895xn{padding:0 8px}a.svelte-7895xn{text-decoration:none;font-family:styrene;font-size:14px;line-height:14px}li.svelte-7895xn:first-of-type{border-right:2px solid rgba(var(--fg-color-1), 0.5)}",
   map: null
 };
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<footer class="svelte-1woxl5m" data-svelte-h="svelte-1ee3a5o"><ul class="svelte-1woxl5m"><li class="svelte-1woxl5m"><a class="llines svelte-1woxl5m" target="_blank" href="https://www.newberry.org">The Newberry</a></li> <li class="svelte-1woxl5m"><a class="llines svelte-1woxl5m" target="_blank" href="https://www.newberry.org/contact-librarian">Contact Us</a></li></ul> </footer>`;
+  return `<footer class="svelte-7895xn" data-svelte-h="svelte-1ee3a5o"><ul class="svelte-7895xn"><li class="svelte-7895xn"><a class="llines svelte-7895xn" target="_blank" href="https://www.newberry.org">The Newberry</a></li> <li class="svelte-7895xn"><a class="llines svelte-7895xn" target="_blank" href="https://www.newberry.org/contact-librarian">Contact Us</a></li></ul> </footer>`;
 });
 function getHeight(w, h) {
   return Math.round(h * 300 / w);
