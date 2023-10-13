@@ -110,13 +110,13 @@
                 <section class="tag-button">
                 <p>
                     The Newberry needs your help! Please assist with making our
-                    postcard collections more accessible!
-                </p>
+                    postcard collections more accessible at 
             <a
                 href="https://www.zooniverse.org/projects/newberry/postcard-tag"
                 target="_blank"
-                class="text-button"
+                        class="llines"
             >Postcard Tag</a>
+                    </p>
 </section>
         </header>   
 
@@ -124,12 +124,10 @@
     </div>
     <div class="right">
         <Masonry defaultDirection="start">
-
-
             {#each nhGalleries as item}
-                <a href={item.link || `${base}/${item.slug}`}  target={item.pixel ? '_blank' : '_self'} >
+                <a href={item.link || `${base}/${item.slug}`} class={item.pixel ? "noimg" : ""} target={item.pixel ? '_blank' : '_self'} >
                     <img src="{ item.pixel ? item.pixel : item.title === 'Animated gifs' ? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif' : `https://collections.newberry.org/IIIF3/Image/${ item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.galRepreImageMEI}/full/300,/0/default.jpg`}" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
-                    <h3 class={item.pixel ? "noimg" : ""}>{item.title}</h3>
+                    <h3 >{item.title}</h3>
                 </a>
             {/each}
         </Masonry>
@@ -149,23 +147,5 @@
 .right {
     display: flex;
     flex-direction: column;
-}
-.text-button {
-    flex-basis: 55px;
-    cursor: pointer;
-    text-align: center;
-    font-family: styrene;
-    font-size: 1.33rem;
-    text-decoration: none;
-    display: block;
-    margin: 5px auto;
-    width: 100%;
-    padding: 12px;
-    background: rgba(var(--fg-color-2), 0.77);
-    color: rgb(var(--bg-color-1));
-    transition: 300ms;
-}
-.text-button:hover {
-    background: rgba(var(--fg-color-2), 1);
 }
 </style>

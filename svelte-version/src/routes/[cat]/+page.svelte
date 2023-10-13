@@ -62,8 +62,7 @@
                     Featured here are some staff favorites from the Newberry’s
                     collection. View more free to use and reuse images at our{" "}
                     <a
-                        href="https://collections.newberry.org/CS.aspx?VP3=DamView&VBID=2KXJA4UE6RXM&PN=1"
-                        target="_blank"
+                        href="https://digital.newberry.org/postcard-gallery"
                         class="llines"
                     >Postcard Gallery</a>.
                 </p>
@@ -86,18 +85,18 @@
         <Footer />
     </div>
     <div class="right">
-        <header>
-            <a href="https://www.newberry.org" class="llines"  target="_blank"> Newberry Library &gt;</a>
-            <a href="https://collections.newberry.org" class="llines"  target="_blank"> Digital Collections &gt;</a>
-            <a href="{base}" class="llines"  target="_blank"> Postcard Galleries &gt;</a>
-            <span class="llines" id="no-link"> {data.galleryData.context}</span>
-        </header>
+        <!-- <header> -->
+        <!--     <a href="https://www.newberry.org" class="llines"  target="_blank"> Newberry Library &gt;</a> -->
+        <!--     <a href="https://collections.newberry.org" class="llines"  target="_blank"> Digital Collections &gt;</a> -->
+        <!--     <a href="{base}" class="llines"  target="_blank"> Postcard Galleries &gt;</a> -->
+        <!--     <span class="llines" id="no-link"> {data.galleryData.context}</span> -->
+        <!-- </header> -->
         <Masonry>
             {#each postcards as postcard}
 {#if postcard.pixel}
-   <a href={postcard.link} target='_blank' >
+   <a href={postcard.link} class="noimg" target='_blank' >
                     <img src={postcard.pixel} alt="a transparent pixel used to constrain the tile shape" height="400" width="300" >
-                    <h3 class="noimg">{postcard.title}</h3>
+                    <h3>{postcard.title}</h3>
                 </a>
 {:else}
                 <a class={`tile ${postcard.pixel ? '' : ' image-tile'}`} 
@@ -108,7 +107,7 @@
                     data-height={postcard.repImageHeight}
                     data-width={postcard.repImageWidth}
                     data-alt={postcard.title}
-                    data-caption="{postcard.title}.  View at <a href='https://collections.newberry.org/asset-management/{postcard.mei}' target='_blank' class='llines'>Newberry Digital Collections</a>"
+                    data-caption="<a href='https://collections.newberry.org/asset-management/{postcard.mei}' target='_blank' class='sansie'>{postcard.title}.</a>"
                 >
                     <img src={imgUrl(postcard.repImage, 'thumb')} 
                         width="300"
@@ -124,33 +123,33 @@
     .right {
         position: relative;
     }
-    .right header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 25px;
-        padding: 0;
-        background-color: rgba(var(--bg-color-1), 1);
-        border-bottom: 1px solid rgb(var(--bg-color-1)); 
-        margin: 0;
-    }
-    .right header a, .right header span  {
-        height: 77%;
-        font-family: 'styrene';
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
-    }
-    #no-link {
-        background: rgba(0,0,0,0);
-    }
+    /* .right header { */
+    /*     display: flex; */
+    /*     flex-direction: row; */
+    /*     align-items: center; */
+    /*     justify-content: center; */
+    /*     position: absolute; */
+    /*     top: 0; */
+    /*     left: 0; */
+    /*     right: 0; */
+    /*     height: 25px; */
+    /*     padding: 0; */
+    /*     background-color: rgba(var(--bg-color-1), 1); */
+    /*     border-bottom: 1px solid rgb(var(--bg-color-1));  */
+    /*     margin: 0; */
+    /* } */
+    /* .right header a, .right header span  { */
+    /*     height: 77%; */
+    /*     font-family: 'styrene'; */
+    /*     text-align: center; */
+    /*     white-space: nowrap; */
+    /*     overflow: hidden; */
+    /*     text-overflow: ellipsis; */
+    /**/
+    /* } */
+    /* #no-link { */
+    /*     background: rgba(0,0,0,0); */
+    /* } */
     .tile {
         bordeR: 0;
         margin: 0;
@@ -163,5 +162,9 @@
         background-position: center;
         background-repeat: no-repeat;
 
+    }
+ :global(.sansie) {
+font-family: "styrene";
+        text-decoration: underline;
     }
 </style>

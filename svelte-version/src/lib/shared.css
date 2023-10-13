@@ -129,7 +129,9 @@ aside {
 	max-height: 50vh;
 	overflow: auto;
 }
-.tag-button a,
+.tag-button {
+	padding-block: 0 16px;
+}
 .tag-button p {
 	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 	/* clip-path: inset(-20% 0 0 0); */
@@ -139,6 +141,7 @@ aside {
 	padding: 3px;
 	margin: 0;
 }
+
 .right {
 	padding: 32px;
 	flex: 1;
@@ -146,8 +149,8 @@ aside {
 	background: rgb(var(--bg-color-2));
 	box-shadow: -10px 0 16px rgba(0, 0, 0, 0.1);
 }
-.images {
-	padding-block: 32px;
+.images:first-of-type {
+	margin-block: 5px;
 }
 .images img {
 	/* object-fit: cover; */
@@ -163,20 +166,22 @@ aside {
 	justify-content: flex-end;
 	color: rgb(var(--bg-color-1));
 }
-.images a h3:not(.noimg) {
+.images a:not(.noimg) h3 {
 	padding: 8px;
 }
-.images a:not(.holiday) h3:not(.noimg) {
+.images a:not(.holiday, .noimg) h3 {
 	background: rgba(var(--fg-color-1));
 }
 .holiday h3 {
 	background: rgba(var(--splash-color));
 }
 .noimg {
+}
+.noimg h3 {
 	padding: 32px;
 	font-size: 28px;
 	line-height: 42px;
-	height: 400px;
+	height: 100%;
 	width: 300px;
 	background: rgba(var(--fg-color-2));
 	top: 0;
