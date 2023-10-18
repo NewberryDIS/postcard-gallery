@@ -80,7 +80,6 @@ declare module '$env/static/private' {
 	export const ir2: string;
 	export const PNPM_HOME: string;
 	export const npm_package_scripts_build: string;
-	export const RANGER_LEVEL: string;
 	export const DESKTOP_STARTUP_ID: string;
 	export const npm_package_devDependencies_prettier: string;
 	export const KITTY_PUBLIC_KEY: string;
@@ -101,7 +100,6 @@ declare module '$env/static/private' {
 	export const KITTY_WINDOW_ID: string;
 	export const XDG_SEAT_PATH: string;
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
-	export const ESCDELAY: string;
 	export const INIT_CWD: string;
 	export const DOTNET_BUNDLE_EXTRACT_BASE_DIR: string;
 	export const npm_package_scripts_format: string;
@@ -117,6 +115,7 @@ declare module '$env/static/private' {
 	export const npm_config_prefix: string;
 	export const npm_package_type: string;
 	export const USER: string;
+	export const npm_config_frozen_lockfile: string;
 	export const DISPLAY: string;
 	export const npm_lifecycle_event: string;
 	export const SHLVL: string;
@@ -144,7 +143,6 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_check: string;
 	export const BROWSER: string;
 	export const PATH: string;
-	export const npm_config_node_gyp: string;
 	export const npm_package_devDependencies__sveltejs_kit: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const MAIL: string;
@@ -237,7 +235,6 @@ declare module '$env/dynamic/private' {
 		ir2: string;
 		PNPM_HOME: string;
 		npm_package_scripts_build: string;
-		RANGER_LEVEL: string;
 		DESKTOP_STARTUP_ID: string;
 		npm_package_devDependencies_prettier: string;
 		KITTY_PUBLIC_KEY: string;
@@ -258,7 +255,6 @@ declare module '$env/dynamic/private' {
 		KITTY_WINDOW_ID: string;
 		XDG_SEAT_PATH: string;
 		npm_package_devDependencies_prettier_plugin_svelte: string;
-		ESCDELAY: string;
 		INIT_CWD: string;
 		DOTNET_BUNDLE_EXTRACT_BASE_DIR: string;
 		npm_package_scripts_format: string;
@@ -274,6 +270,7 @@ declare module '$env/dynamic/private' {
 		npm_config_prefix: string;
 		npm_package_type: string;
 		USER: string;
+		npm_config_frozen_lockfile: string;
 		DISPLAY: string;
 		npm_lifecycle_event: string;
 		SHLVL: string;
@@ -301,7 +298,6 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_check: string;
 		BROWSER: string;
 		PATH: string;
-		npm_config_node_gyp: string;
 		npm_package_devDependencies__sveltejs_kit: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		MAIL: string;

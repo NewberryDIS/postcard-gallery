@@ -40,7 +40,10 @@
         }
     }
 </script>
-
+<svelte:head>
+    <!-- head content -->
+    <title>Newberry Library - {data.galleryData.context}</title>
+</svelte:head>
 <main>
     <SecretHeader title={data.galleryData.context} />
     <div class="left">

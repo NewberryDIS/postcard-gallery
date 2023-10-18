@@ -2628,7 +2628,16 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 function getHeight(w, h) {
   return Math.round(h * 300 / w);
 }
-const holidays = ["Valentine's Day", "Easter", "Halloween", "Thanksgiving", "Christmas"];
+const holidays = [
+  "Valentine's Day",
+  "Saint Patrick's Day",
+  "Easter",
+  "Fourth of July",
+  "Halloween",
+  "Thanksgiving",
+  "Christmas",
+  "New Year"
+];
 function imgUrl(ctxMEI, size) {
   const iiifSize = size === "thumb" ? ",300" : "max";
   return "https://collections.newberry.org/IIIF3/Image/" + ctxMEI + "/full/" + iiifSize + "/0/default.jpg";

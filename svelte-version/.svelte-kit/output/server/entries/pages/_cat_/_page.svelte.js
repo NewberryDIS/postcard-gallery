@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute, h as null_to_empty } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, e as escape, v as validate_component, d as each, f as add_attribute, h as null_to_empty } from "../../../chunks/ssr.js";
 import { b as base } from "../../../chunks/paths.js";
 import { S as Secret_header, F as Footer, M as Masonry, i as imgUrl } from "../../../chunks/index.js";
 globalThis.matchMedia?.(
@@ -23,7 +23,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
   $$result.css.add(css);
-  return `<main>${validate_component(Secret_header, "SecretHeader").$$render($$result, { title: data.galleryData.context }, {}, {})} <div class="left"><div class="logo" data-svelte-h="svelte-1ckqrq8"><a href="${escape(base, true) + "/"}"><img class="biggo" src="${escape(base, true) + "/NewberryLogo.png"}" alt="Logo for the Newberry Library" height="60" width="300"> <img class="smallo" src="${escape(base, true) + "/NLogo.png"}" alt="Logo for the Newberry Library" height="60" width="60"></a></div> <header class="title"><section><h3 data-svelte-h="svelte-i0mqc1">Free to Use and Reuse:</h3> <h1>${escape(data.galleryData.context)}</h1></section> <aside class="text-content"><p class="text-lg">Featured here are some staff favorites from the Newberry’s
+  return `${$$result.head += `<!-- HEAD_svelte-bnbe6i_START -->${$$result.title = `<title>Newberry Library - ${escape(data.galleryData.context)}</title>`, ""}<!-- HEAD_svelte-bnbe6i_END -->`, ""} <main>${validate_component(Secret_header, "SecretHeader").$$render($$result, { title: data.galleryData.context }, {}, {})} <div class="left"><div class="logo" data-svelte-h="svelte-1ckqrq8"><a href="${escape(base, true) + "/"}"><img class="biggo" src="${escape(base, true) + "/NewberryLogo.png"}" alt="Logo for the Newberry Library" height="60" width="300"> <img class="smallo" src="${escape(base, true) + "/NLogo.png"}" alt="Logo for the Newberry Library" height="60" width="60"></a></div> <header class="title"><section><h3 data-svelte-h="svelte-i0mqc1">Free to Use and Reuse:</h3> <h1>${escape(data.galleryData.context)}</h1></section> <aside class="text-content"><p class="text-lg">Featured here are some staff favorites from the Newberry’s
                     collection. View more free to use and reuse images at our${escape(" ")} <a href="https://digital.newberry.org/postcard-gallery" class="llines" data-svelte-h="svelte-99fxz7">Postcard Gallery</a>.</p> <p class="text-base">The vintage postcard images featured here are free to use and
                     reuse. The Newberry believes that this content is in the public
                     domain, and makes these digitized copies available without

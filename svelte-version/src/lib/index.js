@@ -57,7 +57,16 @@ export function getHeight(w, h) {
 /**
  * @type {stringArray}
  */
-export const holidays = ["Valentine's Day", 'Easter', 'Halloween', 'Thanksgiving', 'Christmas'];
+export const holidays = [
+	"Valentine's Day",
+	"Saint Patrick's Day",
+	'Easter',
+	'Fourth of July',
+	'Halloween',
+	'Thanksgiving',
+	'Christmas',
+	'New Year'
+];
 /**
  * @function
  * @param { string } ctxMEI

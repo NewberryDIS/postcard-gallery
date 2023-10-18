@@ -42,7 +42,9 @@
     // console.log(nhGalleries.map(nhg => [ nhg.title, nhg.galRepreImageWidth > nhg.galRepreImageHeight ? 'landscape' : 'portrait' ]))
 
 </script>
-
+<svelte:head>
+    <title>Newberry Postcard Galleries</title>
+</svelte:head>
 <main>
     <SecretHeader title="Newberry Postcard Gallery" />
     <div class="left">

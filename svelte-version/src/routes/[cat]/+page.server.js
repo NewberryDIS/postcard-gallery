@@ -8,6 +8,6 @@ export async function load({ params }) {
 		token: KV_REST_API_TOKEN
 	});
 	let galleryData = await galleryDataClient.get(params.cat);
-	// console.log(galleryData);
+	console.log(galleryData);
 	return { galleryData };
 }
