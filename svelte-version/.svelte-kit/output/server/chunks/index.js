@@ -2629,6 +2629,7 @@ function getHeight(w, h) {
   return Math.round(h * 300 / w);
 }
 const holidays = [
+  "New Year",
   "Valentine's Day",
   "Saint Patrick's Day",
   "Easter",
@@ -2636,7 +2637,11 @@ const holidays = [
   "Halloween",
   "Thanksgiving",
   "Christmas",
-  "New Year"
+  "Birthdays",
+  "Winter",
+  "Spring",
+  "Summer",
+  "Autumn"
 ];
 function imgUrl(ctxMEI, size) {
   const iiifSize = size === "thumb" ? ",300" : "max";
