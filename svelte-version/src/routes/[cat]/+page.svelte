@@ -15,7 +15,7 @@
 
     const noimg = {
         title: `View even more ${data.galleryData.context} at Newberry Digital Collections`,
-        link: "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA46IUGL5&PN=1&WS=SearchResults",
+        link: "https://collections.newberry.org/" + data.galleryData.link,
         pixel: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
         galRepreImageWidth: 300, 
         galRepreImageHeight: 400
@@ -110,7 +110,7 @@
                     data-height={postcard.repImageHeight}
                     data-width={postcard.repImageWidth}
                     data-alt={postcard.title}
-                    data-caption="<a href='https://collections.newberry.org/asset-management/{postcard.mei}' target='_blank' class='sansie'>{postcard.title}.</a>"
+                    data-caption="<a href='https://collections.newberry.org/asset-management/{postcard.mei}' target='_blank' class='sansie'>{postcard.title}</a>"
                 >
                     <img src={imgUrl(postcard.repImage, 'thumb')} 
                         width="300"
