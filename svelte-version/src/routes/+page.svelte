@@ -109,6 +109,10 @@
                     , from which this site is inspired.
                 </p>
             </aside>
+        </header>   
+
+        <Footer >
+
                 <section class="tag-button">
                 <p>
                     The Newberry needs your help! Please assist with making our
@@ -120,9 +124,7 @@
             >Postcard Tag</a>
                     </p>
 </section>
-        </header>   
-
-        <Footer />
+        </Footer>
     </div>
     <div class="right">
         <Masonry defaultDirection="start">
@@ -146,6 +148,10 @@
 
 
 <style>
+    .tag-button {
+        margin-inline: 16px;
+        background: rgb(var(--bg-color-1));
+    } 
 .right {
     display: flex;
     flex-direction: column;

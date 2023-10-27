@@ -3,7 +3,7 @@ import { b as base } from "../../chunks/paths.js";
 import { h as holidays, S as Secret_header, F as Footer, M as Masonry, g as getHeight } from "../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".right.svelte-17e8yxd{display:flex;flex-direction:column}",
+  code: ".tag-button.svelte-1u9n2mi{margin-inline:16px;background:rgb(var(--bg-color-1))}.right.svelte-1u9n2mi{display:flex;flex-direction:column}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -42,9 +42,13 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                     </a>${escape(" ")}
                     at Newberry Digital Collections, or explore the themed sets
                     featured here.</p> <p class="text-sm">With gratitude to the Library of Congress for its${escape(" ")} <a href="https://www.loc.gov/free-to-use/" target="_blank" class="llines" data-svelte-h="svelte-177cdf1">Free to Use and Reuse Sets</a>
-                    , from which this site is inspired.</p></aside> <section class="tag-button" data-svelte-h="svelte-1lwzu2r"><p>The Newberry needs your help! Please assist with making our
+                    , from which this site is inspired.</p></aside></header> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {
+    default: () => {
+      return `<section class="tag-button svelte-1u9n2mi" data-svelte-h="svelte-1lwzu2r"><p>The Newberry needs your help! Please assist with making our
                     postcard collections more accessible at 
-            <a href="https://www.zooniverse.org/projects/newberry/postcard-tag" target="_blank" class="llines">Postcard Tag</a></p></section></header> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div> <div class="right svelte-17e8yxd">${validate_component(Masonry, "Masonry").$$render($$result, { defaultDirection: "start" }, {}, {
+            <a href="https://www.zooniverse.org/projects/newberry/postcard-tag" target="_blank" class="llines">Postcard Tag</a></p></section>`;
+    }
+  })}</div> <div class="right svelte-1u9n2mi">${validate_component(Masonry, "Masonry").$$render($$result, { defaultDirection: "start" }, {}, {
     default: () => {
       return `${each(nhGalleries, (item) => {
         return `<a${add_attribute("href", item.link || `${base}/${item.slug}`, 0)}${add_attribute("class", item.pixel ? "noimg" : "", 0)}${add_attribute("target", item.pixel ? "_blank" : "_self", 0)}><img${add_attribute(

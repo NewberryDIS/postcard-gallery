@@ -1,5 +1,6 @@
 
 <footer>
+    <slot />
     <ul>
         <li>
 
@@ -22,15 +23,16 @@
 </footer>
 <style>
     footer {
+        /* z-index: 999; */
         position: absolute;
         left: 0;
             right: 0;
             bottom: 0;
-            height: 24px;
-        background-color: rgba(var(--bg-color-2), 1);
-        border-bottom: 1px solid rgb(var(--bg-color-1))
     }
     ul {
+            height: 24px;
+        background-color: rgba(var(--bg-color-2), 1);
+        border-bottom: 1px solid rgb(var(--bg-color-1));
         display: flex;
         align-items: center;
         justify-content: center;

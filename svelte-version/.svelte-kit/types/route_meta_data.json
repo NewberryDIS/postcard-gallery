@@ -4,6 +4,12 @@
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
 	],
+	"/pcard-titles": [
+		"src/routes/+layout.js"
+	],
+	"/test": [
+		"src/routes/+layout.js"
+	],
 	"/[cat]": [
 		"src/routes/[cat]/+page.server.js",
 		"src/routes/+layout.js"
