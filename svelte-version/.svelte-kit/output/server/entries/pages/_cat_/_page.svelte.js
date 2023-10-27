@@ -14,7 +14,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { data } = $$props;
   const noimg = {
     title: `View even more ${data.galleryData.context} at Newberry Digital Collections`,
-    link: "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA46IUGL5&PN=1&WS=SearchResults",
+    link: "https://collections.newberry.org/" + data.galleryData.link,
     pixel: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
     galRepreImageWidth: 300,
     galRepreImageHeight: 400
@@ -31,7 +31,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                     .</p></aside></header> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div> <div class="right svelte-1ktfhpd">      ${validate_component(Masonry, "Masonry").$$render($$result, {}, {}, {
     default: () => {
       return `${each(postcards, (postcard) => {
-        return `${postcard.pixel ? `<a${add_attribute("href", postcard.link, 0)} class="noimg" target="_blank"><img${add_attribute("src", postcard.pixel, 0)} alt="a transparent pixel used to constrain the tile shape" height="400" width="300"> <h3>${escape(postcard.title)}</h3> </a>` : `<a class="${escape(null_to_empty(`tile ${postcard.pixel ? "" : " image-tile"}`), true) + " svelte-1ktfhpd"}"${add_attribute("href", imgUrl(postcard.repImage), 0)}${add_attribute("data-img", imgUrl(postcard.repImage), 0)}${add_attribute("data-thumb", imgUrl(postcard.repImage, "thumb"), 0)}${add_attribute("data-height", postcard.repImageHeight, 0)}${add_attribute("data-width", postcard.repImageWidth, 0)}${add_attribute("data-alt", postcard.title, 0)} data-caption="${"<a href='https://collections.newberry.org/asset-management/" + escape(postcard.mei, true) + "' target='_blank' class='sansie'>" + escape(postcard.title, true) + ".</a>"}"><img${add_attribute("src", imgUrl(postcard.repImage, "thumb"), 0)} width="300"${add_attribute("alt", postcard.title, 0)}> </a>`}`;
+        return `${postcard.pixel ? `<a${add_attribute("href", postcard.link, 0)} class="noimg" target="_blank"><img${add_attribute("src", postcard.pixel, 0)} alt="a transparent pixel used to constrain the tile shape" height="400" width="300"> <h3>${escape(postcard.title)}</h3> </a>` : `<a class="${escape(null_to_empty(`tile ${postcard.pixel ? "" : " image-tile"}`), true) + " svelte-1ktfhpd"}"${add_attribute("href", imgUrl(postcard.repImage), 0)}${add_attribute("data-img", imgUrl(postcard.repImage), 0)}${add_attribute("data-thumb", imgUrl(postcard.repImage, "thumb"), 0)}${add_attribute("data-height", postcard.repImageHeight, 0)}${add_attribute("data-width", postcard.repImageWidth, 0)}${add_attribute("data-alt", postcard.title, 0)} data-caption="${"<a href='https://collections.newberry.org/asset-management/" + escape(postcard.mei, true) + "' target='_blank' class='sansie'>" + escape(postcard.title, true) + "</a>"}"><img${add_attribute("src", imgUrl(postcard.repImage, "thumb"), 0)} width="300"${add_attribute("alt", postcard.title, 0)}> </a>`}`;
       })}`;
     }
   })}</div> </main>`;

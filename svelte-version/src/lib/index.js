@@ -1,3 +1,4 @@
+export const mei = '2KXJ8ZSA9MFDO';
 /**
  * @typedef {string[]} stringArray
  */
