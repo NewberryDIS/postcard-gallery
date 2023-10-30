@@ -79,14 +79,11 @@ export const holidays = [
  * @param { string } [ size ]
  */
 export function imgUrl(ctxMEI, size) {
+	if (ctxMEI === '2KXJ8ZSAEHYME' && size === 'thumb') {
+		return `https://collections.newberry.org/IIIF3/Image/2KXJ8ZSAEHYME/1277,650,450,450/max/0/default.jpg`;
+	}
 	const iiifSize = size === 'thumb' ? ',300' : 'max';
-	return (
-		'https://collections.newberry.org/IIIF3/Image/' +
-		ctxMEI +
-		'/full/' +
-		iiifSize +
-		'/0/default.jpg'
-	);
+	return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/full/${iiifSize}/0/default.jpg`;
 }
 
 /**
@@ -94,7 +91,7 @@ export function imgUrl(ctxMEI, size) {
  */
 export const packageExtractor = [
 	'https://collections.newberry.org/API/PackageExtractor/v1.0/Extract?Package=',
-	'&PackageFields=SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier,MaxHeight,MaxWidth&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title,CoreField.IIIFResourceType,MaxWidth,MaxHeight,MediaType,CoreField.Representative_Image_RecordID&format=json&token='
+	'&PackageFields=SystemIdentifier,Title,new.Context,CoreField.IIIFResourceType,MediaEncryptedIdentifier,MaxHeight,MaxWidthi,Link&RepresentativeFields=SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType&ContentFields=SystemIdentifier,MediaEncryptedIdentifier,Title,Link,CoreField.IIIFResourceType,MaxWidth,MaxHeight,MediaType,CoreField.Representative_Image_RecordID&format=json&token='
 ];
 export const imageAPIUrl = [
 	'https://collections.newberry.org/API/search/v3.0/search?query=Text:',

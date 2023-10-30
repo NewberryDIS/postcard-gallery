@@ -1,6 +1,6 @@
 import { createClient } from '@vercel/kv';
 import { KV_REST_API_URL, KV_REST_API_TOKEN, CTX_API_TOKEN } from '$env/static/private';
-import { searchAPIurl, slugify } from '$lib';
+import { searchAPIurl, slugify, mei } from '$lib';
 
 const galleryDataClient = createClient({
 	url: KV_REST_API_URL,
@@ -8,8 +8,6 @@ const galleryDataClient = createClient({
 });
 
 export async function load() {
-	const allGalleriesMEI = '2KXJ8ZSA9MFDO';
-
 	const homeDataAPIUrl =
 		searchAPIurl[0] + searchAPIurl[2] + searchAPIurl[1] + '&token=' + CTX_API_TOKEN;
 	// console.log(homeDataAPIUrl);

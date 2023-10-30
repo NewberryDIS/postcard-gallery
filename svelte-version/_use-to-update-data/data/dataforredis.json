@@ -3,6 +3,7 @@
 		"context": "Vintage bicycle postcards",
 		"title": "Bicycling",
 		"slug": "bicycling",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4PL1YKG&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKD58D",
 		"galRepreImageMEI": "2KXJ8ZS66W7YG",
 		"galRepreImageTitle": "Tous les as sur Bicyclette Gurtner",
@@ -23,7 +24,7 @@
 				"repImageHeight": "4048",
 				"repImageTitle": "Campionnats du mone",
 				"repImageWidth": "2922",
-				"title": "Campionnats du mone"
+				"title": "Championnats du monde"
 			},
 			{
 				"mei": "2KXJ8ZPWMRYB",
@@ -39,7 +40,7 @@
 				"repImageHeight": "4099",
 				"repImageTitle": "La francaise diamant",
 				"repImageWidth": "2856",
-				"title": "La francaise diamant"
+				"title": "La francaise-diamant"
 			},
 			{
 				"mei": "2KXJ8ZPWU4X9",
@@ -55,7 +56,7 @@
 				"repImageHeight": "2820",
 				"repImageTitle": "I'll be in to see you on the",
 				"repImageWidth": "4095",
-				"title": "I'll be in to see you on the"
+				"title": "I'll be in to see you on the..."
 			},
 			{
 				"mei": "2KXJ8ZPW73H8",
@@ -119,7 +120,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman riding bicycle",
 				"repImageWidth": "9504",
-				"title": "Woman riding bicycle"
+				"title": "Women riding bicycles, man walking"
 			},
 			{
 				"mei": "2KXJ8ZSUKB92P",
@@ -135,7 +136,7 @@
 				"repImageHeight": "3705",
 				"repImageTitle": "Bryan L. Bossier postcard collection, 1880s-1920s [000510_01]",
 				"repImageWidth": "2515",
-				"title": "Bryan L. Bossier postcard collection, 1880s-1920s [000510_01]"
+				"title": "J.M. Stout, champion fancy star bicycle rider of the world"
 			},
 			{
 				"mei": "2KXJ8ZPWVN82",
@@ -183,7 +184,7 @@
 				"repImageHeight": "2836",
 				"repImageTitle": "Nous acconrous troupe joyeuse vous apportant l'annee henieuse",
 				"repImageWidth": "4179",
-				"title": "Nous acconrous troupe joyeuse vous apportant l'annee henieuse"
+				"title": "Nous recourons troupe joyeuse..."
 			},
 			{
 				"mei": "2KXJ8ZPW8CEO",
@@ -191,7 +192,7 @@
 				"repImageHeight": "2793",
 				"repImageTitle": "Ateliers joe bridge",
 				"repImageWidth": "4150",
-				"title": "Ateliers joe bridge"
+				"title": "Grand Concours Graf du Tour de France"
 			},
 			{
 				"mei": "2KXJ8ZPW8KI7",
@@ -231,7 +232,7 @@
 				"repImageHeight": "2856",
 				"repImageTitle": "Man and woman riding bikes",
 				"repImageWidth": "4223",
-				"title": "Man and woman riding bikes"
+				"title": "Couple kissing on bikes, trailed by stork on bike"
 			},
 			{
 				"mei": "2KXJ8ZPWFY5Q",
@@ -255,7 +256,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Man on bicycle and woman on horse",
 				"repImageWidth": "9504",
-				"title": "Man on bicycle and woman on horse"
+				"title": "Man on bicycle chasing woman on horse"
 			}
 		]
 	},
@@ -263,6 +264,7 @@
 		"context": "Vintage Chicago postcards",
 		"title": "Chicago",
 		"slug": "chicago",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9UM_O&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKD6V9",
 		"galRepreImageMEI": "2KXJ8ZFA30EC",
 		"galRepreImageTitle": "Most beautiful diner in Chicago",
@@ -279,50 +281,86 @@
 			},
 			{
 				"mei": "2KXJ8ZFA3O46",
+				"repImage": "2KXJ8ZFA3O46",
+				"repImageHeight": "3600",
+				"repImageTitle": "The Allerton Hotel, Chicago, Illinois",
 				"title": "The Allerton Hotel, Chicago, Illinois"
 			},
 			{
 				"mei": "2KXJ8ZFA3MSF",
+				"repImage": "2KXJ8ZFA3MSF",
+				"repImageHeight": "2286",
+				"repImageTitle": "Charlie Glenn's Rhumboogie Cafe",
 				"title": "Charlie Glenn's Rhumboogie Cafe"
 			},
 			{
 				"mei": "2KXJ8ZFAOUFT",
+				"repImage": "2KXJ8ZFAOUFT",
+				"repImageHeight": "2286",
+				"repImageTitle": "Lincoln Park Lagoon and Refectory, Chicago",
 				"title": "Lincoln Park Lagoon and Refectory, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFA3LNG",
+				"repImage": "2KXJ8ZFA3LNG",
+				"repImageHeight": "2280",
+				"repImageTitle": "The Marshall Field & Co., retail stores, State, Washington, Randolph and Wabash, Chicago",
 				"title": "The Marshall Field & Co., retail stores, State, Washington, Randolph and Wabash, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFAOHIF",
+				"repImage": "2KXJ8ZFAOHIF",
+				"repImageHeight": "2260",
+				"repImageTitle": "Maxwell Street, Chicago",
 				"title": "Maxwell Street, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFA3NFA",
+				"repImage": "2KXJ8ZFA3NFA",
+				"repImageHeight": "2280",
+				"repImageTitle": "The Merchandise Mart by night, Chicago",
 				"title": "The Merchandise Mart by night, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFA30EC",
+				"repImage": "2KXJ8ZFA30EC",
+				"repImageHeight": "2290",
+				"repImageTitle": "Most beautiful diner in Chicago",
 				"title": "Most beautiful diner in Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFAOT9M",
+				"repImage": "2KXJ8ZFAOT9M",
+				"repImageHeight": "2271",
+				"repImageTitle": "Navy Pier, Chicago",
 				"title": "Navy Pier, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFAOSUY",
+				"repImage": "2KXJ8ZFAOSUY",
+				"repImageHeight": "2266",
+				"repImageTitle": "North Avenue Beach, Chicago",
 				"title": "North Avenue Beach, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFA3PBV",
+				"repImage": "2KXJ8ZFA3PBV",
+				"repImageHeight": "3600",
+				"repImageTitle": "Sub-structure of Marshall Field & Co.'s retail store, Chicago",
 				"title": "Sub-structure of Marshall Field & Co.'s retail store, Chicago"
 			},
 			{
 				"mei": "2KXJ8ZFA39PN",
+				"repImage": "2KXJ8ZFA39PN",
+				"repImageHeight": "2300",
+				"repImageTitle": "Chicago, Ill., Chicago Club, Van Buren Str and Michigan Ave.",
 				"title": "Chicago, Ill., Chicago Club, Van Buren Str and Michigan Ave."
 			},
 			{
 				"mei": "2KXJ8ZFA3Q7N",
+				"repImage": "2KXJ8ZFA3Q7N",
+				"repImageHeight": "3600",
+				"repImageTitle": "The Fisher Building, Chicago, Ill.",
 				"title": "The Fisher Building, Chicago, Ill."
 			},
 			{
@@ -339,7 +377,7 @@
 				"repImageHeight": "3282",
 				"repImageTitle": "downtown Chicago",
 				"repImageWidth": "2089",
-				"title": "downtown Chicago"
+				"title": "YMCA Hotel"
 			},
 			{
 				"mei": "2KXJ8ZSATQ1JF",
@@ -347,7 +385,7 @@
 				"repImageHeight": "3268",
 				"repImageTitle": "The Chicago Temple Clark at Washington Chicago, Ill.",
 				"repImageWidth": "2079",
-				"title": "The Chicago Temple Clark at Washington Chicago, Ill."
+				"title": "The Chicago Temple, Clark at Washington, Chicago, Ill."
 			},
 			{
 				"mei": "2KXJ8ZSATUC83",
@@ -467,6 +505,7 @@
 		"context": "Vintage dog postcards",
 		"title": "Dogs",
 		"slug": "dogs",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9IX47&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDC09",
 		"galRepreImageMEI": "2KXJ8Z7PFKLD",
 		"galRepreImageTitle": "Collection of Japanese art postcards published by Kokkei shinbun sha",
@@ -527,7 +566,7 @@
 				"repImageHeight": "2561",
 				"repImageTitle": "Two Dobermans",
 				"repImageWidth": "3893",
-				"title": "Two Dobermans"
+				"title": "Dobermans in profile"
 			},
 			{
 				"mei": "2KXJ8ZBB99II",
@@ -535,7 +574,7 @@
 				"repImageHeight": "2564",
 				"repImageTitle": "Family inside a home",
 				"repImageWidth": "3891",
-				"title": "Family inside a home"
+				"title": "Scottish life and character: Dinner time"
 			},
 			{
 				"mei": "2KXJ8ZBQC96Q",
@@ -551,7 +590,7 @@
 				"repImageHeight": "3888",
 				"repImageTitle": "Dog sharing with bunnies",
 				"repImageWidth": "2485",
-				"title": "Dog sharing with bunnies"
+				"title": "Among the bunnies"
 			},
 			{
 				"mei": "2KXJ8ZBQTCOU",
@@ -559,7 +598,7 @@
 				"repImageHeight": "2499",
 				"repImageTitle": "Two dogs, one black, one white",
 				"repImageWidth": "3913",
-				"title": "Two dogs, one black, one white"
+				"title": "Susan and Sambo"
 			},
 			{
 				"mei": "2KXJ8ZBEXF2Z",
@@ -575,7 +614,7 @@
 				"repImageHeight": "2539",
 				"repImageTitle": "Child and dog",
 				"repImageWidth": "3882",
-				"title": "Child and dog"
+				"title": "We two"
 			},
 			{
 				"mei": "2KXJ8ZBI8VAD",
@@ -615,7 +654,7 @@
 				"repImageHeight": "2508",
 				"repImageTitle": "Kitten, puppy and duckling",
 				"repImageWidth": "3842",
-				"title": "Kitten, puppy and duckling"
+				"title": "The bold duckling"
 			},
 			{
 				"mei": "2KXJ8ZBOWHAU",
@@ -719,6 +758,7 @@
 		"context": "Vintage drinking postcards",
 		"title": "Alcohol",
 		"slug": "alcohol",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9IQ59&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDB98",
 		"galRepreImageMEI": "2KXJ8ZS6N3HS3",
 		"galRepreImageTitle": "Woman with a bird",
@@ -731,7 +771,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Men drinking",
 				"repImageWidth": "6336",
-				"title": "Men drinking"
+				"title": "Waitress serving men at a table"
 			},
 			{
 				"mei": "2KXJ8ZSUR27QI",
@@ -795,7 +835,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman drinking",
 				"repImageWidth": "9504",
-				"title": "Woman drinking"
+				"title": "Waiter serving woman in bicycling outfit"
 			},
 			{
 				"mei": "2KXJ8ZSUK2OD8",
@@ -803,7 +843,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman and man drinking",
 				"repImageWidth": "9504",
-				"title": "Woman and man drinking"
+				"title": "Can-can dancer toasting man in tuxedo"
 			},
 			{
 				"mei": "2KXJ8ZSUKTPN2",
@@ -811,7 +851,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "La Renaissance",
 				"repImageWidth": "9504",
-				"title": "La Renaissance"
+				"title": "La Renaissance: Francois 1er pres d'une dame..."
 			},
 			{
 				"mei": "2KXJ8ZSUQDSE4",
@@ -819,7 +859,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Grape Shot",
 				"repImageWidth": "6336",
-				"title": "Grape Shot"
+				"title": "Grape shot"
 			},
 			{
 				"mei": "2KXJ8ZSUQDIR8",
@@ -827,7 +867,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Woman with drink",
 				"repImageWidth": "6336",
-				"title": "Woman with drink"
+				"title": "Woman in pearls and feathered hat, holding a glass of champagne"
 			},
 			{
 				"mei": "2KXJ8ZSUQEKV5",
@@ -859,7 +899,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman kicking tray",
 				"repImageWidth": "9504",
-				"title": "Woman kicking tray"
+				"title": "Woman upsetting a waiter's tray with a kick"
 			},
 			{
 				"mei": "2KXJ8ZSUF0GLC",
@@ -875,7 +915,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Woman with a bird",
 				"repImageWidth": "6336",
-				"title": "Woman with a bird"
+				"title": "Woman sharing drink with a peacock"
 			},
 			{
 				"mei": "2KXJ8ZSUF3HMA",
@@ -883,7 +923,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Woman drinking",
 				"repImageWidth": "6336",
-				"title": "Woman drinking"
+				"title": "Woman having a drink while standing in an oversize champagne bucket"
 			},
 			{
 				"mei": "2KXJ8ZSUFIJ40",
@@ -891,7 +931,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman riding a bottle",
 				"repImageWidth": "9504",
-				"title": "Woman riding a bottle"
+				"title": "Woman riding an oversized champagne bottle"
 			},
 			{
 				"mei": "2KXJ8ZSUQD2QD",
@@ -915,7 +955,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "La Gourmandise",
 				"repImageWidth": "6336",
-				"title": "La Gourmandise"
+				"title": "La gourmandise"
 			},
 			{
 				"mei": "2KXJ8ZSURBKD4",
@@ -923,7 +963,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Woman and glass",
 				"repImageWidth": "6336",
-				"title": "Woman and glass"
+				"title": "Partly-clothed woman peering into an oversized glass of alcohol"
 			},
 			{
 				"mei": "2KXJ8ZSUR4L_1",
@@ -931,7 +971,7 @@
 				"repImageHeight": "9504",
 				"repImageTitle": "Woman and glass",
 				"repImageWidth": "6336",
-				"title": "Woman and glass"
+				"title": "Partly-clothed woman peering into an oversized glass of alcohol"
 			},
 			{
 				"mei": "2KXJ8ZSUK2ZEU",
@@ -939,7 +979,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Woman and man at table",
 				"repImageWidth": "9504",
-				"title": "Woman and man at table"
+				"title": "Couple having drinks at a sidewalk cafe"
 			},
 			{
 				"mei": "2KXJ8ZSUKTM1B",
@@ -947,7 +987,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "C'est l'histoire presqu'en entier Du Bulteaux a travers les ages",
 				"repImageWidth": "9504",
-				"title": "C'est l'histoire presqu'en entier Du Bulteaux a travers les ages"
+				"title": "C'est l'histoire presqu'en entier Du Bulteaux a travers les ages..."
 			},
 			{
 				"mei": "2KXJ8ZSUKTKTK",
@@ -955,7 +995,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Les Grecs",
 				"repImageWidth": "9504",
-				"title": "Les Grecs"
+				"title": "Les Grecs: Jadis les Grecs pour learus fiancailles..."
 			},
 			{
 				"mei": "2KXJ8ZSUKLH8B",
@@ -963,7 +1003,7 @@
 				"repImageHeight": "6336",
 				"repImageTitle": "Au Moyen-Age",
 				"repImageWidth": "9504",
-				"title": "Au Moyen-Age"
+				"title": "Au Moyen-Age: Un joli page en jupon..."
 			}
 		]
 	},
@@ -971,6 +1011,7 @@
 		"context": "Vintage reading & writing postcards",
 		"title": "Reading and Writing",
 		"slug": "reading-and-writing",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9SS22&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKD0AX",
 		"galRepreImageMEI": "2KXJ8ZS6MKT7A",
 		"galRepreImageTitle": "S'avvicinano gli esami",
@@ -1223,6 +1264,7 @@
 		"context": "Vintage Newberry postcards",
 		"title": "Newberry",
 		"slug": "newberry",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P90PEB&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDPK2",
 		"galRepreImageMEI": "2KXJ8ZSVHRM1H",
 		"galRepreImageTitle": "Washington Square and Newberry Library, Chicago",
@@ -1475,6 +1517,7 @@
 		"context": "Vintage school postcards",
 		"title": "School Days",
 		"slug": "school-days",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9P7OB&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDMYB",
 		"galRepreImageMEI": "2KXJ8ZIDTGKU",
 		"galRepreImageTitle": "On the way to school",
@@ -1727,6 +1770,7 @@
 		"context": "Vintage cat postcards",
 		"title": "Cats",
 		"slug": "cats",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9QYED&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDD11",
 		"galRepreImageMEI": "2KXJ8ZEQRXQP",
 		"galRepreImageTitle": "Stripes to the front",
@@ -1879,6 +1923,9 @@
 			},
 			{
 				"mei": "2KXJ8ZSVHKI3A",
+				"repImage": "2KXJ8ZSVHKI3A",
+				"repImageHeight": "521",
+				"repImageTitle": "Singing Cats, Kommt a Vogel geflogen...(If a bird flew ...), artist signed Thiele",
 				"title": "Singing Cats, Kommt a Vogel geflogen...(If a bird flew ...), artist signed Thiele"
 			},
 			{
@@ -1975,6 +2022,7 @@
 		"context": "Vintage coffee postcards",
 		"title": "Coffee & Tea",
 		"slug": "coffee-tea",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9XCAK&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDRBQ",
 		"galRepreImageMEI": "2KXJ8ZS66E6_H",
 		"galRepreImageTitle": "Sanka Caf� Decafeine",
@@ -2227,6 +2275,7 @@
 		"context": "Vintage suffragette postcards",
 		"title": "Women's Rights",
 		"slug": "womens-rights",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9XBIR&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSA9MW04",
 		"galRepreImageMEI": "2KXJ8Z8ZFFEE",
 		"galRepreImageTitle": "Bryan L. Bossier postcard collection, 1880s-1920s [000797_01]",
@@ -2479,6 +2528,7 @@
 		"context": "Vintage New Year postcards",
 		"title": "New Year",
 		"slug": "new-year",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P93RHU&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLBWN6",
 		"galRepreImageMEI": "2KXJ8ZSJ02266",
 		"galRepreImageTitle": "January The New Year",
@@ -2739,6 +2789,7 @@
 		"context": "Vintage valentine postcards",
 		"title": "Valentine's Day",
 		"slug": "valentines-day",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9EA4Q&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDJCR",
 		"galRepreImageMEI": "2KXJ8ZSUWNEDQ",
 		"galRepreImageTitle": "John I. Monroe collection of general postcards",
@@ -2991,6 +3042,7 @@
 		"context": "Vintage Saint Patrick's Day postcards",
 		"title": "Saint Patrick's Day",
 		"slug": "saint-patricks-day",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9178B&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLW43T",
 		"galRepreImageMEI": "2KXJ8ZS2QSZXI",
 		"galRepreImageTitle": "St. Patrick freed old Erin...",
@@ -3243,6 +3295,7 @@
 		"context": "Vintage Easter postcards",
 		"title": "Easter",
 		"slug": "easter",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P924DW&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDKDK",
 		"galRepreImageMEI": "2KXJ8ZS2X0DEI",
 		"galRepreImageTitle": "Best Easter wishes",
@@ -3495,6 +3548,7 @@
 		"context": "Vintage Fourth of July postcards",
 		"title": "Fourth of July",
 		"slug": "fourth-of-july",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9L1EU&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLBK0Z",
 		"galRepreImageMEI": "2KXJ8ZS6C1E40",
 		"galRepreImageTitle": "The man behind the gun",
@@ -3739,6 +3793,7 @@
 		"context": "Vintage Halloween postcards",
 		"title": "Halloween",
 		"slug": "halloween",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9B5QX&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDX4O",
 		"galRepreImageMEI": "2KXJ8ZS2Q1FMB",
 		"galRepreImageTitle": "John I. Monroe collection of general postcards",
@@ -3991,6 +4046,7 @@
 		"context": "Vintage Thanksgiving postcards",
 		"title": "Thanksgiving",
 		"slug": "thanksgiving",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9BU7I&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDE3I",
 		"galRepreImageMEI": "2KXJ8ZF6ZG03",
 		"galRepreImageTitle": "May your Thanksgiving never end in dreams like these!",
@@ -4243,6 +4299,7 @@
 		"context": "Vintage Christmas postcards",
 		"title": "Christmas",
 		"slug": "christmas",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P9RW74&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSAKDQ5P",
 		"galRepreImageMEI": "2KXJ8ZS6LY7XE",
 		"galRepreImageTitle": "Two girls kneeling by tree",
@@ -4495,6 +4552,7 @@
 		"context": "Vintage Birthday Postcards",
 		"title": "Birthdays",
 		"slug": "birthdays",
+		"galLink": "https://collections.newberry.org/C.aspx?VP3=DamView&VBID=2KXJA4P98QX9&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLBTPJ",
 		"galRepreImageMEI": "2KXJ8ZEYZQXS",
 		"galRepreImageTitle": "A happy birthday",
@@ -4747,6 +4805,7 @@
 		"context": "Vintage Winter Postcards",
 		"title": "Winter",
 		"slug": "winter",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9Y7CB&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLBSQC",
 		"galRepreImageMEI": "2KXJ8ZS6Z9KNL",
 		"galRepreImageTitle": "Icy airplane",
@@ -4999,6 +5058,7 @@
 		"context": "Vintage Spring postcards",
 		"title": "Spring",
 		"slug": "spring",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9JRFU&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLB4ST",
 		"galRepreImageMEI": "2KXJ8ZY8TUFO",
 		"galRepreImageTitle": "Is your car up to par? Get our spring tune-up special",
@@ -5251,6 +5311,7 @@
 		"context": "Vintage Summer Postcards",
 		"title": "Summer",
 		"slug": "summer",
+		"galLink": "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA4P9AIGX&PN=1&WS=SearchResults",
 		"galMEI": "2KXJ8ZSMLBXZV",
 		"galRepreImageMEI": "2KXJ8ZSAE7BAF",
 		"galRepreImageTitle": "158 - Edgewater Beach Hotel and Apartments, Chicago",
@@ -5503,6 +5564,7 @@
 		"context": "Vintage Autumn Postcards",
 		"title": "Autumn",
 		"slug": "autumn",
+		"galLink": "https://collections.newberry.org/asset-management?WS=AssetManagement#/DamView&VBID=2KXJA44MJKQV&PN=1&WS=AssetManagement",
 		"galMEI": "2KXJ8ZSMLB0XM",
 		"galRepreImageMEI": "2KXJ8ZS60QKSH",
 		"galRepreImageTitle": "Woman in orange",

@@ -1,12 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { createClient } from '@vercel/kv';
 import { packageExtractor, searchAPIurl, slugify } from '$lib';
-import {
-	CTX_API_TOKEN,
-	KV_REST_API_TOKEN,
-	KV_REST_API_URL,
-	CTX_API_TOKEN as ctxToken
-} from '$env/static/private';
+import { KV_REST_API_TOKEN, KV_REST_API_URL, CTX_API_TOKEN as ctxToken } from '$env/static/private';
 
 const galleryDataClient = createClient({
 	url: KV_REST_API_URL,

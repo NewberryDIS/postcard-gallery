@@ -14,7 +14,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { data } = $$props;
   const noimg = {
     title: `View even more ${data.galleryData.context} at Newberry Digital Collections`,
-    link: "https://collections.newberry.org/" + data.galleryData.link,
+    link: data.galleryData.galLink,
     pixel: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
     galRepreImageWidth: 300,
     galRepreImageHeight: 400
