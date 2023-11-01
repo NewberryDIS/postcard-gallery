@@ -6,15 +6,17 @@ export const nodes = [
 	() => import('./nodes/2'),
 	() => import('./nodes/3'),
 	() => import('./nodes/4'),
-	() => import('./nodes/5')
+	() => import('./nodes/5'),
+	() => import('./nodes/6')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
 		"/": [~2],
-		"/pcard-titles": [4],
-		"/test": [5],
+		"/_use-to-update-data/data": [~4],
+		"/pcard-titles": [5],
+		"/test": [6],
 		"/[cat]": [~3]
 	};
 

@@ -22,7 +22,7 @@ const alldata = {
 				'SystemIdentifier,MediaEncryptedIdentifier,Title,MaxWidth,MaxHeight,CoreField.IIIFResourceType',
 			ContentFields:
 				'SystemIdentifier,MediaEncryptedIdentifier,Title,Link,CoreField.IIIFResourceType,MaxWidth,MaxHeight,MediaType,CoreField.Representative_Image_RecordID',
-			token: 'CortexBTcTSKbUq3XI1uJgHRWJfv3Va3.mHmfBx@u1EHAOVRk*'
+			token: 'CortexzS01WYk3wVkH2ETtbhcpN2Et3Q4UkGTQZtb4K6CuVhw*'
 		},
 		Status: 'LoggedIn',
 		UserLogin: 'c2lknt',
@@ -303,8 +303,7 @@ const alldata = {
 		],
 		useremail: 'c2lkn.t@gmail.com'
 	}
-};
-// use this if you're just updating values in redis, not adding new galleries or content;
+}; // use this if you're just updating values in redis, not adding new galleries or content;
 // const meis = alldata.APIResponse.Content.map((c) => slugify(c.Title));
 
 // use this for full update
@@ -354,6 +353,8 @@ export async function load() {
 	// await Promise.all(
 	// 	redisUpdateData.map(async (a3) => {
 	// 		await galleryDataClient.set(a3.slug, a3);
+	// 		allltoo.push(a3.slug);
+	// 		allthree.push(a3.slug);
 	// 	})
 	// );
 	// return { allltoo };

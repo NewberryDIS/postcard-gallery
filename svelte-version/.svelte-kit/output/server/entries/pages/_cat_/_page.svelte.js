@@ -1,6 +1,7 @@
 import { c as create_ssr_component, e as escape, v as validate_component, d as each, f as add_attribute, h as null_to_empty } from "../../../chunks/ssr.js";
 import { b as base } from "../../../chunks/paths.js";
-import { S as Secret_header, F as Footer, M as Masonry, i as imgUrl } from "../../../chunks/index.js";
+import { S as Secret_header, F as Footer, M as Masonry } from "../../../chunks/footer.js";
+import { i as imgUrl } from "../../../chunks/index.js";
 globalThis.matchMedia?.(
   "(prefers-reduced-motion: reduce)"
 ).matches;

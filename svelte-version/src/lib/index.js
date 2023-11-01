@@ -80,7 +80,10 @@ export const holidays = [
  */
 export function imgUrl(ctxMEI, size) {
 	if (ctxMEI === '2KXJ8ZSAEHYME' && size === 'thumb') {
-		return `https://collections.newberry.org/IIIF3/Image/2KXJ8ZSAEHYME/1277,650,450,450/max/0/default.jpg`;
+		return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/1277,650,450,450/max/0/default.jpg`;
+	}
+	if (ctxMEI === '2KXJ8ZSATS8_C' && size === 'thumb') {
+		return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/square/300,/0/default.jpg`;
 	}
 	const iiifSize = size === 'thumb' ? ',300' : 'max';
 	return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/full/${iiifSize}/0/default.jpg`;
