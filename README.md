@@ -8,7 +8,7 @@ Uses galleries assembled by DIS Staff.  Explores the adventures of the Cortex AP
 
 The CortexAPI uses a "package extractor" approach for compound objects; folders are also compound objects.  Unfortunately, not all data is available in the package extractor api, so once you are ready display actual images, you have to call to the item api.  The home page is a collection (folder) of galleries (compound objects); each gallery is a folder, and each postcard, having both a front and a back, is also a folder.  So to get from home page to image, you have to do 4 layers of api calls; for all of these images, it's something like 300+ api calls.
 
-(Apparently the package extractor api _should_ be able to get the necessary data for the images, which would chop off probably 2 layers of api calls, which would be nice.
+(Apparently the package extractor api _should_ be able to get the necessary data for the images, which would chop off probably 2 layers of api calls, which would be nice.)
 
 ## Redis
 
