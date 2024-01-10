@@ -5,7 +5,7 @@
     <header class="secret-header">
         <h1>{title}</h1>
             <a href="{ base }/">
-        <img src="{base}/NLogo.png" alt="Logo for the Newberry Library" />
+        <img class="no-share" src="{base}/NLogo.png" alt="Logo for the Newberry Library" />
         </a>
     </header>
 <style>

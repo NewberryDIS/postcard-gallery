@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { base } from '$app/paths'
     import SecretHeader from '$lib/secret-header.svelte'
     import Masonry from '$lib/masonry.svelte'
@@ -52,8 +52,8 @@
         <div class="logo">
             <!-- <a href="https://www.newberry.org"> -->
             <a href="{ base }/">
-                <img class="biggo" src="{ base }/NewberryLogo.png" alt="Logo for the Newberry Library" height="60" width="300" />
-                <img class="smallo" src="{ base }/NLogo.png" alt="Logo for the Newberry Library" height="60" width="60" />
+                <img class="biggo no-share" src="{ base }/NewberryLogo.png" alt="Logo for the Newberry Library" height="60" width="300" />
+                <img class="smallo no-share" src="{ base }/NLogo.png" alt="Logo for the Newberry Library" height="60" width="60" />
             </a>
         </div>
         <header>
@@ -130,7 +130,7 @@
         <Masonry defaultDirection="start">
             {#each nhGalleries as item}
                 <a href={item.link || `${base}/${item.slug}`} class={item.pixel ? "noimg" : ""} target={item.pixel ? '_blank' : '_self'} >
-                    <img src="{ item.pixel ? item.pixel : item.title === 'Animated gifs' ? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif' : `https://collections.newberry.org/IIIF3/Image/${ item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.galRepreImageMEI}/full/300,/0/default.jpg`}" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
+                    <img  class="no-share" src="{ item.pixel ? item.pixel : item.title === 'Animated gifs' ? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif' : `https://collections.newberry.org/IIIF3/Image/${ item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.galRepreImageMEI}/full/300,/0/default.jpg`}" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
                     <h3 >{item.title}</h3>
                 </a>
             {/each}
@@ -138,16 +138,23 @@
         <Masonry>
             {#each hGalleries as item}
                 <a class="holiday" href="{base}/{item.slug}">
-                    <img src="https://collections.newberry.org/IIIF3/Image/{item.galRepreImageMEI}/full/300,/0/default.jpg" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
+                    <img class="no-share" src="https://collections.newberry.org/IIIF3/Image/{item.galRepreImageMEI}/full/300,/0/default.jpg" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
                     <h3>{item.title}</h3>
                 </a>
             {/each}
         </Masonry>
     </div>
 </main>
-
+<a href="{base}/testpage" class="hiddenlink" >.</a>
 
 <style>
+    .hiddenlink {
+        position: fixed;
+        left: 3px;
+        bottom: 3px;
+        z-index: 100000;
+
+    }
     .tag-button {
         margin-inline: 16px;
         background: rgb(var(--bg-color-1));

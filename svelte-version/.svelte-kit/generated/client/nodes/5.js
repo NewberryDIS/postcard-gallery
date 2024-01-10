@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/pcard-titles/+page.svelte";
+export { default as component } from "../../../../src/routes/testpage/[...cat]/+page.svelte";

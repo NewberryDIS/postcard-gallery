@@ -4,14 +4,7 @@
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
 	],
-	"/_use-to-update-data/data": [
-		"src/routes/_use-to-update-data/data/+page.server.ts",
-		"src/routes/+layout.js"
-	],
-	"/pcard-titles": [
-		"src/routes/+layout.js"
-	],
-	"/test": [
+	"/testpage": [
 		"src/routes/+layout.js"
 	],
 	"/[cat]": [

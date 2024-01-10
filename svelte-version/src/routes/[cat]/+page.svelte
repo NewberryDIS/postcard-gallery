@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import BiggerPicture from 'bigger-picture/svelte';
     import "bigger-picture/css";
     import { onMount } from 'svelte'
@@ -33,9 +33,11 @@
         e.preventDefault()
         if (e.currentTarget !== null) {
             bp.open({
+                maxZoom: 1,
                 intro: "fadeup",
                 items: imageLinks,
                 el: e.currentTarget,
+
             });
         }
     }
@@ -96,33 +98,44 @@
         <!-- </header> -->
         <Masonry>
             {#each postcards as postcard}
-{#if postcard.pixel}
-   <a href={postcard.link} class="noimg" target='_blank' >
-                    <img src={postcard.pixel} alt="a transparent pixel used to constrain the tile shape" height="400" width="300" >
-                    <h3>{postcard.title}</h3>
-                </a>
-{:else}
-                <a class={`tile ${postcard.pixel ? '' : ' image-tile'}`} 
-                    on:click={openGallery}
-                    href={imgUrl(postcard.repImage)}
-                    data-img={imgUrl(postcard.repImage)}
-                    data-thumb={imgUrl(postcard.repImage, 'thumb')}
-                    data-height={postcard.repImageHeight}
-                    data-width={postcard.repImageWidth}
-                    data-alt={postcard.title}
-                    data-caption="<a href='https://collections.newberry.org/asset-management/{postcard.mei}' target='_blank' class='sansie'>{postcard.title}</a>"
-                >
-                    <img src={imgUrl(postcard.repImage, 'thumb')} 
-                        width="300"
-                        alt={postcard.title}
-                    />
-</a>
-{/if}
+                {#if postcard.pixel}
+                    <a href={postcard.link} class="noimg" target='_blank' >
+                        <img src={postcard.pixel} alt="a transparent pixel used to constrain the tile shape" height="400" width="300" >
+                        <h3>{postcard.title}</h3>
+                    </a>
+                {:else}
+                    <a class={`tile ${postcard.pixel ? '' : ' image-tile'}`} 
+                        on:click={openGallery}
+                        href={imgUrl(postcard.repImage)}
+                        data-img={imgUrl(postcard.repImage)}
+                        data-thumb={imgUrl(postcard.repImage, 'thumb')}
+                        data-height={postcard.repImageHeight}
+                        data-width={postcard.repImageWidth}
+                        data-alt={postcard.title}
+                    >
+                        <img src={imgUrl(postcard.repImage, 'thumb')} 
+                            width="300"
+                            class="thumb no-share"
+                            alt={postcard.title}
+                        />
+                    </a>
+                {/if}
             {/each}
         </Masonry>
     </div>
+        <div class="share-btnz">iiii<div class="sharethis-inline-share-buttons"></div></div>
 </main>
 <style>
+    .share-btnz {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+z-index: 10000;
+    }
     .right {
         position: relative;
     }
@@ -153,6 +166,11 @@
     /* #no-link { */
     /*     background: rgba(0,0,0,0); */
     /* } */
+    .noimg {
+        max-width: 300px;
+        max-height: 400px;
+
+    }
     .tile {
         bordeR: 0;
         margin: 0;
@@ -166,8 +184,8 @@
         background-repeat: no-repeat;
 
     }
- :global(.sansie) {
-font-family: "styrene";
+    :global(.sansie) {
+        font-family: "styrene";
         text-decoration: underline;
     }
 </style>
