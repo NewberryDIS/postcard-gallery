@@ -128,6 +128,7 @@ header > p {
 aside {
 	max-height: 50vh;
 	overflow: auto;
+	padding-bottom: 66px;
 }
 .tag-button {
 	padding-block: 0 16px;

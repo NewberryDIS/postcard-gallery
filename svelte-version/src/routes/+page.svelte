@@ -108,22 +108,22 @@
                     </a>
                     , from which this site is inspired.
                 </p>
+            <section class="tag-button">
+                <p>
+                    The Newberry needs your help! Please assist with making our
+                    postcard collections more accessible at 
+                    <a
+                        href="https://www.zooniverse.org/projects/newberry/postcard-tag"
+                        target="_blank"
+                        class="llines"
+                    >Postcard Tag</a>
+                </p>
+            </section>
             </aside>
         </header>   
 
         <Footer >
 
-                <section class="tag-button">
-                <p>
-                    The Newberry needs your help! Please assist with making our
-                    postcard collections more accessible at 
-            <a
-                href="https://www.zooniverse.org/projects/newberry/postcard-tag"
-                target="_blank"
-                        class="llines"
-            >Postcard Tag</a>
-                    </p>
-</section>
         </Footer>
     </div>
     <div class="right">
@@ -152,8 +152,8 @@
         margin-inline: 16px;
         background: rgb(var(--bg-color-1));
     } 
-.right {
-    display: flex;
-    flex-direction: column;
-}
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
 </style>

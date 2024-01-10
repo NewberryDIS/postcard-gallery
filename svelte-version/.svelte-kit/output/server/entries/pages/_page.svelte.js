@@ -1,7 +1,6 @@
 import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute } from "../../chunks/ssr.js";
 import { b as base } from "../../chunks/paths.js";
-import { S as Secret_header, F as Footer, M as Masonry } from "../../chunks/footer.js";
-import { h as holidays, g as getHeight } from "../../chunks/index.js";
+import { h as holidays, S as Secret_header, F as Footer, M as Masonry, g as getHeight } from "../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".tag-button.svelte-1u9n2mi{margin-inline:16px;background:rgb(var(--bg-color-1))}.right.svelte-1u9n2mi{display:flex;flex-direction:column}",
