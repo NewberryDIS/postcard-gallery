@@ -5,8 +5,7 @@ async function load() {
     url: KV_REST_API_URL,
     token: KV_REST_API_TOKEN
   });
-  const mei = "2KXJ8ZSA9MFDO";
-  const galleryData = await galleryDataClient.get(mei);
+  const galleryData = await galleryDataClient.get("_all_galleries");
   return { galleryData };
 }
 export {

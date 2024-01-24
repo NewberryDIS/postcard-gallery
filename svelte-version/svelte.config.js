@@ -10,6 +10,9 @@ const config = {
 		adapter: adapter({
 			runtime: 'nodejs18.x'
 		}),
+		alias: {
+			$styles: './src/styles',
+		},
 		paths: {
 			base: '/postcard-gallery'
 		}
