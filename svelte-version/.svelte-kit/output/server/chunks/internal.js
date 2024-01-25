@@ -95,10 +95,10 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets + `/newberry.png" />
-<!-- <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=659ed33e3cad1e0019ca2052&product=sop' async='async'><\/script> -->
-		<meta name="viewport" content="width=device-width" />
-		` + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n\n<head>\n    <meta charset="utf-8" />\n    <link rel="icon" href="' + assets + `/newberry.png" />
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=659ed33e3cad1e0019ca2052&product=sop' async='async'><\/script>
+    <meta name="viewport" content="width=device-width" />
+    ` + head + '\n</head>\n\n<body data-sveltekit-preload-data="hover">\n    <div style="display: contents">' + body + "</div>\n</body>\n\n</html>",
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -160,7 +160,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "lf8xsq"
+  version_hash: "ssdmb7"
 };
 function get_hooks() {
   return {};

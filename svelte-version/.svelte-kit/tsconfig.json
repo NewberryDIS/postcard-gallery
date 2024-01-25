@@ -7,6 +7,12 @@
 			"$styles/*": [
 				"../src/styles/*"
 			],
+			"$icons": [
+				"../src/lib/icons"
+			],
+			"$icons/*": [
+				"../src/lib/icons/*"
+			],
 			"$lib": [
 				"../src/lib"
 			],

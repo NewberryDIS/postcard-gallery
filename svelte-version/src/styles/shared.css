@@ -175,7 +175,9 @@ aside {
 .holiday h3 {
 	background: rgba(var(--splash-color));
 }
-.noimg {
+.noimg, .noimg * {
+	max-height: 400px;
+	max-width: 300px;
 }
 .noimg h3 {
 	padding: 32px;

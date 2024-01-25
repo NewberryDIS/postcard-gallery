@@ -3,10 +3,10 @@
   export let title
 </script>
 <header class="secret-header">
-  <h1>{title}</h1>
   <a href="{ base }/">
-    <img class="no-share" src="{base}/NLogo.png" alt="Logo for the Newberry Library" />
+    <img src="{base}/NLogo.png" alt="Logo for the Newberry Library" />
   </a>
+  <h1>{title}</h1>
 </header>
 <style>
 
@@ -20,7 +20,7 @@
   z-index: 15;
   flex-direction: row;
   background-color: rgb(var(--bg-color-1));
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   padding-inline: 8px;
 }

@@ -135,7 +135,7 @@
 			{#each nhGalleries as item}
 				<a
 					href={item.link || `${base}/${item.slug}`}
-					class={item.pixel ? 'noimg' : ''}
+					class={item.pixel ? 'noimg' : 'holiday'}
 					target={item.pixel ? '_blank' : '_self'}
 				>
 					<img

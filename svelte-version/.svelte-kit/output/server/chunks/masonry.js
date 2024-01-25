@@ -1,17 +1,5 @@
-import { c as create_ssr_component, e as escape, i as createEventDispatcher, o as onDestroy, j as spread, k as escape_object, f as add_attribute, v as validate_component } from "./ssr.js";
-import { b as base } from "./paths.js";
+import { c as create_ssr_component, i as createEventDispatcher, o as onDestroy, j as spread, k as escape_object, f as add_attribute, v as validate_component } from "./ssr.js";
 const secretHeader_svelte_svelte_type_style_lang = "";
-const css = {
-  code: ".secret-header.svelte-15ky4md.svelte-15ky4md{position:fixed;margin-top:0;top:0;left:0;right:0;height:40px;z-index:15;flex-direction:row;background-color:rgb(var(--bg-color-1));justify-content:space-between;align-items:center;padding-inline:8px}.secret-header.svelte-15ky4md img.svelte-15ky4md{height:32px}.secret-header.svelte-15ky4md h1.svelte-15ky4md{margin:0;padding:0;width:100%;white-space:nowrap;overflow:hidden}",
-  map: null
-};
-const Secret_header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let { title } = $$props;
-  if ($$props.title === void 0 && $$bindings.title && title !== void 0)
-    $$bindings.title(title);
-  $$result.css.add(css);
-  return `<header class="secret-header svelte-15ky4md"><h1 class="svelte-15ky4md">${escape(title)}</h1> <a href="${escape(base, true) + "/"}" data-svelte-h="svelte-1osmf0r"><img class="no-share svelte-15ky4md" src="${escape(base, true) + "/NLogo.png"}" alt="Logo for the Newberry Library"></a> </header>`;
-});
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -2617,6 +2605,5 @@ const Masonry = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   )}</div>`;
 });
 export {
-  Masonry as M,
-  Secret_header as S
+  Masonry as M
 };

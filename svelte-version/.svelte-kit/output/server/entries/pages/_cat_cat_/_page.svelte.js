@@ -1,7 +1,7 @@
 import { c as create_ssr_component, e as escape, v as validate_component, d as each, f as add_attribute, h as null_to_empty } from "../../../chunks/ssr.js";
 import { b as base } from "../../../chunks/paths.js";
-import { S as Secret_header, M as Masonry } from "../../../chunks/masonry.js";
-import { F as Footer } from "../../../chunks/footer.js";
+import { S as Secret_header, F as Footer } from "../../../chunks/footer.js";
+import { M as Masonry } from "../../../chunks/masonry.js";
 import { i as imgUrl } from "../../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
@@ -31,8 +31,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         return `${postcard.pixel ? `<a${add_attribute("href", postcard.link, 0)} class="noimg svelte-16kql8i" target="_blank"><img${add_attribute("src", postcard.pixel, 0)} alt="a transparent pixel used to constrain the tile shape" height="400" width="300"> <h3>${escape(postcard.title)}</h3> </a>` : `<a class="${escape(null_to_empty(`tile ${postcard.pixel ? "" : " image-tile"}`), true) + " svelte-16kql8i"}" href="${escape(base, true) + "/" + escape(postcard.repImage, true)}"${add_attribute("data-alt", postcard.title, 0)}><img${add_attribute("src", imgUrl(postcard.repImage, "thumb"), 0)} width="300" class="thumb no-share"${add_attribute("alt", postcard.title, 0)}> </a>`}`;
       })}`;
     }
-  })}</div> <div class="share-btnz svelte-16kql8i" data-svelte-h="svelte-150uf78">iiii
-		<div class="sharethis-inline-share-buttons"></div></div> </main>`;
+  })}</div> </main>`;
 });
 export {
   Page as default

@@ -1,7 +1,7 @@
 import { c as create_ssr_component, v as validate_component, e as escape, d as each, f as add_attribute } from "../../chunks/ssr.js";
 import { b as base } from "../../chunks/paths.js";
-import { S as Secret_header, M as Masonry } from "../../chunks/masonry.js";
-import { F as Footer } from "../../chunks/footer.js";
+import { S as Secret_header, F as Footer } from "../../chunks/footer.js";
+import { M as Masonry } from "../../chunks/masonry.js";
 import { h as holidays, g as getHeight } from "../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
@@ -51,7 +51,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   })}</div> <div class="right svelte-1kedgcl">${validate_component(Masonry, "Masonry").$$render($$result, { defaultDirection: "start" }, {}, {
     default: () => {
       return `${each(nhGalleries, (item) => {
-        return `<a${add_attribute("href", item.link || `${base}/${item.slug}`, 0)}${add_attribute("class", item.pixel ? "noimg" : "", 0)}${add_attribute("target", item.pixel ? "_blank" : "_self", 0)}><img class="no-share"${add_attribute(
+        return `<a${add_attribute("href", item.link || `${base}/${item.slug}`, 0)}${add_attribute("class", item.pixel ? "noimg" : "holiday", 0)}${add_attribute("target", item.pixel ? "_blank" : "_self", 0)}><img class="no-share"${add_attribute(
           "src",
           item.pixel ? item.pixel : item.title === "Animated gifs" ? "https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif" : `https://collections.newberry.org/IIIF3/Image/${item.title === "Chicago" ? "2KXJ8ZSVHKQYC" : item.image}/full/300,/0/default.jpg`,
           0

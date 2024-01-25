@@ -91,8 +91,12 @@ dt {
 body,
 html {
 	font-family: 'signifier';
+	color: rgb(var(--fg-color-1));
 }
 
+a {
+	color: rgb(var(--fg-color-2));
+}
 b {
 	font-family: 'styrene-bold';
 }

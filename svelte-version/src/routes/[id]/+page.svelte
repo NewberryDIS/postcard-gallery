@@ -3,10 +3,12 @@
 	const { imageData, galleryData } = data;
 	const galleries = galleryData.items;
 	import { base } from '$app/paths';
-	import SecretHeader from '$lib/secret-header.svelte';
-	import Masonry from '$lib/masonry.svelte';
 	import { imgUrl, getHeight, holidays } from '$lib';
+	
+	import Masonry from '$lib/masonry.svelte';
+	import SecretHeader from '$lib/secret-header.svelte';
 	import NewberryDcLogo from '$lib/NewberryDCLogo.svelte';
+	import ShareButtons from '$lib/share-buttons.svelte';
 
 	// console.log(data)
 	// console.log(postcards)
@@ -56,46 +58,16 @@
 	<title>Newberry Postcard Galleries</title>
 </svelte:head>
 <main>
-	<div class="content">
-		<SecretHeader title="Newberry Postcard Gallery" />
 		<header>
-			<!-- <a href="https://www.newberry.org"> -->
-			<a href="{base}/">
 				<NewberryDcLogo />
-			</a>
-			<h1>Newberry Postcard Gallery</h1>
+			<h1>Newberry Postcard Sender</h1>
 		</header>
+	<div class="content {imageData.width > imageData.height ? 'landscape' : 'portrait' }">
 		<section>
 			<img src={imgUrl(imageData.image)} alt="" class="featured-image" />
 			<h2>{imageData.title}</h2>
 		</section>
-		<div class="share-buttons">
-			<div class="send">
-				<h3>Send</h3>
-				<div class="button-wrapper">
-					<button><i class="icon" />Email</button>
-					<button><i class="icon" />Text Message</button>
-					<button><i class="icon" />Copy Link</button>
-				</div>
-			</div>
-			<div class="share">
-				<h3>Share</h3>
-				<div class="button-wrapper">
-					<button><i class="icon" /> Facebook</button>
-					<button><i class="icon" />Instagram</button>
-					<button><i class="icon" />Xitter</button>
-					<button><i class="icon" />Tumblr</button>
-					<button><i class="icon" />Ask Quinn to Print it</button>
-					<button><i class="icon" />Ask Quinn to Draw it</button>
-				</div>
-			</div>
-			<div class="view">
-				<h3>View</h3>
-				<div class="button-wrapper">
-					<button><i class="icon" />Newberry Digital Collections</button>
-				</div>
-			</div>
-		</div>
+		<ShareButtons />
 	</div>
 	<aside class="minigallery">
 		<Masonry>
@@ -126,38 +98,104 @@
 </main>
 
 <style>
+	.portrait {
+	}
+	.landscape {
+	}
+	@media screen and (max-width: 1023px){
+		main {
+			flex-direction: column;
+		}
+		.content {
+			position: relative;
+		}
+		main, .content, .minigallery {
+			height: auto;
+			min-height: 99%;
+			max-height: 99%;
+		}
+		section {
+			max-height: 70vh;
+		}
+		section img {
+			width: 100%;
+			height: 100%;
+		}
+		.minigallery {
+			flex-basis: unset;
+		}
+		header {
+			height: 33px;
+		}
+		header h1 {
+			font-size: 25px;
+			line-height: 25px;
+		}
+	}
+
+	@media screen and (min-width: 1024px){
+		main {
+			flex-direction: row;
+		}
+		.content {
+			position: sticky;
+		}
+		main {
+			min-height: 100vh;
+		} 
+		.content, .minigallery {
+		height:calc(100vh - 66px);
+		max-width: 99%;
+		max-height: 99%;
+		}
+		section img {
+			width: auto;
+			height: auto;
+		}
+		.minigallery {
+		flex-basis: 400px;
+		}
+		header {
+			height: 66px;
+		}
+		header h1 {
+			font-size: 25px;
+			line-height: 25px;
+		}
+	}
 	main {
-		height: 100vh;
+		background: rgba(var(--bg-color-1));
 		/* border: 1px solid #f0f; */
 		align-items: stretch;
+		padding-top: 66px;
 	}
 	main,
 	header,
 	.content,
-	.share-buttons,
 	.minigallery {
 		display: flex;
 	}
 	header {
+		position: fixed;
+		background: rgb(vaR(--bg-color-1));
+		top: 0;
+		right: 0;
+		left: 0;
 		justify-content: space-between;
 		align-items: center;
 		padding: 3px 11px;
 	}
 	.content {
-		background: rgba(var(--bg-color-1));
 		flex: 1;
 		flex-direction: column;
-		height: 100vh;
 	}
 	section {
 		padding: 32px;
-		flex: 1;
+		/* flex: 1; */
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		max-width: 99%;
-		max-height: 99%;
 		overflow: hidden;
 	}
 	section img {
@@ -166,45 +204,6 @@
 		max-height: 100%;
 	}
 
-	.button-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: start;
-		align-items: space-between;
-	}
-	.button-wrapper button {
-		border: 0;
-		margin: 3px;
-		padding: 0 11px 0 0;
-		display: flex;
-		/* justify-content: stretch;
-		align-items: stretch; */
-		line-height: 32px;
-		border: 1px solid blue;
-	}
-	.icon {
-		min-width: 32px;
-		min-height: 32px;
-		display: inline-block;
-		margin-right: 11px;
-		background: #f0f;
-		border-right: 1px solid blue;
-	}
-	.send,
-	.view {
-		flex: 1;
-	}
-	.share {
-		flex: 2;
-	}
-	.share-buttons > div {
-		padding: 0 32px;
-		border: 1px solid #f0f;
-	}
-	.share-buttons {
-		align-items: stretch;
-		justify-content: space-evenly;
-	}
 	h1 {
 		font-size: 33px;
 		line-height: 33px;
@@ -221,12 +220,11 @@
 	}
 	.minigallery {
 		padding: 32px;
-		min-height: 100vh;
+		min-height: calc(100vh - 66px);
 		width: 100%;
 		background: rgb(var(--bg-color-2));
 		box-shadow: -10px 0 16px rgba(0, 0, 0, 0.1);
 		position: relative;
-		flex-basis: 400px;
 		flex-direction: column;
 	}
 </style>

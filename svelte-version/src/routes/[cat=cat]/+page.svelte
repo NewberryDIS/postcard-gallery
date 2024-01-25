@@ -107,10 +107,6 @@
 			{/each}
 		</Masonry>
 	</div>
-	<div class="share-btnz">
-		iiii
-		<div class="sharethis-inline-share-buttons" />
-	</div>
 </main>
 
 <style>
