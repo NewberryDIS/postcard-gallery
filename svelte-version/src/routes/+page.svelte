@@ -3,7 +3,7 @@
 	import SecretHeader from '$lib/secret-header.svelte';
 	import Masonry from '$lib/masonry.svelte';
 	import Footer from '$lib/footer.svelte';
-	import { getHeight, holidays } from '$lib';
+	import { getHeight, holidays, imgUrl } from '$lib';
 	export let data;
 	const galleries = data.galleryData.items;
 	console.log(data);
@@ -135,19 +135,16 @@
 			{#each nhGalleries as item}
 				<a
 					href={item.link || `${base}/${item.slug}`}
-					class={item.pixel ? 'noimg' : 'holiday'}
+					class={item.pixel ? 'noimg' : 'gallery-image'}
 					target={item.pixel ? '_blank' : '_self'}
 				>
 					<img
 						class="no-share"
-						src={item.pixel
+						src={ item.pixel
 							? item.pixel
-							: item.title === 'Animated gifs'
-							? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif'
-							: `https://collections.newberry.org/IIIF3/Image/${
-									item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.image
-							  }/full/300,/0/default.jpg`}
+							: `${base}/webp/${item.image}.webp` } 
 						alt="a {item.title} postcard"
+            onerror={ () => this.src=imgUrl(item.image, 'thumb') }
 						height={getHeight(item.width, item.height)}
 						width="300"
 					/>
@@ -160,7 +157,8 @@
 				<a class="holiday" href="{base}/{item.slug}">
 					<img
 						class="no-share"
-						src="https://collections.newberry.org/IIIF3/Image/{item.image}/full/300,/0/default.jpg"
+						src="{base}/webp/{item.image}.webp"
+            onerror={ () => this.src=imgUrl(item.image, 'thumb') }
 						alt="a {item.title} postcard"
 						height={getHeight(item.width, item.height)}
 						width="300"

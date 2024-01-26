@@ -81,14 +81,25 @@ export const holidays = [
  * @param { string } [ size ]
  */
 export function imgUrl(ctxMEI, size) {
-	if (ctxMEI === '2KXJ8ZSAEHYME' && size === 'thumb') {
-		return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/1277,650,450,450/max/0/default.jpg`;
-	}
-	if (ctxMEI === '2KXJ8ZSATS8_C' && size === 'thumb') {
-		return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/square/300,/0/default.jpg`;
-	}
-	const iiifSize = size === 'thumb' ? ',300' : 'max';
-	return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/full/${iiifSize}/0/default.jpg`;
+  let iiifSize
+  switch(size) {
+    case 'large':
+      iiifSize = 'full/,800'
+      break;
+    case 'thumb' && ctxMEI === '2KXJ8ZSAEHYME':
+      iiifSize = '1277,650,450,450/300,';
+      break;
+    case 'thumb' && ctxMEI === '2KXJ8ZSATS8_C':
+      iiifSize = 'square/300,'
+      break;
+    case 'thumb':
+      iiifSize = 'full/300,'
+      break;
+    default: 
+      iiifSize = 'full/max'
+      break;
+}
+	return `https://collections.newberry.org/IIIF3/Image/${ctxMEI}/${iiifSize}/0/default.jpg`;
 }
 
 /**

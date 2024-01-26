@@ -1,15 +1,14 @@
 <script>
-    export let items, defaultDirection = "end"
+    export let  defaultDirection = "end", imgclass
     import { MasonryGrid } from "@egjs/svelte-grid";
     const gap = 5;
     const align = "center";
 </script>
 
-<div id="images" class="images">
     <MasonryGrid
         { defaultDirection }
         id="images"
-        class="container"
+        class="container {imgclass ? imgclass : 'images'}"
         useResizeObserver
         observeChildren
         {gap}
@@ -17,4 +16,3 @@
     >
     <slot />
     </MasonryGrid>
-</div>

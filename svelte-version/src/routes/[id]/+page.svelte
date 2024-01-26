@@ -5,8 +5,7 @@
 	import { base } from '$app/paths';
 	import { imgUrl, getHeight, holidays } from '$lib';
 	
-	import Masonry from '$lib/masonry.svelte';
-	import SecretHeader from '$lib/secret-header.svelte';
+    import Gallery from '$lib/gallery.svelte'
 	import NewberryDcLogo from '$lib/NewberryDCLogo.svelte';
 	import ShareButtons from '$lib/share-buttons.svelte';
 
@@ -59,45 +58,35 @@
 </svelte:head>
 <main>
 		<header>
+    <div class="logo-wrapper">
 				<NewberryDcLogo />
+    </div>
+    <a href="{base}" class="header-home-link no-lines">
 			<h1>Newberry Postcard Sender</h1>
+    </a>
 		</header>
 	<div class="content {imageData.width > imageData.height ? 'landscape' : 'portrait' }">
 		<section>
-			<img src={imgUrl(imageData.image)} alt="" class="featured-image" />
+			<img src={imgUrl(imageData.image, 'large')} alt="" class="featured-image" />
 			<h2>{imageData.title}</h2>
 		</section>
 		<ShareButtons />
 	</div>
 	<aside class="minigallery">
-		<Masonry>
-			{#each galleryGallery as item}
-				<a
-					href={item.link || `${base}/${item.slug}`}
-					class="{item.pixel ? 'noimg' : ''} {item.holiday ? 'holiday' : ''}"
-					target={item.pixel ? '_blank' : '_self'}
-				>
-					<img
-						class="no-share"
-						src={item.pixel
-							? item.pixel
-							: item.title === 'Animated gifs'
-							? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif'
-							: `https://collections.newberry.org/IIIF3/Image/${
-									item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.image
-							  }/full/300,/0/default.jpg`}
-						alt="a {item.title} postcard"
-						height={getHeight(item.width, item.height)}
-						width="300"
-					/>
-					<h3>{item.title}</h3>
-				</a>
-			{/each}
-		</Masonry>
+        <Gallery postcards={galleryGallery} />
 	</aside>
 </main>
 
 <style>
+  .header-home-link {
+    text-decoration: none;
+    color: rgba(var(--fg-color-1),1);
+    transition: 200ms;
+
+  }
+  .header-home-link:hover {
+    color: rgba(var(--splash-color),1);
+  }
 	.portrait {
 	}
 	.landscape {
@@ -126,11 +115,16 @@
 		}
 		header {
 			height: 33px;
+    z-index: 60;
 		}
 		header h1 {
-			font-size: 25px;
+			font-size: min(6.5vw, 25px);
 			line-height: 25px;
 		}
+  .logo-wrapper {
+      width: 42px;
+      overflow: hidden;
+  }
 	}
 
 	@media screen and (min-width: 1024px){
@@ -139,6 +133,7 @@
 		}
 		.content {
 			position: sticky;
+      flex: 3;
 		}
 		main {
 			min-height: 100vh;
@@ -153,7 +148,8 @@
 			height: auto;
 		}
 		.minigallery {
-		flex-basis: 400px;
+		/* flex-basis: 400px; */
+      flex: 1;
 		}
 		header {
 			height: 66px;
@@ -177,7 +173,7 @@
 	}
 	header {
 		position: fixed;
-		background: rgb(vaR(--bg-color-1));
+		background: rgb(var(--bg-color-1));
 		top: 0;
 		right: 0;
 		left: 0;
@@ -212,6 +208,7 @@
 		font-family: 'styrene';
 		text-align: center;
 		margin: 1rem;
+    font-size: min(2vh, 3vw);
 	}
 	h1,
 	h2,
@@ -227,4 +224,9 @@
 		position: relative;
 		flex-direction: column;
 	}
+  .minigallery img , .noimg{
+    width: min(100%, 300px);
+    height: auto;
+    object-fit: contain;
+  }
 </style>

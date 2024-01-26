@@ -5,6 +5,7 @@
 	import { base } from '$app/paths';
 	import SecretHeader from '$lib/secret-header.svelte';
 	import Masonry from '$lib/masonry.svelte';
+    import Gallery from '$lib/gallery.svelte'
 	import Footer from '$lib/footer.svelte';
 	import { imgUrl } from '$lib';
 	export let data;
@@ -78,34 +79,7 @@
 		<Footer />
 	</div>
 	<div class="right">
-		<Masonry>
-			{#each postcards as postcard}
-				{#if postcard.pixel}
-					<a href={postcard.link} class="noimg" target="_blank">
-						<img
-							src={postcard.pixel}
-							alt="a transparent pixel used to constrain the tile shape"
-							height="400"
-							width="300"
-						/>
-						<h3>{postcard.title}</h3>
-					</a>
-				{:else}
-					<a
-						class={`tile ${postcard.pixel ? '' : ' image-tile'}`}
-						href="{base}/{postcard.repImage}"
-						data-alt={postcard.title}
-					>
-						<img
-							src={imgUrl(postcard.repImage, 'thumb')}
-							width="300"
-							class="thumb no-share"
-							alt={postcard.title}
-						/>
-					</a>
-				{/if}
-			{/each}
-		</Masonry>
+<Gallery { postcards } />
 	</div>
 </main>
 
