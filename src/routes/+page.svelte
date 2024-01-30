@@ -5,15 +5,15 @@
     import Footer from '$lib/footer.svelte'
     import { getHeight, holidays } from "$lib";
     export let data
-    const galleries = data.galleryData
+    const galleries = data.galleryData.items
     // console.log(data)
 
     const noimg = {
         title: "View even more postcards at Newberry Digital Collections",
         link: "https://collections.newberry.org/asset-management?WS=SearchResults#/DamView&VBID=2KXJA46IUGL5&PN=1&WS=SearchResults",
         pixel: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
-        galRepreImageWidth: 300, 
-        galRepreImageHeight: 400
+        ImageWidth: 300, 
+        height: 400
     }
 
     const hGalleries = galleries.filter((f) => holidays.includes(f.title)).sort((a, b) => holidays.indexOf(a.title) - holidays.indexOf(b.title));
@@ -30,7 +30,7 @@
     const restOfNHGalleries = []
 
     for (let a in nhGalleries){
-        if ( firstFourNHGalleries.length < 4 && nhGalleries[a].galRepreImageWidth > nhGalleries[a].galRepreImageHeight){
+        if ( firstFourNHGalleries.length < 4 && nhGalleries[a].width > nhGalleries[a].height){
             firstFourNHGalleries.push(nhGalleries[a])
         } else {
             restOfNHGalleries.push(nhGalleries[a])
@@ -39,7 +39,7 @@
 
     nhGalleries = [ ...firstFourNHGalleries, ...restOfNHGalleries, noimg]
 
-    // console.log(nhGalleries.map(nhg => [ nhg.title, nhg.galRepreImageWidth > nhg.galRepreImageHeight ? 'landscape' : 'portrait' ]))
+    // console.log(nhGalleries.map(nhg => [ nhg.title, nhg.ImageWidth > nhg.height ? 'landscape' : 'portrait' ]))
 
 </script>
 <svelte:head>
@@ -130,7 +130,7 @@
         <Masonry defaultDirection="start">
             {#each nhGalleries as item}
                 <a href={item.link || `${base}/${item.slug}`} class={item.pixel ? "noimg" : ""} target={item.pixel ? '_blank' : '_self'} >
-                    <img src="{ item.pixel ? item.pixel : item.title === 'Animated gifs' ? 'https://collections.newberry.org/AssetLink/136hd1108fjm3yp3aln81y6nenu04dqg.gif' : `https://collections.newberry.org/IIIF3/Image/${ item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.galRepreImageMEI}/full/300,/0/default.jpg`}" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
+                    <img src="{ item.pixel ? item.pixel : `${base}/webp/${ item.title === 'Chicago' ? '2KXJ8ZSVHKQYC' : item.image}.webp`}" alt="a {item.title} postcard" height={getHeight( item.ImageWidth, item.height )} width="300" >
                     <h3 >{item.title}</h3>
                 </a>
             {/each}
@@ -138,7 +138,7 @@
         <Masonry>
             {#each hGalleries as item}
                 <a class="holiday" href="{base}/{item.slug}">
-                    <img src="https://collections.newberry.org/IIIF3/Image/{item.galRepreImageMEI}/full/300,/0/default.jpg" alt="a {item.title} postcard" height={getHeight( item.galRepreImageWidth, item.galRepreImageHeight )} width="300" >
+                    <img src="{base}/webp/{item.image}.webp" alt="a {item.title} postcard" height={getHeight( item.ImageWidth, item.height )} width="300" >
                     <h3>{item.title}</h3>
                 </a>
             {/each}

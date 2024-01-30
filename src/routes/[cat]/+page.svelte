@@ -107,12 +107,12 @@
                         on:click={openGallery}
                         href={imgUrl(postcard.repImage)}
                         data-img={imgUrl(postcard.repImage)}
-                        data-thumb={imgUrl(postcard.repImage, 'thumb')}
+                        data-thumb="{base}/webp/{postcard.repImage}.webp"
                         data-height={postcard.repImageHeight}
                         data-width={postcard.repImageWidth}
                         data-alt={postcard.title}
                     >
-                        <img src={imgUrl(postcard.repImage, 'thumb')} 
+                        <img src="{base}/webp/{postcard.repImage}.webp" 
                             width="300"
                             alt={postcard.title}
                         />

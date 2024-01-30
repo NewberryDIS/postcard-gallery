@@ -11,7 +11,9 @@ export async function load() {
 		url: KV_REST_API_URL,
 		token: KV_REST_API_TOKEN
 	});
-	const mei = '2KXJ8ZSA9MFDO';
+	const mei = '_all_galleries';
 	const galleryData = await galleryDataClient.get(mei);
+	console.log(Object.keys( galleryData.items[0] ))
+	console.log(galleryData.title )
 	return { galleryData };
 }
